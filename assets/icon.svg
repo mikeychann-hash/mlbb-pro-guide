@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1220"/>
+      <stop offset="55%" stop-color="#0d1628"/>
+      <stop offset="100%" stop-color="#121830"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0b232"/>
+      <stop offset="100%" stop-color="#c8941a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#f0b23233"/>
+      <stop offset="100%" stop-color="#f0b23200"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="220" fill="url(#glow)"/>
+  <!-- crossed swords emblem -->
+  <g stroke="url(#gold)" stroke-width="34" stroke-linecap="round" fill="none">
+    <path d="M312 712 L688 336"/>
+    <path d="M712 712 L336 336"/>
+  </g>
+  <g fill="url(#gold)">
+    <circle cx="512" cy="524" r="46"/>
+  </g>
+  <text x="512" y="852" font-family="Arial Black, Arial, sans-serif" font-size="150" font-weight="900"
+        fill="url(#gold)" text-anchor="middle" letter-spacing="6">MLBB</text>
+</svg>

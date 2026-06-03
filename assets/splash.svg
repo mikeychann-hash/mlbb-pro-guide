@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2732" height="2732" viewBox="0 0 2732 2732">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060a13"/>
+      <stop offset="55%" stop-color="#0d1628"/>
+      <stop offset="100%" stop-color="#121830"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0b232"/>
+      <stop offset="100%" stop-color="#c8941a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="42%">
+      <stop offset="0%" stop-color="#f0b23226"/>
+      <stop offset="100%" stop-color="#f0b23200"/>
+    </radialGradient>
+  </defs>
+  <rect width="2732" height="2732" fill="url(#bg)"/>
+  <rect width="2732" height="2732" fill="url(#glow)"/>
+  <g stroke="url(#gold)" stroke-width="42" stroke-linecap="round" fill="none" transform="translate(1366 1180) scale(1.4) translate(-512 -512)">
+    <path d="M312 712 L688 336"/>
+    <path d="M712 712 L336 336"/>
+  </g>
+  <circle cx="1366" cy="1180" r="62" fill="url(#gold)"/>
+  <text x="1366" y="1640" font-family="Arial Black, Arial, sans-serif" font-size="220" font-weight="900"
+        fill="url(#gold)" text-anchor="middle" letter-spacing="10">MLBB PRO GUIDE</text>
+  <text x="1366" y="1740" font-family="Arial, sans-serif" font-size="70" fill="#8899b3"
+        text-anchor="middle" letter-spacing="14">MOBILE LEGENDS COMPANION</text>
+</svg>
