@@ -21,3 +21,13 @@ describe("data API", () => {
     expect(getSpells().length).toBeGreaterThan(0);
   });
 });
+
+import { BUNDLED_DATA } from "../src/data/bundled.js";
+describe("bundled dataset", () => {
+  it("assembles a complete dataset object", () => {
+    expect(BUNDLED_DATA.heroes.length).toBeGreaterThanOrEqual(100);
+    expect(BUNDLED_DATA.patch.v).toBeTruthy();
+    expect(BUNDLED_DATA.meta.bans.length).toBeGreaterThan(0);
+    expect(BUNDLED_DATA.source).toBe("bundled");
+  });
+});
