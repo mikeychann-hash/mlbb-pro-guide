@@ -7,6 +7,7 @@ import { emptyDraft, selectHero } from "./features/draft/draftLogic.js";
 import { HeroDetail } from "./components/HeroDetail.jsx";
 
 import { MetaView } from "./features/meta/MetaView.jsx";
+import { UpdatesView } from "./features/updates/UpdatesView.jsx";
 import { HeroesView } from "./features/heroes/HeroesView.jsx";
 import { TiersView } from "./features/tiers/TiersView.jsx";
 import { ItemsView } from "./features/items/ItemsView.jsx";
@@ -25,7 +26,7 @@ import { MyStatsView } from "./features/mystats/MyStatsView.jsx";
 import { BuildView } from "./features/build/BuildView.jsx";
 import { DraftView } from "./features/draft/DraftView.jsx";
 
-const TABS = ["Meta", "Heroes", "Tiers", "Items", "Counter", "Teams", "Spells", "Jungle", "Roam", "Macro", "Compare", "Emblems", "Pro Picks", "Glossary", "Learn", "My Stats", "Build", "Draft"];
+const TABS = ["Meta", "Updates", "Heroes", "Tiers", "Items", "Counter", "Teams", "Spells", "Jungle", "Roam", "Macro", "Compare", "Emblems", "Pro Picks", "Glossary", "Learn", "My Stats", "Build", "Draft"];
 
 function agoLabel(iso) {
   if (!iso) return "bundled data";
@@ -74,6 +75,7 @@ export default function App() {
   const view = useMemo(() => {
     switch (tab) {
       case "Meta": return <MetaView onSelectHero={onSelectHero} />;
+      case "Updates": return <UpdatesView onSelectHero={onSelectHero} />;
       case "Heroes": return <HeroesView {...{ q, setQ, rF, setRF, tF, setTF, onSelectHero }} />;
       case "Tiers": return <TiersView onSelectHero={onSelectHero} />;
       case "Items": return <ItemsView {...{ iC, setIC }} />;

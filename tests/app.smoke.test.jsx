@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import App from "../src/App.jsx";
 import { DataProvider } from "../src/data/DataContext.jsx";
 
-const TABS = ["Meta", "Heroes", "Tiers", "Items", "Counter", "Teams", "Spells", "Jungle", "Roam", "Macro", "Compare", "Emblems", "Pro Picks", "Glossary", "Learn", "My Stats", "Build", "Draft"];
+const TABS = ["Meta", "Updates", "Heroes", "Tiers", "Items", "Counter", "Teams", "Spells", "Jungle", "Roam", "Macro", "Compare", "Emblems", "Pro Picks", "Glossary", "Learn", "My Stats", "Build", "Draft"];
 
 const renderApp = () => render(<DataProvider><App /></DataProvider>);
 
