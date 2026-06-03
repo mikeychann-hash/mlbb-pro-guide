@@ -1,9 +1,10 @@
 import { s } from "../theme/styles.js";
 import { P, ri } from "../theme/palette.js";
-import { getHeroes } from "../data/index.js";
+import { useData } from "../data/DataContext.jsx";
 
 // Autocomplete text input that suggests hero names.
 export function SugBox({ val, onPick, placeholder }) {
+  const { getHeroes } = useData();
   const H = getHeroes();
   const sg = val.length < 1 ? [] : H.filter(h => h.n.toLowerCase().includes(val.toLowerCase())).slice(0, 6);
   const found = H.find(h => h.n.toLowerCase() === val.toLowerCase());

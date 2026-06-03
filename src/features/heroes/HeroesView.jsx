@@ -1,9 +1,10 @@
 import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P, tc, rc, ri, ROLES, TIERS } from "../../theme/palette.js";
-import { getHeroes } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function HeroesView({ q, setQ, rF, setRF, tF, setTF, onSelectHero }) {
+  const { getHeroes } = useData();
   const H = getHeroes();
   const flt = useMemo(() => {
     let h = H;

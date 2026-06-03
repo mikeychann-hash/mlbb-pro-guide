@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getProPicks, getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function ProPicksView({ onSelectHero }) {
+  const { getProPicks, getHeroByName } = useData();
   const { picks: PRO_PICKS, tips: PRO_TIPS_DATA } = getProPicks();
   return (
     <>

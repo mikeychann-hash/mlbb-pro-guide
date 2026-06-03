@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { P } from "./theme/palette.js";
 import { s } from "./theme/styles.js";
-import { getHeroes, getMeta } from "./data/index.js";
+import { useData } from "./data/DataContext.jsx";
 import { getJSON, setJSON } from "./services/storage.js";
 import { emptyDraft, selectHero } from "./features/draft/draftLogic.js";
 import { HeroDetail } from "./components/HeroDetail.jsx";
@@ -27,7 +27,20 @@ import { DraftView } from "./features/draft/DraftView.jsx";
 
 const TABS = ["Meta", "Heroes", "Tiers", "Items", "Counter", "Teams", "Spells", "Jungle", "Roam", "Macro", "Compare", "Emblems", "Pro Picks", "Glossary", "Learn", "My Stats", "Build", "Draft"];
 
+function agoLabel(iso) {
+  if (!iso) return "bundled data";
+  const diff = Date.now() - Date.parse(iso);
+  if (Number.isNaN(diff)) return "bundled data";
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return "just now";
+  if (m < 60) return m + "m ago";
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + "h ago";
+  return Math.floor(h / 24) + "d ago";
+}
+
 export default function App() {
+  const { getHeroes, getMeta, status, lastUpdated, source, refresh } = useData();
   const [tab, setTab] = useState("Meta");
   const [sel, setSel] = useState(null);
   // Heroes filters
@@ -96,6 +109,12 @@ export default function App() {
         <div style={s.glow} />
         <div style={s.title}>MOBILE LEGENDS: BANG BANG</div>
         <div style={s.sub}>{heroCount} Heroes · Patch {PATCH.v} · Season {PATCH.s}</div>
+      </div>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "4px 8px", background: P.bg2, borderBottom: `1px solid ${P.brd}`, fontSize: 9, color: P.t3 }}>
+        <span>{source === "bundled" ? "📦" : "🛰️"} Data: {agoLabel(lastUpdated)}</span>
+        <button onClick={refresh} disabled={status === "syncing"} style={{ background: "transparent", border: `1px solid ${P.brd}`, borderRadius: 6, color: status === "syncing" ? P.t3 : P.neon, fontSize: 9, padding: "2px 8px", cursor: "pointer", fontFamily: "inherit" }}>
+          {status === "syncing" ? "Syncing…" : "↻ Refresh"}
+        </button>
       </div>
       <div style={s.tbs}>{TABS.map(t => <button key={t} style={s.tb(tab === t)} onClick={() => setTab(t)}>{t}</button>)}</div>
       <div style={s.ct}>{view}</div>

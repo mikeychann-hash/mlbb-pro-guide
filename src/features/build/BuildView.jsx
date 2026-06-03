@@ -1,9 +1,10 @@
 import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getItems } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function BuildView({ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }) {
+  const { getItems } = useData();
   const ITEMS = getItems();
   const bG = useMemo(() => bS.filter(Boolean).reduce((a, i) => a + i.g, 0), [bS]);
   const count = bS.filter(Boolean).length;

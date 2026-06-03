@@ -1,10 +1,11 @@
 import { s } from "../theme/styles.js";
 import { P, tc, rc, ri } from "../theme/palette.js";
-import { getHeroByName } from "../data/index.js";
+import { useData } from "../data/DataContext.jsx";
 
 // Full-page hero detail takeover. Renders nothing when no hero is selected.
 // Props: { hero, onClose, onSelectHero }
 export function HeroDetail({ hero, onClose, onSelectHero }) {
+  const { getHeroByName } = useData();
   if (!hero) return null;
   const h = hero;
   return (

@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getItems } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function ItemsView({ iC, setIC }) {
+  const { getItems } = useData();
   const ITEMS = getItems();
   return (
     <>

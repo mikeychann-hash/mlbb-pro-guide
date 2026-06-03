@@ -1,10 +1,11 @@
 import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P, tc, rc, ri } from "../../theme/palette.js";
-import { getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 import { SugBox } from "../../components/SugBox.jsx";
 
 export function CompareView({ cmpA, setCmpA, cmpB, setCmpB }) {
+  const { getHeroByName } = useData();
   const heroA = useMemo(() => getHeroByName(cmpA), [cmpA]);
   const heroB = useMemo(() => getHeroByName(cmpB), [cmpB]);
   return (

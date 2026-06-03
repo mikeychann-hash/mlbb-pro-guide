@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P, ri } from "../../theme/palette.js";
-import { getHeroes, getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function MyStatsView({ tracker, saveTracker, tkHero, setTkHero, tkResult, setTkResult }) {
+  const { getHeroes, getHeroByName } = useData();
   const H = getHeroes();
   const suggestions = tkHero && !getHeroByName(tkHero)
     ? H.filter(x => x.n.toLowerCase().includes(tkHero.toLowerCase())).slice(0, 5)

@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getGlossary } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function GlossaryView({ glsCat, setGlsCat }) {
+  const { getGlossary } = useData();
   const GLOSSARY = getGlossary();
   return (
     <>

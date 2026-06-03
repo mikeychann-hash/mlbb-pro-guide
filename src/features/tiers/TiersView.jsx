@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P, tc, ri, TIERS } from "../../theme/palette.js";
-import { getHeroes } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function TiersView({ onSelectHero }) {
+  const { getHeroes } = useData();
   const H = getHeroes();
   return (
     <>

@@ -1,9 +1,10 @@
 import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P, rc, ri } from "../../theme/palette.js";
-import { getHeroes, getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function DraftView({ draft, onSelect, onReset, dQ, setDQ }) {
+  const { getHeroes, getHeroByName } = useData();
   const H = getHeroes();
   const { t1: d1, t2: d2, phase: dP, turn: dT } = draft;
   const allD = [...d1.b, ...d2.b, ...d1.p, ...d2.p];

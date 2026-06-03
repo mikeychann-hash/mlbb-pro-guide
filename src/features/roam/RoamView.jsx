@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getRoam, getMacro } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function RoamView() {
+  const { getRoam, getMacro } = useData();
   const { boots: ROAM_BOOTS, rotation: ROAM_ROTATION, tips: ROAM_TIPS } = getRoam();
   const { antiHeal: ANTI_HEAL } = getMacro();
   return (

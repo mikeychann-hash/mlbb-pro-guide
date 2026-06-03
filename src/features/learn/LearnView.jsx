@@ -1,7 +1,8 @@
 import { P } from "../../theme/palette.js";
-import { getLearnPath } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function LearnView() {
+  const { getLearnPath } = useData();
   const LEARN_PATH = getLearnPath();
   return (
     <>

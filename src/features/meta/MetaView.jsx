@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getMeta, getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function MetaView({ onSelectHero }) {
+  const { getMeta, getHeroByName } = useData();
   const { patch: PATCH, bans: BANS, rising: RISING, falling: FALLING, lanes: LANES } = getMeta();
   const open = (name) => { const f = getHeroByName(name); if (f) onSelectHero(f); };
   return (

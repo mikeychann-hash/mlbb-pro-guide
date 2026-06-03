@@ -1,9 +1,10 @@
 import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P, ri } from "../../theme/palette.js";
-import { getHeroes, getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function CounterView({ cQ, setCQ }) {
+  const { getHeroes, getHeroByName } = useData();
   const H = getHeroes();
   const cH = useMemo(() => getHeroByName(cQ), [cQ]);
   const cSg = useMemo(() => cQ.length < 1 ? [] : H.filter(h => h.n.toLowerCase().includes(cQ.toLowerCase())).slice(0, 8), [H, cQ]);

@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getMacro } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function MacroView() {
+  const { getMacro } = useData();
   const { phases: PHASES, cats: MACRO_CATS } = getMacro();
   return (
     <>

@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getEmblems } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function EmblemsView() {
+  const { getEmblems } = useData();
   const EMBLEM_SETS = getEmblems();
   return (
     <>

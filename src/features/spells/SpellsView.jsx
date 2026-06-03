@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getSpells } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function SpellsView() {
+  const { getSpells } = useData();
   const SPELLS = getSpells();
   return (
     <>

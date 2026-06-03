@@ -1,8 +1,9 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
-import { getJungle, getHeroByName } from "../../data/index.js";
+import { useData } from "../../data/DataContext.jsx";
 
 export function JungleView({ onSelectHero }) {
+  const { getJungle, getHeroByName } = useData();
   const { paths: JG_PATHS, timers: JG_TIMERS, tips: JG_TIPS } = getJungle();
   return (
     <>
