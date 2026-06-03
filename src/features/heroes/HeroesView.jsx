@@ -2,9 +2,10 @@ import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P, tc, rc, ri, ROLES, TIERS } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { Badge } from "../../components/Badge.jsx";
 
 export function HeroesView({ q, setQ, rF, setRF, tF, setTF, onSelectHero }) {
-  const { getHeroes } = useData();
+  const { getHeroes, getChange } = useData();
   const H = getHeroes();
   const flt = useMemo(() => {
     let h = H;
@@ -29,7 +30,7 @@ export function HeroesView({ q, setQ, rF, setRF, tF, setTF, onSelectHero }) {
         <div key={h.n} style={s.cd2} onClick={() => onSelectHero(h)}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <div>
-              <div style={{ fontSize: 14, fontWeight: 800 }}>{ri(h.r)} {h.n}</div>
+              <div style={{ fontSize: 14, fontWeight: 800 }}>{ri(h.r)} {h.n}<Badge change={getChange(h.n)} /></div>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 3, marginTop: 3 }}>
                 <span style={s.bg(rc(h.r))}>{h.r}</span>{h.r2 && <span style={s.bg(rc(h.r2))}>{h.r2}</span>}<span style={s.bg(tc(h.t), true)}>{h.t}</span><span style={s.bg(P.t2)}>{h.l}</span>
               </div>

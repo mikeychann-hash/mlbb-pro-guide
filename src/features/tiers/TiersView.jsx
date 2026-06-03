@@ -1,9 +1,10 @@
 import { s } from "../../theme/styles.js";
 import { P, tc, ri, TIERS } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { Badge } from "../../components/Badge.jsx";
 
 export function TiersView({ onSelectHero }) {
-  const { getHeroes } = useData();
+  const { getHeroes, getChange } = useData();
   const H = getHeroes();
   return (
     <>
@@ -17,7 +18,7 @@ export function TiersView({ onSelectHero }) {
               <span style={{ fontSize: 12, fontWeight: 700, color: tc(t) }}>{t === "S+" ? "Must Ban/Pick" : t === "S" ? "Meta" : t === "A" ? "Strong" : t === "B" ? "Viable" : "Situational"}</span>
               <span style={{ fontSize: 10, color: P.t3 }}>({heroes.length})</span>
             </div>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>{heroes.map(h => <span key={h.n} style={s.ch(tc(t))} onClick={() => onSelectHero(h)}>{ri(h.r)} {h.n} <span style={{ opacity: .5, fontSize: 8 }}>{h.wr}%</span></span>)}</div>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>{heroes.map(h => <span key={h.n} style={s.ch(tc(t))} onClick={() => onSelectHero(h)}>{ri(h.r)} {h.n} <span style={{ opacity: .5, fontSize: 8 }}>{h.wr}%</span><Badge change={getChange(h.n)} /></span>)}</div>
           </div>
         );
       })}
