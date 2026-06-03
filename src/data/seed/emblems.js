@@ -1,0 +1,28 @@
+import { P } from "../../theme/palette.js";
+
+export const EMBLEM_SETS=[
+{name:"Tank",icon:"🛡️",color:P.blue,stats:"HP +700, Hybrid DEF +14, HP Regen +10",best:"Tanks, tanky supports, frontliners",
+t1:[{n:"Vitality",e:"+225 Max HP",use:"Default for most tanks"},{n:"Firmness",e:"+6 Hybrid DEF",use:"vs aggressive early laners"},{n:"Agility",e:"+4% Move Speed",use:"Roaming tanks needing rotation speed"}],
+t2:[{n:"Tenacity",e:"+15 Hybrid DEF when <50% HP",use:"Default survivability choice"},{n:"Wilderness Blessing",e:"+10% MS in jungle/river",use:"Rotation-focused roamers"},{n:"Pull Yourself Together",e:"-15% Battle Spell CD",use:"More Flicker uptime = more engages"}],
+t3:[{n:"Concussive Blast",e:"After skill, deal HP-based magic DMG in area",use:"DEFAULT for tanks. Scales with HP items."},{n:"Brave Smite",e:"Heal when landing CC on enemies",use:"Sustain tanks like Belerick, Hylos"},{n:"Focusing Mark",e:"Mark enemies → allies deal +6% DMG to them",use:"Coordinated play, peeling supports"}]},
+{name:"Fighter",icon:"⚔️",color:P.gold,stats:"ATK +14, Hybrid DEF +8, HP +250",best:"Fighters, bruisers, EXP laners",
+t1:[{n:"Bravery",e:"+12 Adaptive ATK",use:"Default damage choice"},{n:"Firmness",e:"+6 Hybrid DEF",use:"Defensive laning"},{n:"Vitality",e:"+225 Max HP",use:"Sustain matchups"}],
+t2:[{n:"Festival of Blood",e:"+6% Spell Vamp",use:"Sustain fighters (Ruby, Thamuz, Yu Zhong)"},{n:"Weapons Master",e:"+5% stats from equipment",use:"Late-game scaling"},{n:"Tenacity",e:"+15 Hybrid DEF when <50% HP",use:"Tanky fighters"}],
+t3:[{n:"Killing Spree",e:"+15% HP restored + 20% MS after kill",use:"Snowball fighters (Chou, Arlott)"},{n:"War Cry",e:"After 5s charging, next skill +12% DMG",use:"Burst combo fighters (Julian, Paquito)"},{n:"Brave Smite",e:"Heal on CC landing",use:"CC-heavy fighters (Ruby, Guinevere)"}]},
+{name:"Assassin",icon:"🗡️",color:P.red,stats:"Adaptive PEN +10, Adaptive ATK +7, CDR +3%",best:"Assassins, burst junglers, aggressive fighters",
+t1:[{n:"Rupture",e:"+5 Adaptive PEN",use:"DEFAULT for all assassins"},{n:"Thrill",e:"+16 Adaptive ATK",use:"Raw damage early"},{n:"Agility",e:"+4% Move Speed",use:"Rotation speed"}],
+t2:[{n:"Seasoned Hunter",e:"+15% DMG to Lord/Turtle",use:"MANDATORY for junglers. No exceptions."},{n:"Master Assassin",e:"+7% DMG when only 1 enemy nearby",use:"1v1 duelists, pick heroes"},{n:"Weapons Master",e:"+5% stats from equipment",use:"Late-game scaling carries"}],
+t3:[{n:"Killing Spree",e:"+15% HP restored + 20% MS after kill",use:"DEFAULT for snowball assassins"},{n:"Lethal Ignition",e:"3 hits in 5s → 162-750 adaptive DMG burn",use:"Burst combo heroes (Gusion, Lancelot)"},{n:"Quantum Charge",e:"AA triggers MS + HP sustain",use:"AA-based assassins"}]},
+{name:"Mage",icon:"🔮",color:P.purp,stats:"Magic Power +14, CDR +3%, Magic PEN +5",best:"Mages, magic fighters, some supports",
+t1:[{n:"Agility",e:"+4% Move Speed",use:"DEFAULT for rotation speed"},{n:"Rupture",e:"+5 Adaptive PEN",use:"When extra pen needed"},{n:"Inspire",e:"+5% CDR",use:"CDR-hungry mages"}],
+t2:[{n:"Weapons Master",e:"+5% stats from equipment",use:"DEFAULT for scaling mages"},{n:"Bargain Hunter",e:"Equipment costs -5%",use:"Rush core items faster"},{n:"Wilderness Blessing",e:"+10% MS in jungle/river",use:"Roaming mages"}],
+t3:[{n:"Impure Rage",e:"Skills deal %HP magic DMG + mana regen",use:"DEFAULT for most mages"},{n:"Lethal Ignition",e:"3 hits in 5s → adaptive DMG burn",use:"Burst mages (Eudora, Kagura)"},{n:"Quantum Charge",e:"AA triggers MS + HP sustain",use:"Harith, Kimmy"}]},
+{name:"Marksman",icon:"🏹",color:P.nG,stats:"ATK +9, ATK Speed +7%, Crit Chance +3%",best:"Marksmen, AA-based carries",
+t1:[{n:"Fatal",e:"+5% Crit Chance, +10% Crit DMG",use:"DEFAULT for crit MMs"},{n:"Swift",e:"+10% ATK Speed",use:"On-hit MMs (Karrie, Claude)"},{n:"Thrill",e:"+16 Adaptive ATK",use:"Early game trades"}],
+t2:[{n:"Weapons Master",e:"+5% stats from equipment",use:"DEFAULT — amplifies expensive builds"},{n:"Weakness Finder",e:"Crits slow enemy AS + MS",use:"Kiting MMs (Miya, Bruno, Moskov)"},{n:"Bargain Hunter",e:"Equipment costs -5%",use:"Rush core items when behind"}],
+t3:[{n:"Quantum Charge",e:"AA triggers MS boost + HP sustain",use:"DEFAULT — kiting + sustain tool"},{n:"Weakness Finder",e:"Slow on crit",use:"Kite-focused MMs"},{n:"Killing Spree",e:"+15% HP + 20% MS on kill",use:"Snowball MMs like Brody"}]},
+{name:"Support",icon:"💚",color:P.neon,stats:"Heal Effect +10%, CDR +5%, Move Speed +4%",best:"Supports, roaming tanks, utility heroes",
+t1:[{n:"Agility",e:"+4% Move Speed",use:"DEFAULT for roam speed"},{n:"Mastery",e:"+5% CDR",use:"Spam heals/shields"},{n:"Firmness",e:"+6 Hybrid DEF",use:"Defensive supports"}],
+t2:[{n:"Pull Yourself Together",e:"-15% Battle Spell CD",use:"DEFAULT — more Flicker/Heal uptime"},{n:"Wilderness Blessing",e:"+10% MS in jungle/river",use:"Rotation speed"},{n:"Tenacity",e:"+15 Hybrid DEF <50% HP",use:"Survivability"}],
+t3:[{n:"Focusing Mark",e:"Mark enemies → allies +6% DMG to them",use:"DEFAULT — enables your carries"},{n:"Concussive Blast",e:"HP-based area DMG after skill",use:"Tanky supports like Marcel"},{n:"Brave Smite",e:"Heal on CC landing",use:"CC-heavy supports"}]},
+];
