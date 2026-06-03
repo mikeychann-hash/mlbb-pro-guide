@@ -1,0 +1,6883 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-03T23:41:06.514Z",
+  "source": "scraped",
+  "patch": {
+    "v": "2.1.61",
+    "s": 40,
+    "d": "Mar 11 2026",
+    "nx": "2.1.62"
+  },
+  "heroes": [
+    {
+      "n": "Sora",
+      "r": "Fighter",
+      "r2": "",
+      "t": "S+",
+      "l": "EXP",
+      "d": 2,
+      "wr": 52.3,
+      "pr": 14.2,
+      "br": 22,
+      "sp": "AoE CC Stance Switch",
+      "c": [
+        "Phoveus",
+        "Chou",
+        "Khufra"
+      ],
+      "s": [
+        "Esmeralda",
+        "Uranus",
+        "Terizla"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "#1 EXP. Thunder for 1v1, Cloud for AoE teamfight.",
+      "sy": [
+        "Tigreal",
+        "Pharsa",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Fredrinn",
+      "r": "Fighter",
+      "r2": "Tank",
+      "t": "S+",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 51.9,
+      "pr": 12.8,
+      "br": 28,
+      "sp": "Utility Tank Jungler",
+      "c": [
+        "Karrie",
+        "Wanwan",
+        "Valir"
+      ],
+      "s": [
+        "Chou",
+        "Lancelot",
+        "Fanny"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Radiant Armor",
+        "Antique Cuirass",
+        "Immortality",
+        "Athena's Shield"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Retribution",
+        "Flicker"
+      ],
+      "tip": "THE utility jungler. Build full tank. Taunt peels, ult = absorbed damage burst.",
+      "sy": [
+        "Sora",
+        "Angela",
+        "Pharsa"
+      ]
+    },
+    {
+      "n": "Julian",
+      "r": "Fighter",
+      "r2": "Mage",
+      "t": "S+",
+      "l": "EXP",
+      "d": 3,
+      "wr": 52.1,
+      "pr": 11.5,
+      "br": 18,
+      "sp": "6-Combo Burst",
+      "c": [
+        "Phoveus",
+        "Khufra",
+        "Chou"
+      ],
+      "s": [
+        "Lapu-Lapu",
+        "Esmeralda",
+        "Yu Zhong"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings",
+        "Winter Truncheon"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "6 unique combos. 1-2-3=burst, 2-1-3=CC, 3-2-1=sustain.",
+      "sy": [
+        "Tigreal",
+        "Khufra",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Zhuxin",
+      "r": "Mage",
+      "r2": "",
+      "t": "S+",
+      "l": "Mid",
+      "d": 2,
+      "wr": 51.7,
+      "pr": 13.1,
+      "br": 15,
+      "sp": "Displacement Execute",
+      "c": [
+        "Valentina",
+        "Lancelot",
+        "Ling"
+      ],
+      "s": [
+        "Layla",
+        "Miya",
+        "Hanabi"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "S1 displacement + execute is devastating. Controls space.",
+      "sy": [
+        "Tigreal",
+        "Atlas",
+        "Fredrinn"
+      ]
+    },
+    {
+      "n": "Helcurt",
+      "r": "Assassin",
+      "r2": "",
+      "t": "S+",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 51.4,
+      "pr": 8.2,
+      "br": 79,
+      "sp": "Silence + Darkness",
+      "c": [
+        "Tanky lineups",
+        "Khufra",
+        "Akai"
+      ],
+      "s": [
+        "Squishy carries",
+        "Pharsa",
+        "Layla"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "79% ban. Silence shuts skill heroes. Global darkness = info advantage.",
+      "sy": [
+        "Tigreal",
+        "Atlas",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Tigreal",
+      "r": "Tank",
+      "r2": "",
+      "t": "S+",
+      "l": "Roam",
+      "d": 1,
+      "wr": 51.2,
+      "pr": 16.4,
+      "br": 8,
+      "sp": "AoE Engage",
+      "c": [
+        "Valir",
+        "Diggie",
+        "Wanwan"
+      ],
+      "s": [
+        "Layla",
+        "Miya",
+        "Hanabi"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Flicker+Ult = game-winning engage. Hide in bush, wait for 3+ grouped.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Sora"
+      ]
+    },
+    {
+      "n": "Khufra",
+      "r": "Tank",
+      "r2": "",
+      "t": "S+",
+      "l": "Roam",
+      "d": 2,
+      "wr": 51.5,
+      "pr": 11.3,
+      "br": 14,
+      "sp": "Anti-Dash",
+      "c": [
+        "Valir",
+        "Karrie",
+        "Diggie"
+      ],
+      "s": [
+        "Fanny",
+        "Lancelot",
+        "Ling"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Bouncing Ball interrupts ALL dashes. Priority vs Fanny/Lance/Ling.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Julian"
+      ]
+    },
+    {
+      "n": "Joy",
+      "r": "Assassin",
+      "r2": "",
+      "t": "S",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 51.8,
+      "pr": 6.1,
+      "br": 82,
+      "sp": "Unavoidable Burst",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Heavy CC"
+      ],
+      "s": [
+        "Squishy mages",
+        "Layla"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Concentrated Energy",
+        "Winter Truncheon"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "82% ban — highest. Damage unavoidable. First-pick if open.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Phoveus",
+      "r": "Fighter",
+      "r2": "",
+      "t": "S",
+      "l": "EXP",
+      "d": 2,
+      "wr": 52,
+      "pr": 9.8,
+      "br": 12,
+      "sp": "Anti-Dash Punisher",
+      "c": [
+        "Esmeralda",
+        "Valir",
+        "Karrie"
+      ],
+      "s": [
+        "Fanny",
+        "Lancelot",
+        "Ling"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Enchanted Talisman",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Immortality"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Pick vs 2+ dash heroes. Each dash resets ult.",
+      "sy": [
+        "Khufra",
+        "Tigreal",
+        "Pharsa"
+      ]
+    },
+    {
+      "n": "Hayabusa",
+      "r": "Assassin",
+      "r2": "",
+      "t": "S",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 51.6,
+      "pr": 10.5,
+      "br": 11,
+      "sp": "Safest Jungler",
+      "c": [
+        "Saber",
+        "Khufra",
+        "Chou"
+      ],
+      "s": [
+        "Miya",
+        "Layla",
+        "Pharsa"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Can't jungle? Learn Haya. Shadow teleport = free escape.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Mathilda"
+      ]
+    },
+    {
+      "n": "Arlott",
+      "r": "Fighter",
+      "r2": "",
+      "t": "S",
+      "l": "EXP",
+      "d": 2,
+      "wr": 51.4,
+      "pr": 8.9,
+      "br": 9,
+      "sp": "Wall-Pin Burst",
+      "c": [
+        "Chou",
+        "Phoveus",
+        "Khufra"
+      ],
+      "s": [
+        "Esmeralda",
+        "Uranus",
+        "Alice"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Wall pin doubles stun. Fight near walls for max pressure.",
+      "sy": [
+        "Tigreal",
+        "Atlas",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Lapu-Lapu",
+      "r": "Fighter",
+      "r2": "",
+      "t": "S",
+      "l": "EXP",
+      "d": 2,
+      "wr": 51.1,
+      "pr": 8.4,
+      "br": 7,
+      "sp": "Dual Stance Shield",
+      "c": [
+        "Chou",
+        "Paquito",
+        "Phoveus"
+      ],
+      "s": [
+        "Esmeralda",
+        "Alice",
+        "Uranus"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Heavy stance = shield + burst. Alternate stances to poke then commit.",
+      "sy": [
+        "Tigreal",
+        "Pharsa",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Freya",
+      "r": "Fighter",
+      "r2": "",
+      "t": "S",
+      "l": "EXP",
+      "d": 1,
+      "wr": 51.3,
+      "pr": 9.1,
+      "br": 10,
+      "sp": "Sacred Orb Duelist",
+      "c": [
+        "Chou",
+        "Phoveus",
+        "Esmeralda"
+      ],
+      "s": [
+        "Zilong",
+        "Alucard",
+        "Roger"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Nerfed 2.1.61 (33% regen cut) but still S. Jump stun ult = unmatched 1v1.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Leomord",
+      "r": "Fighter",
+      "r2": "",
+      "t": "S",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 51,
+      "pr": 7.8,
+      "br": 35,
+      "sp": "Mount Burst Chase",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Chou"
+      ],
+      "s": [
+        "Layla",
+        "Miya",
+        "Hanabi"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution",
+        "Flicker"
+      ],
+      "tip": "35% ban. Mount = unstoppable chase + AoE. Ban or pick.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Mathilda"
+      ]
+    },
+    {
+      "n": "Saber",
+      "r": "Assassin",
+      "r2": "",
+      "t": "S",
+      "l": "Jungle",
+      "d": 1,
+      "wr": 51.2,
+      "pr": 9.5,
+      "br": 41,
+      "sp": "Point-Click Delete",
+      "c": [
+        "Chou",
+        "Purify users",
+        "Diggie"
+      ],
+      "s": [
+        "Pharsa",
+        "Layla",
+        "Miya"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution",
+        "Execute"
+      ],
+      "tip": "Easiest assassin. See squishy alone → S1→S2→Ult = dead.",
+      "sy": [
+        "Tigreal",
+        "Atlas",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Pharsa",
+      "r": "Mage",
+      "r2": "",
+      "t": "S",
+      "l": "Mid",
+      "d": 2,
+      "wr": 51.9,
+      "pr": 8.7,
+      "br": 6,
+      "sp": "Artillery Zone",
+      "c": [
+        "Lancelot",
+        "Ling",
+        "Saber"
+      ],
+      "s": [
+        "Layla",
+        "Tigreal",
+        "Atlas"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Nerfed 2.1.61 but still S. Ult zones entire areas. Stay MAX range.",
+      "sy": [
+        "Tigreal",
+        "Khufra",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Kimmy",
+      "r": "Marksman",
+      "r2": "Mage",
+      "t": "S",
+      "l": "Gold",
+      "d": 2,
+      "wr": 51.5,
+      "pr": 10.2,
+      "br": 5,
+      "sp": "Move + Shoot",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Helcurt"
+      ],
+      "s": [
+        "Tigreal",
+        "Atlas",
+        "Uranus"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Glowing Wand",
+        "Ice Queen Wand",
+        "Holy Crystal",
+        "Divine Glaive"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Build MAGIC. Spray+move = constant damage while repositioning.",
+      "sy": [
+        "Tigreal",
+        "Khufra",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Yi Sun-shin",
+      "r": "Marksman",
+      "r2": "Assassin",
+      "t": "S",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 51,
+      "pr": 7.3,
+      "br": 8,
+      "sp": "Global Vision Ship",
+      "c": [
+        "Khufra",
+        "Chou",
+        "Saber"
+      ],
+      "s": [
+        "Fanny",
+        "Ling",
+        "Natalia"
+      ],
+      "b": [
+        "Swift Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Nerfed 2.1.61 (10s from 15s) but still strong. Vision = info advantage.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Mathilda"
+      ]
+    },
+    {
+      "n": "Gloo",
+      "r": "Tank",
+      "r2": "",
+      "t": "S",
+      "l": "Roam",
+      "d": 2,
+      "wr": 51.1,
+      "pr": 8.5,
+      "br": 9,
+      "sp": "Sticky Isolation",
+      "c": [
+        "Purify",
+        "Valir",
+        "Karrie"
+      ],
+      "s": [
+        "Immobile carries",
+        "Layla",
+        "Miya"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Attach to carry = useless. Forces peel or lose damage dealer.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Sora"
+      ]
+    },
+    {
+      "n": "Angela",
+      "r": "Support",
+      "r2": "",
+      "t": "S",
+      "l": "Roam",
+      "d": 1,
+      "wr": 51.3,
+      "pr": 9.8,
+      "br": 4,
+      "sp": "Global Attach",
+      "c": [
+        "Burst AoE",
+        "Atlas",
+        "Tigreal"
+      ],
+      "s": [
+        "Saber",
+        "Lancelot"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Necklace of Durance",
+        "Immortality",
+        "Athena's Shield",
+        "Dominance Ice"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Global ult. Attach to jungler before ganks = guaranteed kills.",
+      "sy": [
+        "Fredrinn",
+        "Hayabusa",
+        "Sora"
+      ]
+    },
+    {
+      "n": "Mathilda",
+      "r": "Support",
+      "r2": "Assassin",
+      "t": "S",
+      "l": "Roam",
+      "d": 2,
+      "wr": 51.4,
+      "pr": 8.1,
+      "br": 44,
+      "sp": "Aggressive Roam",
+      "c": [
+        "Diggie",
+        "Heavy CC",
+        "Khufra"
+      ],
+      "s": [
+        "Immobile carries",
+        "Layla"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Dominance Ice",
+        "Necklace of Durance",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "44% ban. Best roam for engage AND escape.",
+      "sy": [
+        "Hayabusa",
+        "Leomord",
+        "Granger"
+      ]
+    },
+    {
+      "n": "Nolan",
+      "r": "Assassin",
+      "r2": "",
+      "t": "S",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 51,
+      "pr": 6.5,
+      "br": 12,
+      "sp": "Dimensional Rift",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Heavy CC"
+      ],
+      "s": [
+        "Squishy mages",
+        "Backline"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Rift geometry = instant kills when mastered. High skill ceiling.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Chip",
+      "r": "Support",
+      "r2": "",
+      "t": "S",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50.8,
+      "pr": 7.2,
+      "br": 6,
+      "sp": "Global Teleport",
+      "c": [
+        "Burst damage",
+        "Saber"
+      ],
+      "s": [
+        "Split push teams"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Global ult = arrive everywhere first. Map pressure is insane.",
+      "sy": [
+        "Sora",
+        "Julian",
+        "Hayabusa"
+      ]
+    },
+    {
+      "n": "Chou",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 3,
+      "wr": 50.5,
+      "pr": 11.2,
+      "br": 5,
+      "sp": "Kick Isolation",
+      "c": [
+        "Phoveus",
+        "Esmeralda",
+        "Yu Zhong"
+      ],
+      "s": [
+        "Layla",
+        "Pharsa",
+        "Miya"
+      ],
+      "b": [
+        "Tough Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality",
+        "Hunter Strike"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Flicker+Ult kicks carry into team. Immune frames on S1.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Sora"
+      ]
+    },
+    {
+      "n": "Guinevere",
+      "r": "Fighter",
+      "r2": "Mage",
+      "t": "A",
+      "l": "EXP",
+      "d": 2,
+      "wr": 51.8,
+      "pr": 7.4,
+      "br": 4,
+      "sp": "Jump Knock-Up",
+      "c": [
+        "Chou",
+        "Diggie",
+        "Purify"
+      ],
+      "s": [
+        "Miya",
+        "Layla",
+        "Hanabi"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Genius Wand",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Rising S40. Land S2 = guaranteed ult + burst = delete squishy.",
+      "sy": [
+        "Tigreal",
+        "Atlas",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Valentina",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 3,
+      "wr": 52.8,
+      "pr": 7.3,
+      "br": 5,
+      "sp": "Ultimate Copy",
+      "c": [
+        "Heroes with bad ults"
+      ],
+      "s": [
+        "Pharsa",
+        "Tigreal",
+        "Atlas"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Highest WR mage. Copy best enemy ult. Valentina+Tigreal ult = devastating.",
+      "sy": [
+        "Tigreal",
+        "Khufra",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Wanwan",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 3,
+      "wr": 50.9,
+      "pr": 7.2,
+      "br": 7,
+      "sp": "Weakness-Point Ult",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Burst CC"
+      ],
+      "s": [
+        "Tanks",
+        "Tigreal",
+        "Uranus"
+      ],
+      "b": [
+        "Swift Boots",
+        "Corrosion Scythe",
+        "Demon Hunter Sword",
+        "Golden Staff",
+        "Wind of Nature",
+        "Malefic Roar"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Inspire",
+        "Purify"
+      ],
+      "tip": "Built-in Purify. Hit weakness points = untargetable ult.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Karrie",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 2,
+      "wr": 51.2,
+      "pr": 6.8,
+      "br": 3,
+      "sp": "True DMG Tank Killer",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Burst"
+      ],
+      "s": [
+        "All tanks",
+        "Hylos",
+        "Uranus"
+      ],
+      "b": [
+        "Swift Boots",
+        "Corrosion Scythe",
+        "Demon Hunter Sword",
+        "Golden Staff",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Purify",
+        "Inspire"
+      ],
+      "tip": "THE tank killer. True damage ignores defense. 2+ tanks = pick Karrie.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Beatrix",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 3,
+      "wr": 50.7,
+      "pr": 8.6,
+      "br": 4,
+      "sp": "4-Weapon Arsenal",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Helcurt"
+      ],
+      "s": [
+        "Tigreal",
+        "Atlas",
+        "Slow tanks"
+      ],
+      "b": [
+        "Swift Boots",
+        "Blade of Despair",
+        "Windtalker",
+        "Berserker's Fury",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Master 4 weapons: Sniper=poke, Shotgun=burst, SMG=sustain, Rocket=AoE.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Mathilda"
+      ]
+    },
+    {
+      "n": "Brody",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 2,
+      "wr": 52.5,
+      "pr": 11.5,
+      "br": 3,
+      "sp": "Early-Game Stack",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Gap closers"
+      ],
+      "s": [
+        "Slow tanks",
+        "Poke lanes"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality",
+        "Hunter Strike"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "DON'T build attack speed — fixed AA. Raw damage only.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Mathilda"
+      ]
+    },
+    {
+      "n": "Lancelot",
+      "r": "Assassin",
+      "r2": "",
+      "t": "A",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 50.8,
+      "pr": 7.1,
+      "br": 8,
+      "sp": "Triple Dash Immune",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Saber"
+      ],
+      "s": [
+        "Pharsa",
+        "Layla",
+        "Miya"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "S2 immunity dodges everything. Chain dashes for resets.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Chip"
+      ]
+    },
+    {
+      "n": "Ling",
+      "r": "Assassin",
+      "r2": "",
+      "t": "A",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 50.6,
+      "pr": 6.3,
+      "br": 61,
+      "sp": "Wall Walker",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Saber"
+      ],
+      "s": [
+        "Pharsa",
+        "Layla",
+        "Miya"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "61% ban. Walls = unmatched mobility. Master energy management.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Chip"
+      ]
+    },
+    {
+      "n": "Fanny",
+      "r": "Assassin",
+      "r2": "",
+      "t": "A",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 50.4,
+      "pr": 4.8,
+      "br": 58,
+      "sp": "Cable Swing",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Saber"
+      ],
+      "s": [
+        "Immobile mages",
+        "Layla"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Endless Battle",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Highest skill ceiling. Khufra alone counters entire kit.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Atlas",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 51.8,
+      "pr": 7.2,
+      "br": 4,
+      "sp": "Mass Grab",
+      "c": [
+        "Diggie",
+        "Purify",
+        "Valir"
+      ],
+      "s": [
+        "Grouped enemies",
+        "Miya"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Flicker+Ult grabs 5 enemies. Pair with AoE damage.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Sora"
+      ]
+    },
+    {
+      "n": "Ruby",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 2,
+      "wr": 51.5,
+      "pr": 6.9,
+      "br": 2,
+      "sp": "Lifesteal Queen",
+      "c": [
+        "Esmeralda",
+        "Karrie",
+        "Anti-heal"
+      ],
+      "s": [
+        "Tigreal",
+        "Atlas",
+        "Akai"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Haas's Claws",
+        "Endless Battle",
+        "Oracle",
+        "Queen's Wings",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Sleeper OP. Flicker+Ult = Tigreal-level engage. Unkillable w/o anti-heal.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Esmeralda",
+      "r": "Mage",
+      "r2": "Tank",
+      "t": "A",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50.9,
+      "pr": 6.4,
+      "br": 3,
+      "sp": "Shield Vampire",
+      "c": [
+        "Baxia",
+        "Anti-heal",
+        "Karrie"
+      ],
+      "s": [
+        "Lolita",
+        "Athena users",
+        "Hylos"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Enchanted Talisman",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Immortality"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Every enemy shield becomes your HP. Destroys shield comps.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Diggie",
+      "r": "Support",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 51,
+      "pr": 5.8,
+      "br": 3,
+      "sp": "Anti-CC Cleanser",
+      "c": [
+        "Burst damage",
+        "Saber"
+      ],
+      "s": [
+        "Tigreal",
+        "Atlas",
+        "Khufra"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Necklace of Durance",
+        "Dominance Ice",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "THE CC counter. Press Ult when enemy Tigreal/Atlas engages.",
+      "sy": [
+        "Any carry"
+      ]
+    },
+    {
+      "n": "Estes",
+      "r": "Support",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 1,
+      "wr": 51.3,
+      "pr": 6.2,
+      "br": 4,
+      "sp": "Fountain Healer",
+      "c": [
+        "Anti-heal",
+        "Baxia",
+        "Sea Halberd"
+      ],
+      "s": [
+        "Poke comps",
+        "Sustain"
+      ],
+      "b": [
+        "Tough Boots",
+        "Enchanted Talisman",
+        "Oracle",
+        "Necklace of Durance",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Best healer. ALWAYS buy anti-heal vs Estes.",
+      "sy": [
+        "Yu Zhong",
+        "Thamuz"
+      ]
+    },
+    {
+      "n": "Marcel",
+      "r": "Tank",
+      "r2": "Support",
+      "t": "A",
+      "l": "Roam",
+      "d": 3,
+      "wr": 50.4,
+      "pr": 5.1,
+      "br": 2,
+      "sp": "True DMG Support",
+      "c": [
+        "Poke comps",
+        "Valir"
+      ],
+      "s": [
+        "Grouped enemies"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "S40 newest. True damage from tank build. 3s stasis ult.",
+      "sy": [
+        "Pharsa",
+        "Zhuxin",
+        "Sora"
+      ]
+    },
+    {
+      "n": "Granger",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 50.8,
+      "pr": 7.5,
+      "br": 3,
+      "sp": "6th Bullet Burst",
+      "c": [
+        "Khufra",
+        "Chou",
+        "Saber"
+      ],
+      "s": [
+        "Pharsa",
+        "Layla",
+        "Miya"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Master 6-bullet rhythm. Reload cancel = higher DPS.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Mathilda"
+      ]
+    },
+    {
+      "n": "Gusion",
+      "r": "Assassin",
+      "r2": "",
+      "t": "A",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 50.5,
+      "pr": 5.8,
+      "br": 5,
+      "sp": "10-Dagger Burst",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Saber"
+      ],
+      "s": [
+        "Squishy mages",
+        "Layla"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Concentrated Energy",
+        "Winter Truncheon"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "10-dagger combo: S1→S2→S1→S2 return. Instant kill.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Chip"
+      ]
+    },
+    {
+      "n": "Franco",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50.6,
+      "pr": 6.1,
+      "br": 2,
+      "sp": "Hook & Suppress",
+      "c": [
+        "Diggie",
+        "Purify",
+        "Minion block"
+      ],
+      "s": [
+        "Squishy carries",
+        "Isolated"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "One hook on carry = win fight. Practice angles.",
+      "sy": [
+        "Any burst damage"
+      ]
+    },
+    {
+      "n": "Uranus",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 1,
+      "wr": 50.8,
+      "pr": 6.5,
+      "br": 3,
+      "sp": "Unkillable Regen",
+      "c": [
+        "Anti-heal",
+        "Baxia",
+        "Esmeralda"
+      ],
+      "s": [
+        "Low damage poke",
+        "Zilong"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Oracle",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Without anti-heal he CANNOT die. Can jungle or EXP.",
+      "sy": [
+        "Estes",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Lylia",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 2,
+      "wr": 51.2,
+      "pr": 5.9,
+      "br": 2,
+      "sp": "Zone + Rewind",
+      "c": [
+        "Lancelot",
+        "Ling",
+        "Dive"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Ult rewinds HP/position = free death save. Very safe mid.",
+      "sy": [
+        "Tigreal",
+        "Khufra",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Bruno",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 1,
+      "wr": 51.7,
+      "pr": 5.2,
+      "br": 1,
+      "sp": "Passive Crit Stack",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Dive"
+      ],
+      "s": [
+        "Tanks",
+        "Late game"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Endless Battle",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "SECRET WEAPON. Low pick = never banned. Crit stacking is broken.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Hilda",
+      "r": "Fighter",
+      "r2": "Tank",
+      "t": "A",
+      "l": "Roam",
+      "d": 1,
+      "wr": 51.4,
+      "pr": 5.3,
+      "br": 2,
+      "sp": "Bush Ambush",
+      "c": [
+        "Kite heroes",
+        "Karrie"
+      ],
+      "s": [
+        "Squishy roamers",
+        "Layla"
+      ],
+      "b": [
+        "Tough Boots",
+        "Blade of Despair",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Immortality",
+        "Athena's Shield"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Rising. Ult stacks PERMANENTLY per kill. Snowball machine.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Thamuz",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 1,
+      "wr": 51,
+      "pr": 6.1,
+      "br": 2,
+      "sp": "Fire Sustain",
+      "c": [
+        "Esmeralda",
+        "Karrie",
+        "Lunox"
+      ],
+      "s": [
+        "Zilong",
+        "Alucard",
+        "Roger"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Vengeance",
+        "Flicker"
+      ],
+      "tip": "Ult = unkillable in zone. Great for beginners.",
+      "sy": [
+        "Estes",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Yu Zhong",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50.6,
+      "pr": 6.3,
+      "br": 3,
+      "sp": "Black Dragon",
+      "c": [
+        "Anti-heal",
+        "Karrie",
+        "Esmeralda"
+      ],
+      "s": [
+        "Zilong",
+        "Alucard"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Dragon form = CC immune AoE beast. Anti-heal destroys him.",
+      "sy": [
+        "Estes",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Selena",
+      "r": "Assassin",
+      "r2": "Mage",
+      "t": "A",
+      "l": "Roam",
+      "d": 3,
+      "wr": 50.3,
+      "pr": 5.4,
+      "br": 3,
+      "sp": "Long Stun Arrow",
+      "c": [
+        "Purify",
+        "Diggie",
+        "Minion block"
+      ],
+      "s": [
+        "Immobile targets"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Genius Wand",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Arrow from fog = 3s stun. Practice trajectories.",
+      "sy": [
+        "Any carry"
+      ]
+    },
+    {
+      "n": "Kagura",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 3,
+      "wr": 50.4,
+      "pr": 4.5,
+      "br": 2,
+      "sp": "Umbrella Master",
+      "c": [
+        "Lancelot",
+        "Ling",
+        "Saber"
+      ],
+      "s": [
+        "Grouped enemies"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Built-in purify on umbrella recall. Very high skill ceiling.",
+      "sy": [
+        "Tigreal",
+        "Atlas",
+        "Khufra"
+      ]
+    },
+    {
+      "n": "Melissa",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 2,
+      "wr": 51,
+      "pr": 5.8,
+      "br": 2,
+      "sp": "Anti-Dive MM",
+      "c": [
+        "Long range poke",
+        "Pharsa"
+      ],
+      "s": [
+        "Dive heroes",
+        "Saber"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Haas's Claws",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Inspire"
+      ],
+      "tip": "Ult prevents anyone approaching. Best vs dive comps.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Lolita",
+      "r": "Tank",
+      "r2": "Support",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50.9,
+      "pr": 4.8,
+      "br": 2,
+      "sp": "Projectile Shield",
+      "c": [
+        "Non-projectile heroes"
+      ],
+      "s": [
+        "Pharsa",
+        "Miya",
+        "Layla"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Shield blocks ALL projectiles including ults.",
+      "sy": [
+        "Melee carries"
+      ]
+    },
+    {
+      "n": "Hylos",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 1,
+      "wr": 50.7,
+      "pr": 5.5,
+      "br": 2,
+      "sp": "HP Drain Ring",
+      "c": [
+        "Karrie",
+        "DHS users"
+      ],
+      "s": [
+        "Low mobility heroes"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Ring + Vengeance = massive reflected damage.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Khaleed",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 1,
+      "wr": 50.8,
+      "pr": 5.7,
+      "br": 1,
+      "sp": "Sand Sustain",
+      "c": [
+        "Esmeralda",
+        "Anti-heal",
+        "Burst"
+      ],
+      "s": [
+        "Zilong",
+        "Alucard"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Sand walk heals. Long-range ult for engage/escape.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Badang",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50.5,
+      "pr": 5,
+      "br": 2,
+      "sp": "Wall Trap Burst",
+      "c": [
+        "Purify",
+        "Dash heroes"
+      ],
+      "s": [
+        "Immobile heroes",
+        "Layla"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Wall trap + Ult in tight spaces is devastating.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Cici",
+      "r": "Fighter",
+      "r2": "",
+      "t": "A",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50.7,
+      "pr": 5.4,
+      "br": 2,
+      "sp": "Yo-Yo Sustain",
+      "c": [
+        "Phoveus",
+        "Khufra",
+        "Anti-heal"
+      ],
+      "s": [
+        "Immobile fighters"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Immortality",
+        "Dominance Ice"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Unique yo-yo swing = mobility + sustain.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Edith",
+      "r": "Tank",
+      "r2": "Marksman",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50.6,
+      "pr": 4.7,
+      "br": 2,
+      "sp": "Transform Tank→MM",
+      "c": [
+        "Karrie",
+        "Esmeralda"
+      ],
+      "s": [
+        "Squishy teams"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Tank form CC → fly up → rain magic damage.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Baxia",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 1,
+      "wr": 50.5,
+      "pr": 4.9,
+      "br": 2,
+      "sp": "Anti-Heal Tank",
+      "c": [
+        "Burst damage",
+        "Phoveus"
+      ],
+      "s": [
+        "Healers",
+        "Estes",
+        "Uranus"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Best anti-heal tank. Passive reduces all enemy healing/shields.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Gatotkaca",
+      "r": "Tank",
+      "r2": "Fighter",
+      "t": "A",
+      "l": "Roam",
+      "d": 1,
+      "wr": 50.4,
+      "pr": 4.6,
+      "br": 2,
+      "sp": "Global Dive Taunt",
+      "c": [
+        "Karrie",
+        "Esmeralda"
+      ],
+      "s": [
+        "Physical teams"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Global ult dive + taunt. Great counter-engage.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Belerick",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 1,
+      "wr": 50.3,
+      "pr": 4.4,
+      "br": 1,
+      "sp": "Reflect Tank",
+      "c": [
+        "Magic damage",
+        "Esmeralda"
+      ],
+      "s": [
+        "Physical attackers",
+        "AA heroes"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Blade Armor",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Vengeance",
+        "Flicker"
+      ],
+      "tip": "Passive reflects damage. Counters dive. CC immune ult.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Claude",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 2,
+      "wr": 50.5,
+      "pr": 5.1,
+      "br": 2,
+      "sp": "Mirror DPS",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Burst"
+      ],
+      "s": [
+        "Grouped teams"
+      ],
+      "b": [
+        "Swift Boots",
+        "Demon Hunter Sword",
+        "Golden Staff",
+        "Corrosion Scythe",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Purify",
+        "Inspire"
+      ],
+      "tip": "Ult = massive AoE DPS circle. Use monkey for positioning.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Natalia",
+      "r": "Assassin",
+      "r2": "",
+      "t": "A",
+      "l": "Jungle",
+      "d": 3,
+      "wr": 50.2,
+      "pr": 3.9,
+      "br": 3,
+      "sp": "Stealth Burst",
+      "c": [
+        "Detection",
+        "Grouped teams"
+      ],
+      "s": [
+        "Isolated squishies"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution",
+        "Execute"
+      ],
+      "tip": "Invisible in bush. Silence on first stealth hit.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Lunox",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.6,
+      "pr": 4.8,
+      "br": 2,
+      "sp": "Light/Dark Dual Mode",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Burst"
+      ],
+      "s": [
+        "Tanks",
+        "Sustain fights"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Light = sustain/invincibility. Dark = burst. Switch per situation.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Yve",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.5,
+      "pr": 4.5,
+      "br": 2,
+      "sp": "Real-Time Target Ult",
+      "c": [
+        "Lancelot",
+        "Ling",
+        "Dive"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Ult lets you manually target zones in real-time.",
+      "sy": [
+        "Tigreal",
+        "Khufra"
+      ]
+    },
+    {
+      "n": "Xavier",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.4,
+      "pr": 4.3,
+      "br": 2,
+      "sp": "Global Snipe",
+      "c": [
+        "Lancelot",
+        "Ling",
+        "Dive"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Global ult snipes across map. Stack passive for damage.",
+      "sy": [
+        "Tigreal",
+        "Khufra"
+      ]
+    },
+    {
+      "n": "Johnson",
+      "r": "Tank",
+      "r2": "",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50.3,
+      "pr": 4.6,
+      "br": 2,
+      "sp": "Car Engage",
+      "c": [
+        "Diggie",
+        "Purify",
+        "Walls"
+      ],
+      "s": [
+        "Squishy carries"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Blade Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Ult = car form carrying an ally into enemies. Fun and effective.",
+      "sy": [
+        "Eudora",
+        "Odette"
+      ]
+    },
+    {
+      "n": "Harith",
+      "r": "Mage",
+      "r2": "",
+      "t": "A",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.7,
+      "pr": 4.6,
+      "br": 2,
+      "sp": "Dash Spam Mage",
+      "c": [
+        "Khufra",
+        "Phoveus",
+        "Saber"
+      ],
+      "s": [
+        "Layla",
+        "Miya"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Enchanted Talisman",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Winter Truncheon"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Ult enables rapid dash spam. High-mobility mage.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Obsidia",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 2,
+      "wr": 50.3,
+      "pr": 3.8,
+      "br": 1,
+      "sp": "Bone Shard Scaling",
+      "c": [
+        "Early aggression",
+        "Saber"
+      ],
+      "s": [
+        "Tanks",
+        "Late game"
+      ],
+      "b": [
+        "Swift Boots",
+        "Demon Hunter Sword",
+        "Golden Staff",
+        "Corrosion Scythe",
+        "Wind of Nature",
+        "Malefic Roar"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Inspire",
+        "Purify"
+      ],
+      "tip": "Farm to max Bone Energy. Shreds tanks when stacked.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Kalea",
+      "r": "Support",
+      "r2": "Tank",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50.5,
+      "pr": 4.2,
+      "br": 2,
+      "sp": "Engage Healer",
+      "c": [
+        "Burst damage",
+        "Anti-heal"
+      ],
+      "s": [
+        "Dive comps"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Engage bruiser AND healer. Immediate meta impact.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Miya",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 1,
+      "wr": 49.8,
+      "pr": 8.5,
+      "br": 1,
+      "sp": "Hyper Carry",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Helcurt"
+      ],
+      "s": [
+        "Slow tanks"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Haas's Claws",
+        "Golden Staff",
+        "Malefic Roar"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Classic late-game carry. Farm and melt everything.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Layla",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 1,
+      "wr": 49.5,
+      "pr": 9.2,
+      "br": 0,
+      "sp": "Longest Range",
+      "c": [
+        "Any assassin",
+        "Saber"
+      ],
+      "s": [
+        "Tanks w/o gap close"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Haas's Claws",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Stay BEHIND team. Zero escape. Range is only defense.",
+      "sy": [
+        "Tigreal",
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Eudora",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 1,
+      "wr": 50.5,
+      "pr": 6.8,
+      "br": 1,
+      "sp": "One-Combo Delete",
+      "c": [
+        "Athena's Shield",
+        "Magic resist"
+      ],
+      "s": [
+        "Squishy heroes",
+        "Layla"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Genius Wand",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Revamped 2.1.61 Superconductor. Rising pick. Great for beginners.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Hanabi",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 1,
+      "wr": 49.6,
+      "pr": 4.5,
+      "br": 0,
+      "sp": "Bounce AA + CC Immune",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Burst"
+      ],
+      "s": [
+        "Grouped teams"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Haas's Claws",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Bouncing AAs hit grouped enemies. CC immune shield passive.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Paquito",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 49.8,
+      "pr": 4.5,
+      "br": 1,
+      "sp": "Boxing Combo",
+      "c": [
+        "Phoveus",
+        "Khufra",
+        "Kite"
+      ],
+      "s": [
+        "Melee fighters"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Chain skills into enhanced versions for burst.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Alpha",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 50.2,
+      "pr": 4.3,
+      "br": 1,
+      "sp": "Sustain True DMG",
+      "c": [
+        "Anti-heal",
+        "Esmeralda"
+      ],
+      "s": [
+        "Squishy teams"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Retribution",
+        "Execute"
+      ],
+      "tip": "Sustain + true damage ult. More forgiving than flashy junglers.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Balmond",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "Jungle",
+      "d": 1,
+      "wr": 50.2,
+      "pr": 5.1,
+      "br": 0,
+      "sp": "Spin Execute",
+      "c": [
+        "Kite heroes",
+        "Karrie"
+      ],
+      "s": [
+        "Low HP targets"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Retribution",
+        "Execute"
+      ],
+      "tip": "Best beginner jungler. Spin, ult execute.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Alice",
+      "r": "Mage",
+      "r2": "Tank",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50.1,
+      "pr": 4.2,
+      "br": 1,
+      "sp": "Blood Drain Diver",
+      "c": [
+        "Anti-heal",
+        "Baxia",
+        "Burst"
+      ],
+      "s": [
+        "Prolonged fights"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Enchanted Talisman",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Immortality"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Stack blood orbs for permanent HP. Dive and drain.",
+      "sy": [
+        "Tigreal",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Sun",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 1,
+      "wr": 50.3,
+      "pr": 4.8,
+      "br": 1,
+      "sp": "Clone Split Push",
+      "c": [
+        "AoE damage",
+        "Esmeralda"
+      ],
+      "s": [
+        "Towers",
+        "Single target"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Corrosion Scythe",
+        "Demon Hunter Sword",
+        "Golden Staff",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Arrival",
+        "Execute"
+      ],
+      "tip": "Clones melt towers. Split push specialist.",
+      "sy": [
+        "Chip",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Masha",
+      "r": "Fighter",
+      "r2": "Tank",
+      "t": "B",
+      "l": "EXP",
+      "d": 1,
+      "wr": 50,
+      "pr": 3.8,
+      "br": 0,
+      "sp": "3 HP Bar Push",
+      "c": [
+        "Burst damage",
+        "Saber"
+      ],
+      "s": [
+        "Towers",
+        "Slow fighters"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Corrosion Scythe",
+        "Demon Hunter Sword",
+        "Wind of Nature",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Arrival",
+        "Retribution"
+      ],
+      "tip": "3 HP bars = deceptively tanky. Insane tower push.",
+      "sy": [
+        "Chip",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Argus",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 1,
+      "wr": 49.7,
+      "pr": 3.5,
+      "br": 0,
+      "sp": "Immortal Ult DPS",
+      "c": [
+        "Kite heroes",
+        "CC chains"
+      ],
+      "s": [
+        "All-in fights"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Berserker's Fury",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Ult = full immortality for seconds. Time it perfectly.",
+      "sy": [
+        "Angela",
+        "Estes"
+      ]
+    },
+    {
+      "n": "Terizla",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 1,
+      "wr": 49.9,
+      "pr": 4.1,
+      "br": 1,
+      "sp": "Damage Reduction",
+      "c": [
+        "Ranged poke",
+        "Kite"
+      ],
+      "s": [
+        "Melee fighters"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Nearly impossible to dive under tower. Safe laner.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "X.Borg",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 49.8,
+      "pr": 3.9,
+      "br": 0,
+      "sp": "Fire Spray Area",
+      "c": [
+        "Ranged poke",
+        "Karrie"
+      ],
+      "s": [
+        "Melee fighters"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Immortality",
+        "Dominance Ice"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Spray fire for area damage. Ult pulls and explodes.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Jawhead",
+      "r": "Fighter",
+      "r2": "Tank",
+      "t": "B",
+      "l": "Roam",
+      "d": 2,
+      "wr": 50,
+      "pr": 4,
+      "br": 1,
+      "sp": "Throw Mechanic",
+      "c": [
+        "Grouped teams",
+        "Heavy CC"
+      ],
+      "s": [
+        "Isolated targets"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Immortality",
+        "Radiant Armor"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Throw enemies into team or behind turrets.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Natan",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 2,
+      "wr": 50,
+      "pr": 3.7,
+      "br": 1,
+      "sp": "Magic MM",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Dive"
+      ],
+      "s": [
+        "Slow teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Concentrated Energy",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Magic damage marksman. Reverse clone doubles DPS.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Chang'e",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 1,
+      "wr": 50.1,
+      "pr": 4,
+      "br": 0,
+      "sp": "Long Beam Poke",
+      "c": [
+        "Lancelot",
+        "Ling",
+        "Gap closers"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Long-range beam ult. Shield absorbs damage. Stay max range.",
+      "sy": [
+        "Tigreal",
+        "Khufra"
+      ]
+    },
+    {
+      "n": "Luo Yi",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50,
+      "pr": 3.5,
+      "br": 0,
+      "sp": "Yin-Yang CC Teleport",
+      "c": [
+        "Purify",
+        "Dive assassins"
+      ],
+      "s": [
+        "Grouped enemies"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Matching marks stun. Ult teleports entire team.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Rafaela",
+      "r": "Support",
+      "r2": "",
+      "t": "B",
+      "l": "Roam",
+      "d": 1,
+      "wr": 50.2,
+      "pr": 3.8,
+      "br": 0,
+      "sp": "Speed + Heal + Stun",
+      "c": [
+        "Anti-heal",
+        "Burst"
+      ],
+      "s": [
+        "Engage comps"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Necklace of Durance",
+        "Dominance Ice",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Underrated. Speed boost for rotations. Ult stuns in line.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Floryn",
+      "r": "Support",
+      "r2": "",
+      "t": "B",
+      "l": "Roam",
+      "d": 1,
+      "wr": 50.1,
+      "pr": 3.5,
+      "br": 0,
+      "sp": "Global Heal + Item Share",
+      "c": [
+        "Burst",
+        "Anti-heal"
+      ],
+      "s": [
+        "Sustain fights"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Necklace of Durance",
+        "Dominance Ice",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Only global heal ult support. Shares lantern item with ally.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Akai",
+      "r": "Tank",
+      "r2": "",
+      "t": "B",
+      "l": "Roam",
+      "d": 1,
+      "wr": 49.8,
+      "pr": 3.9,
+      "br": 1,
+      "sp": "Pinball Ult Push",
+      "c": [
+        "Purify",
+        "Diggie",
+        "Valir"
+      ],
+      "s": [
+        "Wall-pinnable targets"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Ult pins enemies vs walls. Use near terrain.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Zilong",
+      "r": "Fighter",
+      "r2": "Assassin",
+      "t": "C",
+      "l": "EXP",
+      "d": 1,
+      "wr": 49.2,
+      "pr": 5.5,
+      "br": 0,
+      "sp": "Chase & Flip",
+      "c": [
+        "CC",
+        "Khufra",
+        "Chou"
+      ],
+      "s": [
+        "Miya",
+        "Layla",
+        "Isolated"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Arrival",
+        "Execute"
+      ],
+      "tip": "Split push king. Ult = immune to slows + massive speed.",
+      "sy": [
+        "Chip",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Alucard",
+      "r": "Fighter",
+      "r2": "Assassin",
+      "t": "C",
+      "l": "Jungle",
+      "d": 1,
+      "wr": 49,
+      "pr": 5.8,
+      "br": 0,
+      "sp": "Lifesteal King",
+      "c": [
+        "Anti-heal",
+        "Esmeralda",
+        "Baxia"
+      ],
+      "s": [
+        "Low CC teams"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution",
+        "Execute"
+      ],
+      "tip": "Countered by anti-heal. Best in lower ranks.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Aldous",
+      "r": "Fighter",
+      "r2": "",
+      "t": "C",
+      "l": "EXP",
+      "d": 1,
+      "wr": 48.8,
+      "pr": 4.2,
+      "br": 0,
+      "sp": "Infinite Stack Global",
+      "c": [
+        "Wind of Nature",
+        "Early aggression"
+      ],
+      "s": [
+        "Late squishies"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Arrival",
+        "Execute"
+      ],
+      "tip": "Infinite stacking punch. Global ult. Weak early, scary late.",
+      "sy": [
+        "Chip",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Martis",
+      "r": "Fighter",
+      "r2": "",
+      "t": "C",
+      "l": "EXP",
+      "d": 2,
+      "wr": 49.4,
+      "pr": 5.1,
+      "br": 38,
+      "sp": "CC Chain Execute",
+      "c": [
+        "Ranged poke",
+        "Valir",
+        "Karrie"
+      ],
+      "s": [
+        "Melee fighters",
+        "Zilong"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Was #1 ban Feb. Fallen but CC chain still devastating.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Roger",
+      "r": "Fighter",
+      "r2": "Marksman",
+      "t": "C",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 49.3,
+      "pr": 3.8,
+      "br": 0,
+      "sp": "Ranged↔Melee Transform",
+      "c": [
+        "CC",
+        "Burst",
+        "Khufra"
+      ],
+      "s": [
+        "Low HP targets"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Human ranged → Wolf melee transform. Execute with wolf.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Silvanna",
+      "r": "Fighter",
+      "r2": "Mage",
+      "t": "C",
+      "l": "EXP",
+      "d": 1,
+      "wr": 49.1,
+      "pr": 3.2,
+      "br": 0,
+      "sp": "Imperial Prison",
+      "c": [
+        "Purify",
+        "Dash heroes"
+      ],
+      "s": [
+        "Immobile heroes"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Concentrated Energy",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Immortality",
+        "Genius Wand"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Ult traps enemies in prison zone.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Bane",
+      "r": "Fighter",
+      "r2": "Mage",
+      "t": "C",
+      "l": "EXP",
+      "d": 1,
+      "wr": 49,
+      "pr": 3,
+      "br": 0,
+      "sp": "Shark Push",
+      "c": [
+        "Burst",
+        "Gap closers"
+      ],
+      "s": [
+        "Towers",
+        "Poke lanes"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Arrival",
+        "Execute"
+      ],
+      "tip": "Shark ult damages towers. Good for split push.",
+      "sy": [
+        "Chip",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Yin",
+      "r": "Fighter",
+      "r2": "",
+      "t": "C",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 49.2,
+      "pr": 3.4,
+      "br": 0,
+      "sp": "1v1 Dimension",
+      "c": [
+        "Wind of Nature",
+        "Escape heroes"
+      ],
+      "s": [
+        "Isolated squishies"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Drags enemy into 1v1 arena. Useless if they have escape.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Dyrroth",
+      "r": "Fighter",
+      "r2": "",
+      "t": "C",
+      "l": "EXP",
+      "d": 1,
+      "wr": 49,
+      "pr": 3.3,
+      "br": 0,
+      "sp": "Armor Shred",
+      "c": [
+        "Kite heroes",
+        "Ranged poke"
+      ],
+      "s": [
+        "Low armor targets"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Shreds armor for physical damage teams.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Minsitthar",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50.2,
+      "pr": 4,
+      "br": 1,
+      "sp": "Anti-Dash Ult Zone",
+      "c": [
+        "Ranged poke",
+        "Kite heroes"
+      ],
+      "s": [
+        "Dash-heavy comps"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Ult zone prevents ALL dashes inside. Rising counter-pick.",
+      "sy": [
+        "Tigreal",
+        "Phoveus"
+      ]
+    },
+    {
+      "n": "Novaria",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.3,
+      "pr": 3.6,
+      "br": 0,
+      "sp": "Star Burst Poke",
+      "c": [
+        "Dive assassins",
+        "Saber"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed in 2.1.61. Improved damage + CD.",
+      "sy": [
+        "Tigreal",
+        "Khufra"
+      ]
+    },
+    {
+      "n": "Gord",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 1,
+      "wr": 50.1,
+      "pr": 3.4,
+      "br": 0,
+      "sp": "Laser Beam",
+      "c": [
+        "Dive assassins",
+        "Saber"
+      ],
+      "s": [
+        "Immobile grouped"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed 2.1.61. Long-range laser ult shreds grouped enemies.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Vale",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.2,
+      "pr": 3.5,
+      "br": 0,
+      "sp": "Wind CC/Burst Choice",
+      "c": [
+        "Dive assassins",
+        "Saber"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed 2.1.61. Choose CC or burst on each skill upgrade.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Nana",
+      "r": "Mage",
+      "r2": "Support",
+      "t": "B",
+      "l": "Mid",
+      "d": 1,
+      "wr": 50.4,
+      "pr": 3.8,
+      "br": 0,
+      "sp": "Molina Transform",
+      "c": [
+        "Dive assassins",
+        "Lancelot"
+      ],
+      "s": [
+        "Grouped enemies"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed 2.1.61. Molina transforms enemies. Zone control queen.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Karina",
+      "r": "Assassin",
+      "r2": "",
+      "t": "B",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 50.4,
+      "pr": 4.5,
+      "br": 1,
+      "sp": "Execute Resets",
+      "c": [
+        "CC chains",
+        "Grouped teams"
+      ],
+      "s": [
+        "Isolated squishies"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Concentrated Energy",
+        "Winter Truncheon"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Beginner-friendly jungler. Ult resets on kills. Build magic.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Harley",
+      "r": "Mage",
+      "r2": "Assassin",
+      "t": "B",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 50.2,
+      "pr": 3.8,
+      "br": 1,
+      "sp": "Burst Teleport",
+      "c": [
+        "Khufra",
+        "Chou",
+        "Heavy CC"
+      ],
+      "s": [
+        "Squishy mages",
+        "Layla"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Teleport in, burst combo, teleport back out. Very safe mage jungler.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Zhask",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 2,
+      "wr": 50.1,
+      "pr": 3.2,
+      "br": 0,
+      "sp": "Spawn Turret",
+      "c": [
+        "Dive assassins",
+        "Lancelot"
+      ],
+      "s": [
+        "Immobile teams",
+        "Siege"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Spawn turret for zone control. Ult = mega turret mode.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Popol and Kupa",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 2,
+      "wr": 49.9,
+      "pr": 3.1,
+      "br": 0,
+      "sp": "Pet + Traps",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Dive"
+      ],
+      "s": [
+        "Zone control",
+        "Pushing"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Haas's Claws",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Inspire"
+      ],
+      "tip": "Set traps for vision+CC. Kupa (wolf) provides extra DPS.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Lesley",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 2,
+      "wr": 49.7,
+      "pr": 4.8,
+      "br": 0,
+      "sp": "Sniper Crit",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Gap closers"
+      ],
+      "s": [
+        "Immobile targets",
+        "Late game"
+      ],
+      "b": [
+        "Swift Boots",
+        "Berserker's Fury",
+        "Windtalker",
+        "Endless Battle",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Long-range AA from stealth. Crit-based sniper. Weak vs dive.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Moskov",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 2,
+      "wr": 49.8,
+      "pr": 3.4,
+      "br": 0,
+      "sp": "Penetrating AA",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Burst"
+      ],
+      "s": [
+        "Grouped enemies",
+        "Late"
+      ],
+      "b": [
+        "Swift Boots",
+        "Corrosion Scythe",
+        "Demon Hunter Sword",
+        "Golden Staff",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Inspire",
+        "Purify"
+      ],
+      "tip": "AAs penetrate through enemies. Stun enemies against walls.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Aamon",
+      "r": "Assassin",
+      "r2": "",
+      "t": "B",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 50,
+      "pr": 4,
+      "br": 2,
+      "sp": "Stealth Burst Mage",
+      "c": [
+        "Detection",
+        "AOE",
+        "Khufra"
+      ],
+      "s": [
+        "Squishy carries",
+        "Isolated"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Genius Wand",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Concentrated Energy",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Nerfed 2.1.61 ult shard damage. Still viable. Invisible burst mage assassin.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Benedetta",
+      "r": "Assassin",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 3,
+      "wr": 49.8,
+      "pr": 3.5,
+      "br": 1,
+      "sp": "Dash Immune Fighter",
+      "c": [
+        "CC chains",
+        "Phoveus"
+      ],
+      "s": [
+        "Squishy targets"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Charge dash gives brief immunity. High skill ceiling EXP laner.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Ixia",
+      "r": "Marksman",
+      "r2": "",
+      "t": "B",
+      "l": "Gold",
+      "d": 2,
+      "wr": 49.5,
+      "pr": 4.2,
+      "br": 3,
+      "sp": "Long Range Poke MM",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Dive"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Swift Boots",
+        "Windtalker",
+        "Berserker's Fury",
+        "Haas's Claws",
+        "Malefic Roar",
+        "Blade of Despair"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Biggest nerf this patch: S1+regen cut. Was S-tier, now B.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Odette",
+      "r": "Mage",
+      "r2": "",
+      "t": "B",
+      "l": "Mid",
+      "d": 1,
+      "wr": 50,
+      "pr": 3.3,
+      "br": 0,
+      "sp": "Channeling AoE Ult",
+      "c": [
+        "CC interrupts",
+        "Saber"
+      ],
+      "s": [
+        "Grouped immobile"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Buffed 2.1.61. Channeling ult deals massive AoE. Pair with Johnson.",
+      "sy": [
+        "Johnson",
+        "Tigreal"
+      ]
+    },
+    {
+      "n": "Aurora",
+      "r": "Mage",
+      "r2": "",
+      "t": "C",
+      "l": "Mid",
+      "d": 1,
+      "wr": 49.3,
+      "pr": 2.8,
+      "br": 0,
+      "sp": "Freeze Burst",
+      "c": [
+        "Athena's Shield",
+        "Dive"
+      ],
+      "s": [
+        "Squishy clumped"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed 2.1.61. Stack passive → freeze + burst combo.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Cyclops",
+      "r": "Mage",
+      "r2": "",
+      "t": "C",
+      "l": "Mid",
+      "d": 1,
+      "wr": 49.2,
+      "pr": 2.5,
+      "br": 0,
+      "sp": "Rapid Fire Mage",
+      "c": [
+        "Dive assassins",
+        "Saber"
+      ],
+      "s": [
+        "Immobile targets"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Buffed 2.1.61. Fast skill spam. Ult locks onto target.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Kadita",
+      "r": "Mage",
+      "r2": "",
+      "t": "C",
+      "l": "Mid",
+      "d": 2,
+      "wr": 49.1,
+      "pr": 2.3,
+      "br": 0,
+      "sp": "Ocean Burst Immune",
+      "c": [
+        "Poke",
+        "Long range"
+      ],
+      "s": [
+        "Dive comps"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed 2.1.61. Brief immunity during skills. Ocean burst combo.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Vexana",
+      "r": "Mage",
+      "r2": "",
+      "t": "C",
+      "l": "Mid",
+      "d": 1,
+      "wr": 49,
+      "pr": 2.1,
+      "br": 0,
+      "sp": "Summon + Burst",
+      "c": [
+        "Dive assassins"
+      ],
+      "s": [
+        "Immobile teams"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Buffed 2.1.61. Kill enemy → summon their clone to fight for you.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Hanzo",
+      "r": "Assassin",
+      "r2": "",
+      "t": "C",
+      "l": "Jungle",
+      "d": 2,
+      "wr": 48.8,
+      "pr": 2.5,
+      "br": 0,
+      "sp": "Soul Projection",
+      "c": [
+        "Body hunters",
+        "Grouped"
+      ],
+      "s": [
+        "Isolated squishies"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Retribution"
+      ],
+      "tip": "Buffed recently. Soul leaves body to assassinate. Protect your body.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Minotaur",
+      "r": "Tank",
+      "r2": "",
+      "t": "C",
+      "l": "Roam",
+      "d": 1,
+      "wr": 49,
+      "pr": 2.8,
+      "br": 0,
+      "sp": "Rage Heal + CC",
+      "c": [
+        "Karrie",
+        "Esmeralda"
+      ],
+      "s": [
+        "Physical teams"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Heal in normal mode. Rage mode = massive AoE CC.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Grock",
+      "r": "Tank",
+      "r2": "",
+      "t": "C",
+      "l": "Roam",
+      "d": 2,
+      "wr": 48.5,
+      "pr": 2.2,
+      "br": 0,
+      "sp": "Wall Builder",
+      "c": [
+        "Karrie",
+        "Magic damage"
+      ],
+      "s": [
+        "Physical teams"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Build walls to block paths. Strong early but falls off late.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Carmilla",
+      "r": "Support",
+      "r2": "",
+      "t": "C",
+      "l": "Roam",
+      "d": 2,
+      "wr": 49,
+      "pr": 2,
+      "br": 0,
+      "sp": "Chain Link CC",
+      "c": [
+        "Burst",
+        "Saber"
+      ],
+      "s": [
+        "Grouped enemies"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Dominance Ice",
+        "Necklace of Durance",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "Improved 2.1.61. Ult chains enemies — damage shared between linked targets.",
+      "sy": [
+        "Tigreal",
+        "Atlas"
+      ]
+    },
+    {
+      "n": "Faramis",
+      "r": "Support",
+      "r2": "Mage",
+      "t": "C",
+      "l": "Roam",
+      "d": 2,
+      "wr": 49.1,
+      "pr": 2.2,
+      "br": 0,
+      "sp": "Resurrect Zone",
+      "c": [
+        "Burst",
+        "Anti-heal"
+      ],
+      "s": [
+        "Teamfight comps"
+      ],
+      "b": [
+        "Arcane Boots",
+        "Fleeting Time",
+        "Clock of Destiny",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Immortality"
+      ],
+      "e": "Mage",
+      "sp2": [
+        "Flicker",
+        "Flameshot"
+      ],
+      "tip": "Ult = resurrection zone. Allies who die inside revive instantly.",
+      "sy": [
+        "Any teamfight comp"
+      ]
+    },
+    {
+      "n": "Clint",
+      "r": "Marksman",
+      "r2": "",
+      "t": "A",
+      "l": "Gold",
+      "d": 2,
+      "wr": 50.8,
+      "pr": 4.8,
+      "br": 1,
+      "sp": "Enhanced AA Burst",
+      "c": [
+        "Saber",
+        "Lancelot",
+        "Gap closers"
+      ],
+      "s": [
+        "Tanks",
+        "Poke lanes"
+      ],
+      "b": [
+        "Swift Boots",
+        "Endless Battle",
+        "Berserker's Fury",
+        "Blade of Despair",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Marksman",
+      "sp2": [
+        "Flicker",
+        "Purify"
+      ],
+      "tip": "Each skill enhances next AA. Weave skills between autos.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Lukas",
+      "r": "Fighter",
+      "r2": "",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 49.7,
+      "pr": 3.5,
+      "br": 1,
+      "sp": "Naruto Collab Fighter",
+      "c": [
+        "Phoveus",
+        "Khufra",
+        "CC"
+      ],
+      "s": [
+        "Squishy targets"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Endless Battle",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Buffed in recent patch. Naruto collab hero. Dash combo fighter.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Suyou",
+      "r": "Fighter",
+      "r2": "Assassin",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 49.8,
+      "pr": 3.2,
+      "br": 1,
+      "sp": "Sasuke Collab",
+      "c": [
+        "Phoveus",
+        "Khufra"
+      ],
+      "s": [
+        "Squishy targets"
+      ],
+      "b": [
+        "Warrior Boots",
+        "Blade of Despair",
+        "Endless Battle",
+        "Hunter Strike",
+        "Malefic Roar",
+        "Immortality"
+      ],
+      "e": "Assassin",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Buffed recently. Sasuke collab. Quick burst combo.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Phylax",
+      "r": "Tank",
+      "r2": "Marksman",
+      "t": "B",
+      "l": "Roam",
+      "d": 2,
+      "wr": 49.5,
+      "pr": 2.8,
+      "br": 0,
+      "sp": "Transform Tank→MM",
+      "c": [
+        "Karrie",
+        "Esmeralda"
+      ],
+      "s": [
+        "Squishy teams"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Tank form → ranged form transformation. Similar to Edith.",
+      "sy": [
+        "Any team"
+      ]
+    },
+    {
+      "n": "Barats",
+      "r": "Tank",
+      "r2": "Fighter",
+      "t": "B",
+      "l": "EXP",
+      "d": 2,
+      "wr": 50,
+      "pr": 3,
+      "br": 1,
+      "sp": "Grow + Devour",
+      "c": [
+        "Karrie",
+        "Esmeralda",
+        "Kite"
+      ],
+      "s": [
+        "Melee fighters"
+      ],
+      "b": [
+        "Tough Boots",
+        "Dominance Ice",
+        "Antique Cuirass",
+        "Athena's Shield",
+        "Radiant Armor",
+        "Immortality"
+      ],
+      "e": "Tank",
+      "sp2": [
+        "Flicker",
+        "Vengeance"
+      ],
+      "tip": "Grow by stacking passive. Ult devours enemy hero.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Kaja",
+      "r": "Support",
+      "r2": "Mage",
+      "t": "A",
+      "l": "Roam",
+      "d": 2,
+      "wr": 51,
+      "pr": 4.5,
+      "br": 5,
+      "sp": "Suppress Grab",
+      "c": [
+        "Purify",
+        "Diggie"
+      ],
+      "s": [
+        "Isolated carries"
+      ],
+      "b": [
+        "Tough Boots",
+        "Fleeting Time",
+        "Dominance Ice",
+        "Necklace of Durance",
+        "Athena's Shield",
+        "Immortality"
+      ],
+      "e": "Support",
+      "sp2": [
+        "Flicker",
+        "Heal"
+      ],
+      "tip": "S+ ban priority. Suppress ult GRABS enemy and drags them. Guaranteed pick.",
+      "sy": [
+        "Any burst carry"
+      ]
+    },
+    {
+      "n": "Aulus",
+      "r": "Fighter",
+      "r2": "",
+      "t": "C",
+      "l": "EXP",
+      "d": 1,
+      "wr": 48.9,
+      "pr": 3,
+      "br": 0,
+      "sp": "Stacking Axe",
+      "c": [
+        "Kite heroes",
+        "Burst"
+      ],
+      "s": [
+        "Extended fights"
+      ],
+      "b": [
+        "Warrior Boots",
+        "War Axe",
+        "Blade of Despair",
+        "Oracle",
+        "Dominance Ice",
+        "Immortality"
+      ],
+      "e": "Fighter",
+      "sp2": [
+        "Flicker",
+        "Execute"
+      ],
+      "tip": "Passive stacks axe power on AAs. Slow start but devastating late game.",
+      "sy": [
+        "Tigreal",
+        "Angela"
+      ]
+    },
+    {
+      "n": "Cecilion",
+      "r": "Fighter",
+      "r2": "",
+      "t": "?",
+      "l": "—",
+      "d": 1,
+      "wr": 0,
+      "pr": 0,
+      "br": 0,
+      "sp": "Newly released — data pending",
+      "c": [],
+      "s": [],
+      "b": [],
+      "e": "—",
+      "sp2": [],
+      "tip": "Stats and build pending next data update.",
+      "sy": [],
+      "pending": true
+    },
+    {
+      "n": "Hirara",
+      "r": "Fighter",
+      "r2": "",
+      "t": "?",
+      "l": "—",
+      "d": 1,
+      "wr": 0,
+      "pr": 0,
+      "br": 0,
+      "sp": "Newly released — data pending",
+      "c": [],
+      "s": [],
+      "b": [],
+      "e": "—",
+      "sp2": [],
+      "tip": "Stats and build pending next data update.",
+      "sy": [],
+      "pending": true
+    },
+    {
+      "n": "Irithel",
+      "r": "Fighter",
+      "r2": "",
+      "t": "?",
+      "l": "—",
+      "d": 1,
+      "wr": 0,
+      "pr": 0,
+      "br": 0,
+      "sp": "Newly released — data pending",
+      "c": [],
+      "s": [],
+      "b": [],
+      "e": "—",
+      "sp2": [],
+      "tip": "Stats and build pending next data update.",
+      "sy": [],
+      "pending": true
+    },
+    {
+      "n": "Valir",
+      "r": "Fighter",
+      "r2": "",
+      "t": "?",
+      "l": "—",
+      "d": 1,
+      "wr": 0,
+      "pr": 0,
+      "br": 0,
+      "sp": "Newly released — data pending",
+      "c": [],
+      "s": [],
+      "b": [],
+      "e": "—",
+      "sp2": [],
+      "tip": "Stats and build pending next data update.",
+      "sy": [],
+      "pending": true
+    },
+    {
+      "n": "Zetian",
+      "r": "Fighter",
+      "r2": "",
+      "t": "?",
+      "l": "—",
+      "d": 1,
+      "wr": 0,
+      "pr": 0,
+      "br": 0,
+      "sp": "Newly released — data pending",
+      "c": [],
+      "s": [],
+      "b": [],
+      "e": "—",
+      "sp2": [],
+      "tip": "Stats and build pending next data update.",
+      "sy": [],
+      "pending": true
+    }
+  ],
+  "items": {
+    "Attack": [
+      {
+        "n": "Blade of Despair",
+        "st": "+160 ATK, +5% MS",
+        "pa": "+25% ATK vs <50% HP",
+        "g": 3010,
+        "i": "⚔️",
+        "tg": [
+          "burst"
+        ]
+      },
+      {
+        "n": "Endless Battle",
+        "st": "+65 ATK, +250 HP, +10% CDR, +10% LS",
+        "pa": "After skill→next AA 60% True DMG",
+        "g": 2470,
+        "i": "🗡️",
+        "tg": [
+          "sustain"
+        ]
+      },
+      {
+        "n": "Hunter Strike",
+        "st": "+80 ATK, +10% CDR",
+        "pa": "5 hits→+50% MS 3s",
+        "g": 2010,
+        "i": "🏹",
+        "tg": [
+          "mobility"
+        ]
+      },
+      {
+        "n": "War Axe",
+        "st": "+35 ATK, +550 HP, +10% CDR",
+        "pa": "Stacking ATK+PEN 8x",
+        "g": 2100,
+        "i": "🪓",
+        "tg": [
+          "sustain"
+        ]
+      },
+      {
+        "n": "Malefic Roar",
+        "st": "+60 ATK, +35% PEN",
+        "pa": "Extra PEN vs turrets",
+        "g": 2060,
+        "i": "💥",
+        "tg": [
+          "pen"
+        ]
+      },
+      {
+        "n": "Sea Halberd",
+        "st": "+80 ATK, +25% AS",
+        "pa": "AA reduces healing 50%",
+        "g": 2050,
+        "i": "🔱",
+        "tg": [
+          "anti-heal"
+        ]
+      },
+      {
+        "n": "Bloodlust Axe",
+        "st": "+70 ATK, +10% CDR",
+        "pa": "+20% Spell Vamp",
+        "g": 1960,
+        "i": "🩸",
+        "tg": [
+          "sustain"
+        ]
+      }
+    ],
+    "Magic": [
+      {
+        "n": "Holy Crystal",
+        "st": "+100 MP",
+        "pa": "+21-35% MP scaling",
+        "g": 2180,
+        "i": "💎",
+        "tg": [
+          "burst"
+        ]
+      },
+      {
+        "n": "Lightning Truncheon",
+        "st": "+75 MP, +10% CDR",
+        "pa": "Skill bounces lightning 3x",
+        "g": 2250,
+        "i": "⚡",
+        "tg": [
+          "burst"
+        ]
+      },
+      {
+        "n": "Divine Glaive",
+        "st": "+65 MP, +35% MPEN",
+        "pa": "Extra PEN vs high MDEF",
+        "g": 1970,
+        "i": "✨",
+        "tg": [
+          "pen"
+        ]
+      },
+      {
+        "n": "Clock of Destiny",
+        "st": "+60 MP, +615 HP",
+        "pa": "Stacking HP+MP 12x",
+        "g": 1950,
+        "i": "⏰",
+        "tg": [
+          "scaling"
+        ]
+      },
+      {
+        "n": "Genius Wand",
+        "st": "+75 MP, +5% MS",
+        "pa": "-9 enemy MDEF per hit 3x",
+        "g": 2000,
+        "i": "🪄",
+        "tg": [
+          "pen"
+        ]
+      },
+      {
+        "n": "Necklace of Durance",
+        "st": "+60 MP, +10% MPEN",
+        "pa": "Skills reduce healing 50%",
+        "g": 1870,
+        "i": "📿",
+        "tg": [
+          "anti-heal"
+        ]
+      },
+      {
+        "n": "Fleeting Time",
+        "st": "+70 MP, +15% CDR",
+        "pa": "Kill/assist→ult CD -30%",
+        "g": 2050,
+        "i": "⌛",
+        "tg": [
+          "support"
+        ]
+      }
+    ],
+    "Defense": [
+      {
+        "n": "Antique Cuirass",
+        "st": "+920 HP, +54 PDEF",
+        "pa": "Enemy ATK -10% on hit 3x",
+        "g": 2170,
+        "i": "🛡️",
+        "tg": [
+          "phys"
+        ]
+      },
+      {
+        "n": "Athena's Shield",
+        "st": "+900 HP, +62 MDEF",
+        "pa": "Magic shield every 12s",
+        "g": 2150,
+        "i": "🏛️",
+        "tg": [
+          "magic"
+        ]
+      },
+      {
+        "n": "Dominance Ice",
+        "st": "+70 PDEF, +10% CDR",
+        "pa": "Nearby enemy Heal-50% AS-30%",
+        "g": 2010,
+        "i": "🧊",
+        "tg": [
+          "anti-heal"
+        ]
+      },
+      {
+        "n": "Immortality",
+        "st": "+800 HP, +40 PDEF",
+        "pa": "Resurrect 16% HP. 210s CD",
+        "g": 2120,
+        "i": "✨",
+        "tg": [
+          "revive"
+        ]
+      },
+      {
+        "n": "Radiant Armor",
+        "st": "+950 HP, +52 MDEF",
+        "pa": "Stacking magic DMG reduction",
+        "g": 1880,
+        "i": "🌟",
+        "tg": [
+          "magic"
+        ]
+      },
+      {
+        "n": "Oracle",
+        "st": "+850 HP, +42 MDEF, +10% CDR",
+        "pa": "Shield/Regen/LS +30%",
+        "g": 2060,
+        "i": "🔮",
+        "tg": [
+          "sustain"
+        ]
+      },
+      {
+        "n": "Wind of Nature",
+        "st": "+30 ATK, +20% AS",
+        "pa": "Active: 2s phys immunity",
+        "g": 1910,
+        "i": "🌿",
+        "tg": [
+          "active"
+        ]
+      }
+    ],
+    "Speed": [
+      {
+        "n": "Windtalker",
+        "st": "+40% AS, +20% Crit",
+        "pa": "Chain-bounce magic DMG",
+        "g": 1870,
+        "i": "🌀",
+        "tg": [
+          "crit"
+        ]
+      },
+      {
+        "n": "Berserker's Fury",
+        "st": "+65 ATK, +25% Crit",
+        "pa": "+40% Crit DMG",
+        "g": 2350,
+        "i": "😤",
+        "tg": [
+          "crit"
+        ]
+      },
+      {
+        "n": "Golden Staff",
+        "st": "+65 ATK, +30% AS",
+        "pa": "Converts Crit→AS",
+        "g": 2100,
+        "i": "🥢",
+        "tg": [
+          "on-hit"
+        ]
+      },
+      {
+        "n": "Demon Hunter Sword",
+        "st": "+35 ATK, +25% AS",
+        "pa": "AA 9% enemy current HP",
+        "g": 2180,
+        "i": "👹",
+        "tg": [
+          "tank-kill"
+        ]
+      },
+      {
+        "n": "Corrosion Scythe",
+        "st": "+35 ATK, +25% AS",
+        "pa": "AA slow 8% 5x",
+        "g": 1750,
+        "i": "🌙",
+        "tg": [
+          "slow"
+        ]
+      },
+      {
+        "n": "Haas's Claws",
+        "st": "+70 ATK, +20% Crit",
+        "pa": "+20% LS. <50% HP +15%",
+        "g": 1810,
+        "i": "🦇",
+        "tg": [
+          "sustain"
+        ]
+      }
+    ],
+    "Boots": [
+      {
+        "n": "Warrior Boots",
+        "st": "+22 PDEF, +40 MS",
+        "pa": "+5 PDEF per AA 3x",
+        "g": 720,
+        "i": "🥾",
+        "tg": [
+          "phys"
+        ]
+      },
+      {
+        "n": "Tough Boots",
+        "st": "+22 MDEF, +40 MS",
+        "pa": "+22% CC Reduction",
+        "g": 710,
+        "i": "👢",
+        "tg": [
+          "cc"
+        ]
+      },
+      {
+        "n": "Swift Boots",
+        "st": "+15% AS, +40 MS",
+        "pa": "Attack speed",
+        "g": 710,
+        "i": "👟",
+        "tg": [
+          "speed"
+        ]
+      },
+      {
+        "n": "Arcane Boots",
+        "st": "+10 MPEN, +40 MS",
+        "pa": "Flat magic pen",
+        "g": 690,
+        "i": "🧙",
+        "tg": [
+          "mpen"
+        ]
+      }
+    ]
+  },
+  "spells": [
+    {
+      "n": "Flicker",
+      "cd": 120,
+      "d": "Teleport short distance",
+      "b": "Tanks, Fighters, Mages",
+      "i": "⚡"
+    },
+    {
+      "n": "Retribution",
+      "cd": 35,
+      "d": "Smite camps. Mandatory jungle",
+      "b": "All junglers",
+      "i": "🔥"
+    },
+    {
+      "n": "Execute",
+      "cd": 90,
+      "d": "True damage to low HP",
+      "b": "Assassins, fighters",
+      "i": "💀"
+    },
+    {
+      "n": "Flameshot",
+      "cd": 50,
+      "d": "Long-range knockback",
+      "b": "Mages, Layla",
+      "i": "🔫"
+    },
+    {
+      "n": "Purify",
+      "cd": 90,
+      "d": "Remove CC + 1.2s immune",
+      "b": "MM vs CC, Esmeralda",
+      "i": "✨"
+    },
+    {
+      "n": "Inspire",
+      "cd": 75,
+      "d": "Massive AS boost 5s",
+      "b": "AA marksmen",
+      "i": "⚔️"
+    },
+    {
+      "n": "Vengeance",
+      "cd": 75,
+      "d": "Reflect damage 3s",
+      "b": "Tanks",
+      "i": "🛡️"
+    },
+    {
+      "n": "Heal",
+      "cd": 90,
+      "d": "Heal self + allies",
+      "b": "Supports",
+      "i": "💚"
+    },
+    {
+      "n": "Arrival",
+      "cd": 75,
+      "d": "Teleport to turret/minion",
+      "b": "Split pushers",
+      "i": "🌀"
+    },
+    {
+      "n": "Sprint",
+      "cd": 100,
+      "d": "+50% MS 6s, slow immune",
+      "b": "Kiting MMs",
+      "i": "🏃"
+    }
+  ],
+  "meta": {
+    "patch": {
+      "v": "2.1.61",
+      "s": 40,
+      "d": "Mar 11 2026",
+      "nx": "2.1.62"
+    },
+    "bans": [
+      {
+        "n": "Joy",
+        "r": 82,
+        "tr": "→"
+      },
+      {
+        "n": "Helcurt",
+        "r": 79,
+        "tr": "↑"
+      },
+      {
+        "n": "Ling",
+        "r": 61,
+        "tr": "→"
+      },
+      {
+        "n": "Fanny",
+        "r": 58,
+        "tr": "→"
+      },
+      {
+        "n": "Mathilda",
+        "r": 44,
+        "tr": "↑"
+      },
+      {
+        "n": "Saber",
+        "r": 41,
+        "tr": "↑"
+      },
+      {
+        "n": "Martis",
+        "r": 38,
+        "tr": "↓"
+      },
+      {
+        "n": "Leomord",
+        "r": 35,
+        "tr": "→"
+      }
+    ],
+    "rising": [
+      {
+        "n": "Helcurt",
+        "ch": "+18% ban",
+        "w": "Silence+darkness dominating"
+      },
+      {
+        "n": "Saber",
+        "ch": "+12% pick",
+        "w": "Ult kills from higher HP"
+      },
+      {
+        "n": "Marcel",
+        "ch": "🆕 New",
+        "w": "True damage support"
+      },
+      {
+        "n": "Eudora",
+        "ch": "+8% pick",
+        "w": "Revamped Superconductor"
+      },
+      {
+        "n": "Guinevere",
+        "ch": "+6% WR",
+        "w": "Fighters dominating S40"
+      },
+      {
+        "n": "Bruno",
+        "ch": "+4% WR",
+        "w": "Sleeper crit stacking"
+      }
+    ],
+    "falling": [
+      {
+        "n": "Ixia",
+        "ch": "-11%",
+        "w": "S1 + regen nerfed hard"
+      },
+      {
+        "n": "Pharsa",
+        "ch": "-8%",
+        "w": "Burst + CD nerfed"
+      },
+      {
+        "n": "Freya",
+        "ch": "-6%",
+        "w": "33% ult regen cut"
+      },
+      {
+        "n": "Gloo",
+        "ch": "-4%",
+        "w": "Passive DR nerfed"
+      },
+      {
+        "n": "YSS",
+        "ch": "-3%",
+        "w": "Ult 15s→10s"
+      }
+    ],
+    "lanes": [
+      {
+        "l": "EXP",
+        "i": "⚔️",
+        "top": [
+          "Sora",
+          "Julian",
+          "Phoveus",
+          "Arlott",
+          "Lapu-Lapu"
+        ],
+        "nt": "8 fighters S-tier. Sora leads. Phoveus = must counter-pick vs dashes."
+      },
+      {
+        "l": "Mid",
+        "i": "🔮",
+        "top": [
+          "Zhuxin",
+          "Valentina",
+          "Pharsa",
+          "Lylia",
+          "Kagura"
+        ],
+        "nt": "13 mages buffed. Pool expanded 4→8+ viable. Eudora rising."
+      },
+      {
+        "l": "Jungle",
+        "i": "🗡️",
+        "top": [
+          "Fredrinn",
+          "Hayabusa",
+          "Saber",
+          "Leomord",
+          "Joy"
+        ],
+        "nt": "Utility junglers define meta. Tank jungling frees EXP for damage."
+      },
+      {
+        "l": "Gold",
+        "i": "🏹",
+        "top": [
+          "Kimmy",
+          "Wanwan",
+          "Brody",
+          "Beatrix",
+          "Karrie"
+        ],
+        "nt": "Farm & carry. Brody = rare early MM. Bruno = sleeper crit."
+      },
+      {
+        "l": "Roam",
+        "i": "🛡️",
+        "top": [
+          "Tigreal",
+          "Khufra",
+          "Gloo",
+          "Atlas",
+          "Mathilda"
+        ],
+        "nt": "Flicker+Ult engage is king. Khufra anti-dash. Marcel competing."
+      }
+    ],
+    "teams": [
+      {
+        "nm": "Standard",
+        "cp": [
+          "Tank",
+          "Fighter",
+          "Mage",
+          "MM",
+          "JG"
+        ],
+        "ex": [
+          "Tigreal",
+          "Sora",
+          "Zhuxin",
+          "Kimmy",
+          "Fredrinn"
+        ],
+        "ds": "Balanced. Frontline + magic + physical."
+      },
+      {
+        "nm": "Hyper Carry",
+        "cp": [
+          "Tank",
+          "Tank",
+          "Mage",
+          "MM",
+          "Assassin"
+        ],
+        "ex": [
+          "Khufra",
+          "Uranus",
+          "Pharsa",
+          "Wanwan",
+          "Hayabusa"
+        ],
+        "ds": "Protect MM. Two frontliners peel."
+      },
+      {
+        "nm": "Dive",
+        "cp": [
+          "Tank",
+          "Fighter",
+          "Mage",
+          "MM",
+          "Assassin"
+        ],
+        "ex": [
+          "Atlas",
+          "Chou",
+          "Zhuxin",
+          "Beatrix",
+          "Lancelot"
+        ],
+        "ds": "All-in. Lock targets, assassin cleans."
+      },
+      {
+        "nm": "Anti-Dash",
+        "cp": [
+          "Tank",
+          "Fighter",
+          "Mage",
+          "MM",
+          "Tank JG"
+        ],
+        "ex": [
+          "Khufra",
+          "Phoveus",
+          "Zhuxin",
+          "Karrie",
+          "Fredrinn"
+        ],
+        "ds": "Punish every dash."
+      },
+      {
+        "nm": "Sustain",
+        "cp": [
+          "Tank",
+          "Fighter",
+          "Mage",
+          "MM",
+          "Support"
+        ],
+        "ex": [
+          "Hylos",
+          "Yu Zhong",
+          "Lylia",
+          "Wanwan",
+          "Estes"
+        ],
+        "ds": "Group & sustain. Need anti-heal to beat."
+      },
+      {
+        "nm": "Global",
+        "cp": [
+          "Tank",
+          "Fighter",
+          "Mage",
+          "MM JG",
+          "Support"
+        ],
+        "ex": [
+          "Atlas",
+          "Sora",
+          "Pharsa",
+          "Yi Sun-shin",
+          "Chip"
+        ],
+        "ds": "Vision + teleport = everywhere first."
+      }
+    ]
+  },
+  "jungle": {
+    "paths": [
+      {
+        "name": "Assassin Path (Blue Start)",
+        "steps": [
+          "Purple/Blue Buff",
+          "Lithowanderer",
+          "Small Camps",
+          "Red/Orange Buff",
+          "Level 4 Gank or Turtle"
+        ],
+        "heroes": [
+          "Fanny",
+          "Hayabusa",
+          "Ling",
+          "Joy",
+          "Gusion",
+          "Nolan"
+        ],
+        "note": "For energy/mana dependent assassins. Blue buff = sustain for ability spam. Hit level 4 by 1:45-2:00."
+      },
+      {
+        "name": "Tank Jungler Path (Red Start)",
+        "steps": [
+          "Red/Orange Buff",
+          "Golems/Small Camp",
+          "Lithowanderer",
+          "Purple/Blue Buff",
+          "Gank Mid or EXP"
+        ],
+        "heroes": [
+          "Fredrinn",
+          "Akai",
+          "Baxia"
+        ],
+        "note": "Red buff slow enhances ganks. Tank junglers don't need blue buff as urgently. Focus on enabling lanes."
+      },
+      {
+        "name": "Aggressive Invade Path",
+        "steps": [
+          "Your Core Buff",
+          "Enemy Core Buff (steal)",
+          "Small Camp",
+          "Second Buff",
+          "Gank"
+        ],
+        "heroes": [
+          "Hayabusa",
+          "Saber",
+          "Helcurt"
+        ],
+        "note": "High risk/reward. Only when you have early lane priority. Track enemy jungler's gold on scoreboard."
+      },
+      {
+        "name": "Fast Turtle Rush",
+        "steps": [
+          "Core Buff",
+          "Second Buff",
+          "Scuttler/Crab",
+          "Turtle (at 2:00)"
+        ],
+        "heroes": [
+          "Saber",
+          "Fredrinn",
+          "Yi Sun-shin"
+        ],
+        "note": "Fastest path to level 4 + Turtle. Requires team coordination. Get both buffs before 2:00 Turtle spawn."
+      }
+    ],
+    "timers": [
+      {
+        "obj": "Turtle",
+        "spawn": "2:00",
+        "respawn": "Every 2 min",
+        "despawn": "8:00 (Lord replaces)",
+        "reward": "+Gold/XP team-wide + Shield buff",
+        "tip": "Setup 15-20s before spawn. Lure toward your side. Retribution at red HP line."
+      },
+      {
+        "obj": "Lord",
+        "spawn": "9:00",
+        "respawn": "After death",
+        "despawn": "—",
+        "reward": "+~300g per player + Turret damage buff",
+        "tip": "Only take after winning fight or enemy dead. Vision 30-45s before. Never solo Lord."
+      },
+      {
+        "obj": "Buffs",
+        "spawn": "0:20",
+        "respawn": "75 seconds",
+        "despawn": "—",
+        "reward": "Purple=Mana/CDR. Orange=Slow+Damage",
+        "tip": "Buff respawn at 75s = sync rotations for double buff before Turtle at 2:00."
+      },
+      {
+        "obj": "Lithowanderer",
+        "spawn": "0:30",
+        "respawn": "90 seconds",
+        "despawn": "—",
+        "reward": "Gold + small heal",
+        "tip": "Contest this for early gold lead. Position matters — river control wins early game."
+      }
+    ],
+    "tips": [
+      "Hit Level 4 by 1:45-2:00 through optimized pathing",
+      "60/40 Rule: 60% farm, 40% ganks in first 8 minutes",
+      "Track enemy jungler gold: +23g = Purple Buff small, ~120g = Orange Buff taken",
+      "Gank priority: Squishy MMs/Mages without escape > EXP laners",
+      "After 5 min, lane minions outfarm camps (30-50g). Share lanes",
+      "Save Retribution for Turtle/Lord contests. Don't waste on small camps late",
+      "Ping 10-15s before engaging objectives for team coordination",
+      "Check minimap every 3-5 seconds. Missing enemy = potential ambush",
+      "After successful gank, push tower immediately while enemy respawns",
+      "Late game: give Blue Buff to mage, Red Buff to MM if they need it"
+    ]
+  },
+  "propicks": {
+    "picks": [
+      {
+        "role": "Roam",
+        "heroes": [
+          {
+            "n": "Mathilda",
+            "pk": 89,
+            "bn": 42,
+            "wr": 54,
+            "note": "#1 pro roam. Mobility+shield engage."
+          },
+          {
+            "n": "Khufra",
+            "pk": 72,
+            "bn": 55,
+            "wr": 52,
+            "note": "Anti-dash priority. Bouncing Ball dominates."
+          },
+          {
+            "n": "Tigreal",
+            "pk": 68,
+            "bn": 30,
+            "wr": 53,
+            "note": "Flicker+Ult gold standard engage."
+          },
+          {
+            "n": "Atlas",
+            "pk": 55,
+            "bn": 25,
+            "wr": 51,
+            "note": "AoE grab for wombo combo comps."
+          },
+          {
+            "n": "Chip",
+            "pk": 48,
+            "bn": 18,
+            "wr": 50,
+            "note": "Global teleport for fast rotations."
+          }
+        ]
+      },
+      {
+        "role": "Jungle",
+        "heroes": [
+          {
+            "n": "Fredrinn",
+            "pk": 82,
+            "bn": 65,
+            "wr": 55,
+            "note": "Utility tank JG defines the meta."
+          },
+          {
+            "n": "Hayabusa",
+            "pk": 70,
+            "bn": 38,
+            "wr": 53,
+            "note": "Safest pro JG pick. Shadow escape."
+          },
+          {
+            "n": "Joy",
+            "pk": 15,
+            "bn": 92,
+            "wr": 58,
+            "note": "Highest ban rate. Near-permaban."
+          },
+          {
+            "n": "Ling",
+            "pk": 22,
+            "bn": 78,
+            "wr": 51,
+            "note": "Wall mobility too strong."
+          },
+          {
+            "n": "Lancelot",
+            "pk": 45,
+            "bn": 32,
+            "wr": 50,
+            "note": "Immune frames clutch in pro play."
+          }
+        ]
+      },
+      {
+        "role": "Mid",
+        "heroes": [
+          {
+            "n": "Zhuxin",
+            "pk": 85,
+            "bn": 28,
+            "wr": 54,
+            "note": "Displacement execute. First-rotation pick."
+          },
+          {
+            "n": "Pharsa",
+            "pk": 62,
+            "bn": 22,
+            "wr": 52,
+            "note": "Artillery zoning. Nerfed but still picked."
+          },
+          {
+            "n": "Valentina",
+            "pk": 55,
+            "bn": 18,
+            "wr": 53,
+            "note": "Copy enemy ult = infinite versatility."
+          },
+          {
+            "n": "Lylia",
+            "pk": 40,
+            "bn": 10,
+            "wr": 51,
+            "note": "Zone + death save ult."
+          },
+          {
+            "n": "Yve",
+            "pk": 35,
+            "bn": 8,
+            "wr": 50,
+            "note": "Real-time targeting ult."
+          }
+        ]
+      },
+      {
+        "role": "EXP",
+        "heroes": [
+          {
+            "n": "Sora",
+            "pk": 78,
+            "bn": 68,
+            "wr": 55,
+            "note": "#1 EXP laner. Stance switching god."
+          },
+          {
+            "n": "Julian",
+            "pk": 65,
+            "bn": 45,
+            "wr": 53,
+            "note": "Unpredictable 6-combo system."
+          },
+          {
+            "n": "Arlott",
+            "pk": 55,
+            "bn": 22,
+            "wr": 52,
+            "note": "Wall-pin burst. Lane dominance."
+          },
+          {
+            "n": "Chou",
+            "pk": 50,
+            "bn": 15,
+            "wr": 50,
+            "note": "Kick isolation for pick comps."
+          },
+          {
+            "n": "Phoveus",
+            "pk": 42,
+            "bn": 35,
+            "wr": 54,
+            "note": "Counter-pick vs dash comps."
+          }
+        ]
+      },
+      {
+        "role": "Gold",
+        "heroes": [
+          {
+            "n": "Kimmy",
+            "pk": 72,
+            "bn": 18,
+            "wr": 53,
+            "note": "Magic spray MM. Move+shoot."
+          },
+          {
+            "n": "Wanwan",
+            "pk": 58,
+            "bn": 28,
+            "wr": 51,
+            "note": "Weakness points→untargetable."
+          },
+          {
+            "n": "Brody",
+            "pk": 55,
+            "bn": 12,
+            "wr": 52,
+            "note": "Early-game MM. Raw damage build."
+          },
+          {
+            "n": "Beatrix",
+            "pk": 48,
+            "bn": 15,
+            "wr": 50,
+            "note": "4-weapon versatility."
+          },
+          {
+            "n": "Karrie",
+            "pk": 35,
+            "bn": 10,
+            "wr": 52,
+            "note": "True damage vs tank meta."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Pro teams average 2.5 Turtles per win — objective control is king",
+      "First-pick Mathilda or Sora = highest contested picks in MPL S15",
+      "Fredrinn's tank JG frees EXP lane for Julian/Sora damage builds",
+      "Pros track enemy gold to predict jungler location (+23g = small camp, ~120g = buff)",
+      "5-man Lord attempts only after winning a teamfight — never force",
+      "Marcel's Golden Hour (3s stasis) is being explored as an objective contest tool"
+    ]
+  },
+  "glossary": [
+    {
+      "term": "CC",
+      "def": "Crowd Control — any effect that restricts movement or actions (stun, knock-up, slow, silence, suppress, freeze, root, taunt)",
+      "cat": "Combat"
+    },
+    {
+      "term": "Peel",
+      "def": "Protecting your carry by using CC/abilities to keep enemies away from them during fights",
+      "cat": "Teamplay"
+    },
+    {
+      "term": "Kiting",
+      "def": "Attacking while moving backward to maintain distance from melee enemies pursuing you",
+      "cat": "Combat"
+    },
+    {
+      "term": "Gank",
+      "def": "Surprise attack on an enemy laner by rotating from another position (usually by JG or roam)",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Rotate/Rotation",
+      "def": "Moving from one area of the map to another to help teammates, contest objectives, or gank",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Split Push",
+      "def": "Pushing a lane alone while your team pressures elsewhere, forcing enemies to split their defense",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Dive",
+      "def": "Aggressively engaging past enemy frontline to reach their backline carries, even under turret",
+      "cat": "Combat"
+    },
+    {
+      "term": "Poke",
+      "def": "Dealing damage from a safe distance without committing to a full fight",
+      "cat": "Combat"
+    },
+    {
+      "term": "Burst",
+      "def": "Dealing massive damage in a very short time window (usually a full skill combo)",
+      "cat": "Combat"
+    },
+    {
+      "term": "Sustain",
+      "def": "Ability to heal/regenerate HP during fights through lifesteal, spell vamp, or abilities",
+      "cat": "Combat"
+    },
+    {
+      "term": "Anti-Heal",
+      "def": "Items that reduce enemy healing (Dominance Ice, Sea Halberd, Necklace of Durance)",
+      "cat": "Items"
+    },
+    {
+      "term": "Penetration (PEN)",
+      "def": "Stats that ignore enemy defense. Physical PEN vs armor, Magic PEN vs magic resist",
+      "cat": "Items"
+    },
+    {
+      "term": "CDR",
+      "def": "Cooldown Reduction — reduces time between skill uses. Capped at 40% (45% with Enchanted Talisman)",
+      "cat": "Items"
+    },
+    {
+      "term": "Spell Vamp",
+      "def": "Heal a percentage of damage dealt by skills (NOT basic attacks — that's lifesteal)",
+      "cat": "Items"
+    },
+    {
+      "term": "True Damage",
+      "def": "Damage that ignores ALL defense. Cannot be reduced by armor or magic resist",
+      "cat": "Combat"
+    },
+    {
+      "term": "Retribution",
+      "def": "Battle spell for junglers. Deals damage to camps and is used to secure Turtle/Lord (last-hit)",
+      "cat": "Spells"
+    },
+    {
+      "term": "Flicker",
+      "def": "Battle spell that teleports you a short distance. Used for engage (Flicker+Ult) or escape",
+      "cat": "Spells"
+    },
+    {
+      "term": "Face-Check",
+      "def": "Walking into an unwarded bush to see if enemies are hiding there. Dangerous if done carelessly",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Freeze (Wave)",
+      "def": "Keeping the minion wave near your turret by only last-hitting. Safe farming technique",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Slow Push",
+      "def": "Building up a large minion wave by only killing caster minions, then crashing it into enemy turret",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Cut Wave/Lane",
+      "def": "Intercepting enemy minions between turrets before they reach your minions. Denies enemy farm",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Turret Hug",
+      "def": "Staying very close to your turret for protection when behind or under threat",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Objective",
+      "def": "Turrets, Turtle, Lord — things that give permanent advantages. Always more important than kills",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Trade",
+      "def": "Exchanging damage or objectives with the enemy. Good trades give you more value than you lose",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Flex Pick",
+      "def": "A hero that can play multiple roles/lanes, making it hard for enemies to counter-pick in draft",
+      "cat": "Draft"
+    },
+    {
+      "term": "First Rotation",
+      "def": "Heroes picked in the first phase of draft. Usually the most contested/versatile picks",
+      "cat": "Draft"
+    },
+    {
+      "term": "Counter-Pick",
+      "def": "Choosing a hero specifically because their kit counters an enemy hero already picked",
+      "cat": "Draft"
+    },
+    {
+      "term": "Hyper Carry",
+      "def": "A late-game damage dealer (usually MM) that the entire team protects and enables to carry",
+      "cat": "Teamplay"
+    },
+    {
+      "term": "Initiator",
+      "def": "Hero who starts fights (usually tank). Responsible for finding good engage angles",
+      "cat": "Teamplay"
+    },
+    {
+      "term": "Backline",
+      "def": "Squishy damage dealers (MM, Mage) who stay behind the frontline during fights",
+      "cat": "Teamplay"
+    },
+    {
+      "term": "Frontline",
+      "def": "Tanky heroes (Tank, Fighter) who absorb damage and CC at the front of teamfights",
+      "cat": "Teamplay"
+    },
+    {
+      "term": "Snowball",
+      "def": "Building an early lead and using it to grow the advantage faster (kills→towers→objectives→more kills)",
+      "cat": "Strategy"
+    },
+    {
+      "term": "Comeback",
+      "def": "Winning a game from behind, usually by defending well and winning a crucial Lord/teamfight",
+      "cat": "Strategy"
+    },
+    {
+      "term": "MVP",
+      "def": "Most Valuable Player — awarded post-game based on performance metrics (KDA, damage, objectives)",
+      "cat": "General"
+    },
+    {
+      "term": "KDA",
+      "def": "Kills / Deaths / Assists — the primary performance metric shown on scoreboard",
+      "cat": "General"
+    },
+    {
+      "term": "Meta",
+      "def": "Most Effective Tactics Available — the currently strongest heroes, strategies, and team compositions",
+      "cat": "General"
+    }
+  ],
+  "learn": [
+    {
+      "level": "1. Absolute Beginner",
+      "icon": "🌱",
+      "color": "#39ff14",
+      "rank": "Warrior → Elite",
+      "hours": "0-20 hours",
+      "goals": [
+        "Complete all tutorials and training modes",
+        "Learn the map layout — 3 lanes, jungle, river, turrets",
+        "Pick 1 easy hero and play 20+ games with them",
+        "Understand basic roles: Tank, Fighter, Assassin, Mage, Marksman, Support",
+        "Learn to last-hit minions for gold",
+        "Don't chase kills into fog — turrets matter more than kills"
+      ],
+      "heroes": "Layla, Miya, Tigreal, Eudora, Balmond, Zilong",
+      "focus": "Survival. Don't die. That's the #1 skill to learn."
+    },
+    {
+      "level": "2. Getting Comfortable",
+      "icon": "🌿",
+      "color": "#4d8bff",
+      "rank": "Master → Grandmaster",
+      "hours": "20-80 hours",
+      "goals": [
+        "Master 2-3 heroes per role you enjoy",
+        "Learn the item shop — start with recommended builds, then understand why",
+        "Learn when to push tower after kills",
+        "Start checking minimap every 5-10 seconds",
+        "Learn what each role does and how lanes work",
+        "Understand Turtle (2:00) and Lord (9:00) timing"
+      ],
+      "heroes": "Saber, Freya, Pharsa, Bruno, Angela, Franco",
+      "focus": "Map awareness. Glance at minimap constantly."
+    },
+    {
+      "level": "3. Ranked Ready",
+      "icon": "🌳",
+      "color": "#f0b232",
+      "rank": "Epic → Legend",
+      "hours": "80-200 hours",
+      "goals": [
+        "Draft Pick mode — learn to counter-pick and communicate roles",
+        "Master counter-building (anti-heal, armor, magic resist per match)",
+        "Learn wave management (freeze, slow push, cut lane)",
+        "Understand emblem talents and optimize per hero/matchup",
+        "Learn 2+ roles so you can fill when needed",
+        "Start tracking objectives: contest every Turtle, coordinate Lord"
+      ],
+      "heroes": "Chou, Hayabusa, Khufra, Valentina, Wanwan, Mathilda",
+      "focus": "Adaptation. Change builds, spells, and playstyle per match."
+    },
+    {
+      "level": "4. Climbing Seriously",
+      "icon": "🏔️",
+      "color": "#a855f7",
+      "rank": "Legend → Mythic",
+      "hours": "200-500 hours",
+      "goals": [
+        "Master macro: wave timing, rotation patterns, objective sequencing",
+        "Learn to predict enemy movements via gold tracking on scoreboard",
+        "Shot-call objectives for your team via pings",
+        "Maintain a 55-60% win rate on your main heroes",
+        "Master 2-3 flex picks that work in multiple lanes/roles",
+        "Review replays of losses — find your recurring mistakes"
+      ],
+      "heroes": "Sora, Julian, Fredrinn, Zhuxin, Phoveus, Atlas",
+      "focus": "Macro > Micro. Game sense wins more than mechanics."
+    },
+    {
+      "level": "5. Mythical Glory",
+      "icon": "👑",
+      "color": "#ff3b5c",
+      "rank": "Mythic → Mythical Glory",
+      "hours": "500+ hours",
+      "goals": [
+        "Master draft phase — understand 10-ban system, flex picks, counter-rotations",
+        "Lead team communication — call ganks, objectives, retreats",
+        "Track ALL enemy cooldowns mentally (ults, Purify, Flicker, Retribution)",
+        "Perfect your laning phase — first 3 minutes should feel automatic",
+        "Build hero pool of 7-10 heroes across 3+ roles",
+        "Study MPL pro matches for rotation patterns and draft strategies"
+      ],
+      "heroes": "All S/S+ tier heroes. Flex between roles.",
+      "focus": "Leadership. Your calls win or lose games at this level."
+    }
+  ],
+  "emblems": [
+    {
+      "name": "Tank",
+      "icon": "🛡️",
+      "color": "#4d8bff",
+      "stats": "HP +700, Hybrid DEF +14, HP Regen +10",
+      "best": "Tanks, tanky supports, frontliners",
+      "t1": [
+        {
+          "n": "Vitality",
+          "e": "+225 Max HP",
+          "use": "Default for most tanks"
+        },
+        {
+          "n": "Firmness",
+          "e": "+6 Hybrid DEF",
+          "use": "vs aggressive early laners"
+        },
+        {
+          "n": "Agility",
+          "e": "+4% Move Speed",
+          "use": "Roaming tanks needing rotation speed"
+        }
+      ],
+      "t2": [
+        {
+          "n": "Tenacity",
+          "e": "+15 Hybrid DEF when <50% HP",
+          "use": "Default survivability choice"
+        },
+        {
+          "n": "Wilderness Blessing",
+          "e": "+10% MS in jungle/river",
+          "use": "Rotation-focused roamers"
+        },
+        {
+          "n": "Pull Yourself Together",
+          "e": "-15% Battle Spell CD",
+          "use": "More Flicker uptime = more engages"
+        }
+      ],
+      "t3": [
+        {
+          "n": "Concussive Blast",
+          "e": "After skill, deal HP-based magic DMG in area",
+          "use": "DEFAULT for tanks. Scales with HP items."
+        },
+        {
+          "n": "Brave Smite",
+          "e": "Heal when landing CC on enemies",
+          "use": "Sustain tanks like Belerick, Hylos"
+        },
+        {
+          "n": "Focusing Mark",
+          "e": "Mark enemies → allies deal +6% DMG to them",
+          "use": "Coordinated play, peeling supports"
+        }
+      ]
+    },
+    {
+      "name": "Fighter",
+      "icon": "⚔️",
+      "color": "#f0b232",
+      "stats": "ATK +14, Hybrid DEF +8, HP +250",
+      "best": "Fighters, bruisers, EXP laners",
+      "t1": [
+        {
+          "n": "Bravery",
+          "e": "+12 Adaptive ATK",
+          "use": "Default damage choice"
+        },
+        {
+          "n": "Firmness",
+          "e": "+6 Hybrid DEF",
+          "use": "Defensive laning"
+        },
+        {
+          "n": "Vitality",
+          "e": "+225 Max HP",
+          "use": "Sustain matchups"
+        }
+      ],
+      "t2": [
+        {
+          "n": "Festival of Blood",
+          "e": "+6% Spell Vamp",
+          "use": "Sustain fighters (Ruby, Thamuz, Yu Zhong)"
+        },
+        {
+          "n": "Weapons Master",
+          "e": "+5% stats from equipment",
+          "use": "Late-game scaling"
+        },
+        {
+          "n": "Tenacity",
+          "e": "+15 Hybrid DEF when <50% HP",
+          "use": "Tanky fighters"
+        }
+      ],
+      "t3": [
+        {
+          "n": "Killing Spree",
+          "e": "+15% HP restored + 20% MS after kill",
+          "use": "Snowball fighters (Chou, Arlott)"
+        },
+        {
+          "n": "War Cry",
+          "e": "After 5s charging, next skill +12% DMG",
+          "use": "Burst combo fighters (Julian, Paquito)"
+        },
+        {
+          "n": "Brave Smite",
+          "e": "Heal on CC landing",
+          "use": "CC-heavy fighters (Ruby, Guinevere)"
+        }
+      ]
+    },
+    {
+      "name": "Assassin",
+      "icon": "🗡️",
+      "color": "#ff3b5c",
+      "stats": "Adaptive PEN +10, Adaptive ATK +7, CDR +3%",
+      "best": "Assassins, burst junglers, aggressive fighters",
+      "t1": [
+        {
+          "n": "Rupture",
+          "e": "+5 Adaptive PEN",
+          "use": "DEFAULT for all assassins"
+        },
+        {
+          "n": "Thrill",
+          "e": "+16 Adaptive ATK",
+          "use": "Raw damage early"
+        },
+        {
+          "n": "Agility",
+          "e": "+4% Move Speed",
+          "use": "Rotation speed"
+        }
+      ],
+      "t2": [
+        {
+          "n": "Seasoned Hunter",
+          "e": "+15% DMG to Lord/Turtle",
+          "use": "MANDATORY for junglers. No exceptions."
+        },
+        {
+          "n": "Master Assassin",
+          "e": "+7% DMG when only 1 enemy nearby",
+          "use": "1v1 duelists, pick heroes"
+        },
+        {
+          "n": "Weapons Master",
+          "e": "+5% stats from equipment",
+          "use": "Late-game scaling carries"
+        }
+      ],
+      "t3": [
+        {
+          "n": "Killing Spree",
+          "e": "+15% HP restored + 20% MS after kill",
+          "use": "DEFAULT for snowball assassins"
+        },
+        {
+          "n": "Lethal Ignition",
+          "e": "3 hits in 5s → 162-750 adaptive DMG burn",
+          "use": "Burst combo heroes (Gusion, Lancelot)"
+        },
+        {
+          "n": "Quantum Charge",
+          "e": "AA triggers MS + HP sustain",
+          "use": "AA-based assassins"
+        }
+      ]
+    },
+    {
+      "name": "Mage",
+      "icon": "🔮",
+      "color": "#a855f7",
+      "stats": "Magic Power +14, CDR +3%, Magic PEN +5",
+      "best": "Mages, magic fighters, some supports",
+      "t1": [
+        {
+          "n": "Agility",
+          "e": "+4% Move Speed",
+          "use": "DEFAULT for rotation speed"
+        },
+        {
+          "n": "Rupture",
+          "e": "+5 Adaptive PEN",
+          "use": "When extra pen needed"
+        },
+        {
+          "n": "Inspire",
+          "e": "+5% CDR",
+          "use": "CDR-hungry mages"
+        }
+      ],
+      "t2": [
+        {
+          "n": "Weapons Master",
+          "e": "+5% stats from equipment",
+          "use": "DEFAULT for scaling mages"
+        },
+        {
+          "n": "Bargain Hunter",
+          "e": "Equipment costs -5%",
+          "use": "Rush core items faster"
+        },
+        {
+          "n": "Wilderness Blessing",
+          "e": "+10% MS in jungle/river",
+          "use": "Roaming mages"
+        }
+      ],
+      "t3": [
+        {
+          "n": "Impure Rage",
+          "e": "Skills deal %HP magic DMG + mana regen",
+          "use": "DEFAULT for most mages"
+        },
+        {
+          "n": "Lethal Ignition",
+          "e": "3 hits in 5s → adaptive DMG burn",
+          "use": "Burst mages (Eudora, Kagura)"
+        },
+        {
+          "n": "Quantum Charge",
+          "e": "AA triggers MS + HP sustain",
+          "use": "Harith, Kimmy"
+        }
+      ]
+    },
+    {
+      "name": "Marksman",
+      "icon": "🏹",
+      "color": "#39ff14",
+      "stats": "ATK +9, ATK Speed +7%, Crit Chance +3%",
+      "best": "Marksmen, AA-based carries",
+      "t1": [
+        {
+          "n": "Fatal",
+          "e": "+5% Crit Chance, +10% Crit DMG",
+          "use": "DEFAULT for crit MMs"
+        },
+        {
+          "n": "Swift",
+          "e": "+10% ATK Speed",
+          "use": "On-hit MMs (Karrie, Claude)"
+        },
+        {
+          "n": "Thrill",
+          "e": "+16 Adaptive ATK",
+          "use": "Early game trades"
+        }
+      ],
+      "t2": [
+        {
+          "n": "Weapons Master",
+          "e": "+5% stats from equipment",
+          "use": "DEFAULT — amplifies expensive builds"
+        },
+        {
+          "n": "Weakness Finder",
+          "e": "Crits slow enemy AS + MS",
+          "use": "Kiting MMs (Miya, Bruno, Moskov)"
+        },
+        {
+          "n": "Bargain Hunter",
+          "e": "Equipment costs -5%",
+          "use": "Rush core items when behind"
+        }
+      ],
+      "t3": [
+        {
+          "n": "Quantum Charge",
+          "e": "AA triggers MS boost + HP sustain",
+          "use": "DEFAULT — kiting + sustain tool"
+        },
+        {
+          "n": "Weakness Finder",
+          "e": "Slow on crit",
+          "use": "Kite-focused MMs"
+        },
+        {
+          "n": "Killing Spree",
+          "e": "+15% HP + 20% MS on kill",
+          "use": "Snowball MMs like Brody"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "icon": "💚",
+      "color": "#00e5ff",
+      "stats": "Heal Effect +10%, CDR +5%, Move Speed +4%",
+      "best": "Supports, roaming tanks, utility heroes",
+      "t1": [
+        {
+          "n": "Agility",
+          "e": "+4% Move Speed",
+          "use": "DEFAULT for roam speed"
+        },
+        {
+          "n": "Mastery",
+          "e": "+5% CDR",
+          "use": "Spam heals/shields"
+        },
+        {
+          "n": "Firmness",
+          "e": "+6 Hybrid DEF",
+          "use": "Defensive supports"
+        }
+      ],
+      "t2": [
+        {
+          "n": "Pull Yourself Together",
+          "e": "-15% Battle Spell CD",
+          "use": "DEFAULT — more Flicker/Heal uptime"
+        },
+        {
+          "n": "Wilderness Blessing",
+          "e": "+10% MS in jungle/river",
+          "use": "Rotation speed"
+        },
+        {
+          "n": "Tenacity",
+          "e": "+15 Hybrid DEF <50% HP",
+          "use": "Survivability"
+        }
+      ],
+      "t3": [
+        {
+          "n": "Focusing Mark",
+          "e": "Mark enemies → allies +6% DMG to them",
+          "use": "DEFAULT — enables your carries"
+        },
+        {
+          "n": "Concussive Blast",
+          "e": "HP-based area DMG after skill",
+          "use": "Tanky supports like Marcel"
+        },
+        {
+          "n": "Brave Smite",
+          "e": "Heal on CC landing",
+          "use": "CC-heavy supports"
+        }
+      ]
+    }
+  ],
+  "roam": {
+    "boots": [
+      {
+        "n": "Encourage",
+        "e": "+ATK/MATK +AS to allies",
+        "use": "DEFAULT. Initiation tanks.",
+        "i": "💪"
+      },
+      {
+        "n": "Favor",
+        "e": "Heal lowest HP ally",
+        "use": "Healer supports (Estes, Floryn).",
+        "i": "💚"
+      },
+      {
+        "n": "Dire Hit",
+        "e": "+DMG to <35% HP enemies",
+        "use": "Aggressive roamers.",
+        "i": "💀"
+      },
+      {
+        "n": "Conceal",
+        "e": "Nearby allies invisible briefly",
+        "use": "Ambush/surprise engage.",
+        "i": "👁️"
+      }
+    ],
+    "rotation": [
+      {
+        "t": "0:00-1:00",
+        "nm": "Opening",
+        "st": [
+          "Buy Roam Boots",
+          "Leash jungler first buff",
+          "Rotate mid",
+          "Help mid clear wave 1"
+        ],
+        "tp": "Don't steal last hits. Gold comes from assists + roam passive."
+      },
+      {
+        "t": "1:00-2:00",
+        "nm": "Lane Support",
+        "st": [
+          "Protect gold lane MM",
+          "Secure river vision",
+          "Face-check bushes",
+          "Prep Turtle at 1:45"
+        ],
+        "tp": "Position near enemy mid turret to deny enemy roamer gold."
+      },
+      {
+        "t": "2:00-4:00",
+        "nm": "Objectives",
+        "st": [
+          "Contest Turtle with JG",
+          "Gank overextenders",
+          "Secure Lithowanderer",
+          "Ward jungle entrances"
+        ],
+        "tp": "Turtle is NON-NEGOTIABLE. If team fights for Turtle, you MUST be there."
+      },
+      {
+        "t": "4:00-8:00",
+        "nm": "Mid Game",
+        "st": [
+          "Shadow strongest carry",
+          "Enable ganks",
+          "Contest every Turtle",
+          "Vision before fights"
+        ],
+        "tp": "After 5 min, help carries push waves — minions outvalue jungle camps."
+      },
+      {
+        "t": "8:00+",
+        "nm": "Late Game",
+        "st": [
+          "Vision around Lord",
+          "Peel for carries",
+          "Initiate/counter-initiate",
+          "Shot-call after won fights"
+        ],
+        "tp": "One bad Lord fight = game over. Only Lord after winning teamfight."
+      }
+    ],
+    "tips": [
+      "Check bushes BEFORE team walks through — you're the tank",
+      "Ward river between mid/sides — highest value vision",
+      "Ward Turtle/Lord 15-20s before spawn",
+      "Check minimap every 3-5 seconds",
+      "Track enemy jungler via buff timers",
+      "Ping 'Enemy Missing' immediately",
+      "Never face-check deep fog when enemies missing",
+      "Vision at jungle entrances enables safe invades"
+    ]
+  },
+  "macro": {
+    "phases": [
+      {
+        "ph": "Early (0-5 min)",
+        "i": "🌅",
+        "g": "Farm, first Turtle, lane priority",
+        "r": [
+          "Laners: Last-hit minions. 15 min farming > chasing kills",
+          "Jungler: Level 4 by 1:45. Gank nearest lane. Turtle at 2:00",
+          "Roamer: Vision, escort JG, protect gold lane MM",
+          "Push tower after kills — turrets = permanent gold advantage",
+          "DON'T chase into fog. DON'T overstay after kills"
+        ]
+      },
+      {
+        "ph": "Mid (5-12 min)",
+        "i": "☀️",
+        "g": "Group objectives, outer turrets, snowball",
+        "r": [
+          "Contest EVERY Turtle — gold/XP compounds over time",
+          "After 5 min, lane minions > jungle camps. Share waves",
+          "Group 3-4 for turret pushes. Leave 1 in opposite lane",
+          "Rotate to lane where you got a kill — push that tower",
+          "Counter-build: check enemy items, buy anti-heal/armor/MR"
+        ]
+      },
+      {
+        "ph": "Late (12+ min)",
+        "i": "🌙",
+        "g": "Lord control, teamfights, end game",
+        "r": [
+          "Lord at 9:00. Only after winning fight or enemy dead",
+          "One death = 40-60s timer. One bad fight loses the game",
+          "Stick with team. Solo farming late = getting picked off",
+          "Push with Lord immediately — don't recall",
+          "If behind: defend turrets. Trade objectives. Don't force lost fights"
+        ]
+      }
+    ],
+    "cats": [
+      {
+        "c": "Laning",
+        "t": [
+          "Last-hit for max gold — don't auto-push mindlessly",
+          "Freeze wave near YOUR turret when behind",
+          "Slow push (big wave) then rotate for numbers advantage",
+          "Watch minimap — missing enemy = ganking someone"
+        ]
+      },
+      {
+        "c": "Objectives",
+        "t": [
+          "Turrets > Kills > Camps. Push after kills ALWAYS",
+          "Turtle every 2 min. Lord at 9:00",
+          "Never solo Lord. Always 2+ teammates",
+          "Enemy used Retribution on camp? 35s free contest window"
+        ]
+      },
+      {
+        "c": "Teamfights",
+        "t": [
+          "Tanks engage first. Carries stay BEHIND frontline",
+          "Focus enemy carry (MM/Mage), NOT the tank",
+          "Peel for YOUR carry if enemy dives them",
+          "Wait for key CDs before engaging (Diggie ult, Purify, WoN)"
+        ]
+      },
+      {
+        "c": "Climbing",
+        "t": [
+          "Master 2-3 heroes per role. Don't play everything",
+          "Counter-build every match. Check enemy items",
+          "Mute toxic players. Tilt = bad decisions = lost stars",
+          "Review losses: died to ganks? Wrong items? Missed objectives?"
+        ]
+      }
+    ],
+    "antiHeal": {
+      "when": "Buy when enemy has sustain hero (Estes, Uranus, Ruby, Yu Zhong, Alucard, Alice, Thamuz, Esmeralda)",
+      "items": [
+        {
+          "n": "Dominance Ice",
+          "r": "Tanks",
+          "e": "Aura: -50% Heal, -30% AS"
+        },
+        {
+          "n": "Sea Halberd",
+          "r": "Phys Carries",
+          "e": "AA reduces healing 50%"
+        },
+        {
+          "n": "Necklace of Durance",
+          "r": "Mages",
+          "e": "Skills reduce healing 50%"
+        }
+      ],
+      "tip": "Buy as 2nd-3rd item. Team should have 1-2 anti-heal items vs sustain comps."
+    }
+  },
+  "patchNotes": [],
+  "rosterCount": 134
+}
