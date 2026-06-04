@@ -15,6 +15,21 @@ export function MyStatsView({ tracker, saveTracker, tkHero, setTkHero, tkResult,
     saveTracker([entry, ...tracker]);
     setTkHero("");
   };
+
+  // Session review (tracker[0] is the most recent entry)
+  const isWin = (m) => m.result === "Win" || m.result === "MVP";
+  const streakWin = tracker.length ? isWin(tracker[0]) : true;
+  let streak = 0;
+  for (const m of tracker) { if (isWin(m) === streakWin) streak++; else break; }
+  const losing = !streakWin && streak >= 3;
+  const laneAgg = {};
+  for (const m of tracker) {
+    const h = getHeroByName(m.hero);
+    const l = (h && h.l) || "?";
+    if (!laneAgg[l]) laneAgg[l] = { w: 0, t: 0 };
+    laneAgg[l].t++;
+    if (isWin(m)) laneAgg[l].w++;
+  }
   return (
     <>
       <div style={{ background: `linear-gradient(135deg,${P.purp}0c,${P.pink}08)`, border: `1px solid ${P.purp}33`, borderRadius: 12, padding: 14, marginBottom: 12 }}>
@@ -41,6 +56,26 @@ export function MyStatsView({ tracker, saveTracker, tkHero, setTkHero, tkResult,
           {[["Total", tracker.length, P.blue], ["Wins", tracker.filter(m => m.result === "Win" || m.result === "MVP").length, P.nG], ["Win Rate", tracker.length ? (((tracker.filter(m => m.result === "Win" || m.result === "MVP").length / tracker.length) * 100).toFixed(0) + "%") : "0%", P.gold]].map(([l, v, c]) => (
             <div key={l} style={{ background: P.cd, borderRadius: 8, padding: 8, textAlign: "center" }}><div style={{ fontSize: 18, fontWeight: 900, color: c }}>{v}</div><div style={{ fontSize: 8, color: P.t3, letterSpacing: 1 }}>{l}</div></div>))}
         </div>
+        <div style={s.sc}>🎯 Session Review</div>
+        <div style={{ ...s.cd2, cursor: "default" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+            <span style={{ fontSize: 12, color: P.t2 }}>Current streak</span>
+            <span style={{ fontSize: 15, fontWeight: 900, color: streakWin ? P.nG : P.red }}>{streak}{streakWin ? "W" : "L"}</span>
+          </div>
+          {losing && <div style={{ marginTop: 8, fontSize: 11, fontWeight: 700, color: P.red, background: `${P.red}14`, border: `1px solid ${P.red}44`, borderRadius: 8, padding: "8px 10px" }}>🛑 {streak}-loss streak — take a break before you tilt away more stars.</div>}
+          {streakWin && streak >= 3 && <div style={{ marginTop: 8, fontSize: 11, fontWeight: 700, color: P.nG, background: `${P.nG}12`, border: `1px solid ${P.nG}44`, borderRadius: 8, padding: "8px 10px" }}>🔥 {streak}-win streak — ride it, keep your hero pool tight.</div>}
+        </div>
+        <div style={s.sc}>🗺️ Lane Win Rates</div>
+        {Object.entries(laneAgg).sort((a, b) => (b[1].w / b[1].t) - (a[1].w / a[1].t)).map(([lane, st]) => {
+          const wr = Math.round((st.w / st.t) * 100);
+          return (
+            <div key={lane} style={{ ...s.cd2, cursor: "default", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <span style={{ fontSize: 13, fontWeight: 700 }}>{lane}</span>
+              <span style={{ fontSize: 11, color: P.t3 }}>{st.w}W {st.t - st.w}L</span>
+              <span style={{ fontSize: 14, fontWeight: 900, color: wr >= 60 ? P.nG : wr >= 50 ? P.gold : P.red }}>{wr}%</span>
+            </div>
+          );
+        })}
         <div style={s.sc}>🦸 Hero Win Rates</div>
         {Object.entries(tracker.reduce((acc, m) => { if (!acc[m.hero]) acc[m.hero] = { w: 0, l: 0, mvp: 0 }; if (m.result === "Win") acc[m.hero].w++; else if (m.result === "MVP") { acc[m.hero].w++; acc[m.hero].mvp++; } else acc[m.hero].l++; return acc; }, {})).sort((a, b) => (b[1].w + b[1].mvp) / (b[1].w + b[1].l || 1) - (a[1].w + a[1].mvp) / (a[1].w + a[1].l || 1)).map(([hero, st]) => {
           const total = st.w + st.l; const wr = total ? (st.w / total * 100).toFixed(0) : 0;

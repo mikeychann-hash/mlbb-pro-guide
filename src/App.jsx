@@ -26,13 +26,14 @@ import { LearnView } from "./features/learn/LearnView.jsx";
 import { MyStatsView } from "./features/mystats/MyStatsView.jsx";
 import { BuildView } from "./features/build/BuildView.jsx";
 import { DraftView } from "./features/draft/DraftView.jsx";
+import { ClimbView } from "./features/climb/ClimbView.jsx";
 
 const GROUPS = [
   { name: "Meta", tabs: ["Meta", "Updates", "Tiers", "Pro Picks"] },
   { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
   { name: "Loadout", tabs: ["Build", "Items", "Emblems", "Spells", "Draft"] },
   { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
-  { name: "You", tabs: ["My Stats"] },
+  { name: "You", tabs: ["My Stats", "Climb"] },
 ];
 const groupOf = (tab) => (GROUPS.find((g) => g.tabs.includes(tab)) || GROUPS[0]).name;
 
@@ -117,6 +118,7 @@ export default function App() {
       case "Glossary": return <GlossaryView {...{ glsCat, setGlsCat }} />;
       case "Learn": return <LearnView />;
       case "My Stats": return <MyStatsView {...{ tracker, saveTracker, tkHero, setTkHero, tkResult, setTkResult }} />;
+      case "Climb": return <ClimbView favorites={favorites} onSelectHero={onSelectHero} />;
       case "Build": return <BuildView {...{ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }} />;
       case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, dQ, setDQ, favorites }} />;
       default: return null;

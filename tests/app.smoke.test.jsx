@@ -9,7 +9,7 @@ const GROUPS = [
   { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
   { name: "Loadout", tabs: ["Build", "Items", "Emblems", "Spells", "Draft"] },
   { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
-  { name: "You", tabs: ["My Stats"] },
+  { name: "You", tabs: ["My Stats", "Climb"] },
 ];
 
 const renderApp = () => render(<DataProvider><App /></DataProvider>);
@@ -38,8 +38,8 @@ describe("App shell", () => {
       clickGroup(g.name);
       for (const t of g.tabs) clickTab(t);
     }
-    // Ends on You > My Stats
-    expect(screen.getByText(/My Stats Tracker/i)).toBeInTheDocument();
+    // Ends on You > Climb
+    expect(screen.getByText(/Climb Plan/i)).toBeInTheDocument();
   });
 
   it("navigates Guides > Glossary and shows a known term", () => {
