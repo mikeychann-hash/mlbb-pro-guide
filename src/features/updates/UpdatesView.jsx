@@ -18,7 +18,10 @@ export function UpdatesView({ onSelectHero, favorites = [] }) {
   const open = (n) => { const f = data.heroes.find((h) => h.n === n); if (f) onSelectHero(f); };
   const favSet = new Set(favorites.map((f) => f.toLowerCase()));
   const isFav = (n) => favSet.has((n || "").toLowerCase());
+  const newFavNames = new Set(diff ? diff.newHeroes.filter(isFav) : []);
+  const pendingFavs = data.heroes.filter((h) => h.pending && isFav(h.n) && !newFavNames.has(h.n)).map((h) => ({ n: h.n, type: "NEW", color: P.neon, text: "newly released" }));
   const myChanges = diff ? [
+    ...pendingFavs,
     ...diff.newHeroes.filter(isFav).map((n) => ({ n, type: "NEW", color: P.neon, text: "added to roster" })),
     ...diff.buffed.filter((x) => isFav(x.n)).map((x) => ({ n: x.n, type: "BUFF ↑", color: P.nG, text: `${x.from}% → ${x.to}%` })),
     ...diff.nerfed.filter((x) => isFav(x.n)).map((x) => ({ n: x.n, type: "NERF ↓", color: P.red, text: `${x.from}% → ${x.to}%` })),

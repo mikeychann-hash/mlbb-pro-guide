@@ -46,9 +46,9 @@ export function MyStatsView({ tracker, saveTracker, tkHero, setTkHero, tkResult,
             </div>)}
         </div>
         <div style={{ display: "flex", gap: 6 }}>
-          {["Win", "Loss", "MVP"].map(r => (<button key={r} style={{ ...s.fb(tkResult === r, r === "Win" ? P.nG : r === "Loss" ? P.red : P.gold), flex: 1, textAlign: "center", padding: "8px" }} onClick={() => setTkResult(r)}>{r}</button>))}
+          {["Win", "Loss", "MVP"].map(r => (<button key={r} type="button" style={{ ...s.fb(tkResult === r, r === "Win" ? P.nG : r === "Loss" ? P.red : P.gold), flex: 1, textAlign: "center", padding: "8px" }} onClick={() => setTkResult(r)}>{r}</button>))}
         </div>
-        <button style={{ marginTop: 8, padding: "8px 0", background: P.gold, border: "none", borderRadius: 8, color: "#000", fontSize: 12, fontWeight: 700, cursor: "pointer", width: "100%", fontFamily: "inherit" }} onClick={logMatch}>+ Log Match</button>
+        <button type="button" style={{ marginTop: 8, padding: "8px 0", background: P.gold, border: "none", borderRadius: 8, color: "#000", fontSize: 12, fontWeight: 700, cursor: "pointer", width: "100%", fontFamily: "inherit" }} onClick={logMatch}>+ Log Match</button>
       </div>
       {tracker.length > 0 && <>
         <div style={s.sc}>📈 My Performance</div>
@@ -77,7 +77,7 @@ export function MyStatsView({ tracker, saveTracker, tkHero, setTkHero, tkResult,
           );
         })}
         <div style={s.sc}>🦸 Hero Win Rates</div>
-        {Object.entries(tracker.reduce((acc, m) => { if (!acc[m.hero]) acc[m.hero] = { w: 0, l: 0, mvp: 0 }; if (m.result === "Win") acc[m.hero].w++; else if (m.result === "MVP") { acc[m.hero].w++; acc[m.hero].mvp++; } else acc[m.hero].l++; return acc; }, {})).sort((a, b) => (b[1].w + b[1].mvp) / (b[1].w + b[1].l || 1) - (a[1].w + a[1].mvp) / (a[1].w + a[1].l || 1)).map(([hero, st]) => {
+        {Object.entries(tracker.reduce((acc, m) => { if (!acc[m.hero]) acc[m.hero] = { w: 0, l: 0, mvp: 0 }; if (m.result === "Win") acc[m.hero].w++; else if (m.result === "MVP") { acc[m.hero].w++; acc[m.hero].mvp++; } else acc[m.hero].l++; return acc; }, {})).sort((a, b) => (b[1].w / (b[1].w + b[1].l || 1)) - (a[1].w / (a[1].w + a[1].l || 1)) || b[1].mvp - a[1].mvp).map(([hero, st]) => {
           const total = st.w + st.l; const wr = total ? (st.w / total * 100).toFixed(0) : 0;
           return (<div key={hero} style={{ ...s.cd2, cursor: "default", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <div><div style={{ fontSize: 12, fontWeight: 700 }}>{hero}</div><div style={{ fontSize: 10, color: P.t3 }}>{st.w}W {st.l}L {st.mvp > 0 ? `${st.mvp} MVP` : ""}</div></div>
@@ -92,7 +92,7 @@ export function MyStatsView({ tracker, saveTracker, tkHero, setTkHero, tkResult,
             <span style={{ fontSize: 10, fontWeight: 700, color: m.result === "Loss" ? P.red : P.nG }}>{m.result}</span>
           </div>
         </div>))}
-        <button style={{ marginTop: 8, padding: "6px 0", background: "transparent", border: `1px solid ${P.red}33`, borderRadius: 6, color: P.red, fontSize: 10, cursor: "pointer", width: "100%", fontFamily: "inherit" }} onClick={() => saveTracker([])}>🗑️ Clear All Data</button>
+        <button type="button" style={{ marginTop: 8, padding: "6px 0", background: "transparent", border: `1px solid ${P.red}33`, borderRadius: 6, color: P.red, fontSize: 10, cursor: "pointer", width: "100%", fontFamily: "inherit" }} onClick={() => saveTracker([])}>🗑️ Clear All Data</button>
       </>}
       {tracker.length === 0 && <div style={{ textAlign: "center", padding: 30, color: P.t3 }}><div style={{ fontSize: 36 }}>📊</div><div style={{ fontSize: 13, marginTop: 8 }}>No matches logged yet. Start tracking above!</div></div>}
     </>

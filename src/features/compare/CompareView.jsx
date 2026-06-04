@@ -7,8 +7,8 @@ import { matchupPlan } from "./matchup.js";
 
 export function CompareView({ cmpA, setCmpA, cmpB, setCmpB }) {
   const { getHeroByName } = useData();
-  const heroA = useMemo(() => getHeroByName(cmpA), [cmpA]);
-  const heroB = useMemo(() => getHeroByName(cmpB), [cmpB]);
+  const heroA = useMemo(() => getHeroByName(cmpA), [cmpA, getHeroByName]);
+  const heroB = useMemo(() => getHeroByName(cmpB), [cmpB, getHeroByName]);
   return (
     <>
       <div style={{ fontSize: 11, color: P.t2, marginBottom: 10 }}>Compare two heroes side-by-side. Win rates, roles, builds, counters & matchups.</div>
@@ -31,17 +31,17 @@ export function CompareView({ cmpA, setCmpA, cmpB, setCmpB }) {
                   <div><strong style={{ color: P.gold }}>Emblem:</strong> {h.e}</div>
                   <div><strong style={{ color: P.gold }}>Spells:</strong> {h.sp2?.join("/")}</div>
                 </div>
-                <div style={{ marginTop: 6, fontSize: 9, color: P.red }}>🚫 {h.c.join(", ")}</div>
-                <div style={{ marginTop: 3, fontSize: 9, color: P.nG }}>✅ {h.s.join(", ")}</div>
+                <div style={{ marginTop: 6, fontSize: 9, color: P.red }}>🚫 {(h.c || []).join(", ")}</div>
+                <div style={{ marginTop: 3, fontSize: 9, color: P.nG }}>✅ {(h.s || []).join(", ")}</div>
               </div>
             ))}
           </div>
           <div style={{ ...s.cd2, marginTop: 8, cursor: "default", textAlign: "center" }}>
             <div style={{ fontSize: 12, fontWeight: 800, color: P.gold, marginBottom: 6 }}>⚔️ Head-to-Head</div>
-            {heroA.c.includes(heroB.n) ? <div style={{ fontSize: 12, color: P.red, fontWeight: 700 }}>🚫 {heroA.n} is COUNTERED by {heroB.n}</div>
-              : heroA.s.includes(heroB.n) ? <div style={{ fontSize: 12, color: P.nG, fontWeight: 700 }}>✅ {heroA.n} is STRONG vs {heroB.n}</div>
-                : heroB.c.includes(heroA.n) ? <div style={{ fontSize: 12, color: P.nG, fontWeight: 700 }}>✅ {heroA.n} COUNTERS {heroB.n}</div>
-                  : heroB.s.includes(heroA.n) ? <div style={{ fontSize: 12, color: P.red, fontWeight: 700 }}>🚫 {heroB.n} is STRONG vs {heroA.n}</div>
+            {(heroA.c || []).includes(heroB.n) ? <div style={{ fontSize: 12, color: P.red, fontWeight: 700 }}>🚫 {heroA.n} is COUNTERED by {heroB.n}</div>
+              : (heroA.s || []).includes(heroB.n) ? <div style={{ fontSize: 12, color: P.nG, fontWeight: 700 }}>✅ {heroA.n} is STRONG vs {heroB.n}</div>
+                : (heroB.c || []).includes(heroA.n) ? <div style={{ fontSize: 12, color: P.nG, fontWeight: 700 }}>✅ {heroA.n} COUNTERS {heroB.n}</div>
+                  : (heroB.s || []).includes(heroA.n) ? <div style={{ fontSize: 12, color: P.red, fontWeight: 700 }}>🚫 {heroB.n} is STRONG vs {heroA.n}</div>
                     : <div style={{ fontSize: 12, color: P.t2 }}>➡️ Neutral matchup — skill-dependent</div>}
             <div style={{ marginTop: 8, display: "flex", justifyContent: "center", gap: 12 }}>
               <div><span style={{ fontSize: 20, fontWeight: 900, color: heroA.wr > heroB.wr ? P.nG : P.t3 }}>{heroA.wr}%</span><div style={{ fontSize: 9, color: P.t3 }}>{heroA.n} WR</div></div>

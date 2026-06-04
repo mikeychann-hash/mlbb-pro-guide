@@ -12,7 +12,7 @@ export function DraftView({ draft, onSelect, onReset, dQ, setDQ, favorites = [] 
   const coach = draftCoach(draft, H, favorites);
   const { t1: d1, t2: d2, phase: dP, turn: dT } = draft;
   const [copied, setCopied] = useState(null);
-  const avgWr = (t) => { const picks = t.p.map(p => getHeroByName(p)).filter(Boolean); return picks.length ? (picks.reduce((a, p) => a + p.wr, 0) / picks.length).toFixed(1) : "0"; };
+  const avgWr = (t) => { const picks = t.p.map(p => getHeroByName(p)).filter(Boolean); return picks.length ? (picks.reduce((a, p) => a + (p.wr || 0), 0) / picks.length).toFixed(1) : "0"; };
   const copyDraft = async () => {
     const text = `⚔️ MLBB Draft\n` +
       `🔵 BLUE (avg WR ${avgWr(d1)}%)\nPicks: ${d1.p.join(", ") || "—"}\nBans: ${d1.b.join(", ") || "—"}\n\n` +
@@ -73,7 +73,7 @@ export function DraftView({ draft, onSelect, onReset, dQ, setDQ, favorites = [] 
         if (!roles.includes("Tank") && !picks.some(p => p.r2 === "Tank")) w.push("No tank");
         if (!roles.includes("Mage") && !picks.some(p => p.r2 === "Mage")) w.push("No mage");
         if (!roles.includes("Marksman")) w.push("No MM");
-        const avg = picks.length ? (picks.reduce((a, p) => a + p.wr, 0) / picks.length).toFixed(1) : 0;
+        const avg = picks.length ? (picks.reduce((a, p) => a + (p.wr || 0), 0) / picks.length).toFixed(1) : 0;
         return (<div key={l} style={{ ...s.cd2, borderLeft: `3px solid ${c}`, marginTop: 8, cursor: "default" }}><div style={{ display: "flex", justifyContent: "space-between" }}><span style={{ fontSize: 12, fontWeight: 800, color: c }}>{l}</span><span style={{ fontSize: 11, color: P.t2 }}>Avg WR: {avg}%</span></div><div style={{ display: "flex", flexWrap: "wrap", gap: 3, marginTop: 4 }}>{picks.map(p => <span key={p.n} style={s.bg(rc(p.r))}>{ri(p.r)} {p.n}</span>)}</div>{w.length ? w.map((x, i) => <div key={i} style={{ fontSize: 10, color: P.gold, marginTop: 2 }}>⚠️ {x}</div>) : <div style={{ fontSize: 10, color: P.nG, marginTop: 2 }}>✅ Balanced</div>}</div>);
       })}</>}
     </>

@@ -40,6 +40,22 @@ describe("draftCoach", () => {
     expect(c.avoid.some((a) => a.n === "Pharsa")).toBe(true); // Pharsa.c includes Ling
   });
 
+  it("detects counters via the ENEMY's weakness data too (bidirectional)", () => {
+    // Saber is weak to Khufra (Saber.c includes Khufra); enemy picked Saber.
+    const hs = [...heroes, H("Saber", "Assassin", "S", 51, 41, { c: ["Khufra"] })];
+    const d = { t1: { b: [], p: [] }, t2: { b: [], p: ["Saber"] }, phase: "pick1", turn: 1 };
+    const c = draftCoach(d, hs, []);
+    const khufra = c.picks.find((p) => p.n === "Khufra");
+    expect(khufra.reason).toMatch(/counters Saber/);
+  });
+
+  it("never recommends data-pending heroes", () => {
+    const hs = [...heroes, H("NewHero", "Mage", "?", 0, 0, { pending: true })];
+    const d = { t1: { b: [], p: [] }, t2: { b: [], p: [] }, phase: "pick1", turn: 1 };
+    const c = draftCoach(d, hs, ["NewHero"]);
+    expect(c.picks.some((p) => p.n === "NewHero")).toBe(false);
+  });
+
   it("boosts the user's favorites", () => {
     const d = { t1: { b: [], p: [] }, t2: { b: [], p: [] }, phase: "pick1", turn: 1 };
     const c = draftCoach(d, heroes, ["Khufra"]);
