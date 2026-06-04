@@ -19,3 +19,14 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# --- Capacitor / WebView bridge keep rules (added for R8/minify) ---
+-keep public class * extends com.getcapacitor.Plugin
+-keep @com.getcapacitor.annotation.CapacitorPlugin public class * { *; }
+-keepclassmembers class * { @com.getcapacitor.annotation.* <methods>; }
+-keep class com.getcapacitor.** { *; }
+-keep class com.capacitorjs.** { *; }
+-keepattributes *Annotation*, JavascriptInterface
+-keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }
+-dontwarn com.getcapacitor.**
+-dontwarn com.capacitorjs.**

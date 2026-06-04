@@ -3,6 +3,7 @@ import { P } from "./theme/palette.js";
 import { s } from "./theme/styles.js";
 import { useData } from "./data/DataContext.jsx";
 import { getJSON, setJSON } from "./services/storage.js";
+import { initPush } from "./services/notify.js";
 import { emptyDraft, selectHero } from "./features/draft/draftLogic.js";
 import { HeroDetail } from "./components/HeroDetail.jsx";
 
@@ -80,6 +81,7 @@ export default function App() {
       setTracker(await getJSON("mlbb-tracker", []));
       setSavedBuilds(await getJSON("mlbb-builds", []));
       setFavorites(await getJSON("mlbb-favorites", []));
+      initPush();
     })();
   }, []);
 

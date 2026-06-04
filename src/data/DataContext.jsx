@@ -3,6 +3,7 @@ import { BUNDLED_DATA } from "./bundled.js";
 import { syncData } from "../services/dataSync.js";
 import { computeDiff, buildChangeMap } from "../services/diffEngine.js";
 import { getJSON, setJSON } from "../services/storage.js";
+import { notifyUpdate } from "../services/notify.js";
 
 const DataCtx = createContext(null);
 
@@ -43,6 +44,14 @@ export function DataProvider({ children }) {
       const d = computeDiff(seen.heroes, currentHeroes);
       setDiff(d);
       setChanges(buildChangeMap(d, currentHeroes));
+      const nNew = d.newHeroes.length;
+      const nChg = d.buffed.length + d.nerfed.length + d.tierUp.length + d.tierDown.length;
+      if (nNew + nChg > 0) {
+        const parts = [];
+        if (nNew) parts.push(`${nNew} new hero${nNew === 1 ? "" : "es"}`);
+        if (nChg) parts.push(`${nChg} balance change${nChg === 1 ? "" : "s"}`);
+        notifyUpdate("MLBB meta updated", parts.join(" · "));
+      }
     } else if (!seen) {
       // First launch: establish a baseline silently, but still flag any
       // pending (brand-new) heroes as NEW.

@@ -66,9 +66,30 @@ Edit `android/app/build.gradle`:
 - `versionName` — human-facing (e.g. `1.0.1`)
 - `versionCode` — integer, must increase every Play upload
 
+## Code shrinking (R8)
+
+Release builds use `minifyEnabled true` + `shrinkResources true`. Capacitor/WebView keep rules live in
+`android/app/proguard-rules.pro` so the JS bridge isn't stripped. If you add native plugins, re-verify the
+release APK launches (install it and confirm the UI loads, not a blank WebView).
+
+## CI
+
+`.github/workflows/ci.yml` runs `npm ci`, `npm test`, and `npm run build` on every push/PR to `main`.
+
+## Notifications
+
+- **Local notifications** (`@capacitor/local-notifications`) fire automatically when a data sync detects
+  new heroes or balance changes — no backend needed. Handled in `src/services/notify.js` (`notifyUpdate`),
+  triggered from `src/data/DataContext.jsx`.
+- **Remote push (FCM)** (`@capacitor/push-notifications`) is scaffolded in `initPush()` and registered on
+  launch, but only activates on a native build with Firebase configured. To enable:
+  1. Create a Firebase project, add an Android app with id `com.mikeychann.mlbbproguide`.
+  2. Download `google-services.json` into `android/app/`.
+  3. Rebuild — `build.gradle` auto-applies the google-services plugin when that file is present.
+  4. To push on new patches, have the scrape Action call the FCM HTTP v1 API with your server key after a
+     successful data change.
+
 ## Optional next hardening
 
-- Enable `minifyEnabled true` + `shrinkResources true` for a smaller APK (test thoroughly — verify the
-  WebView still loads after R8).
-- Add a CI workflow to run `npm test` + `npm run build` on every push.
-- Push notifications (needs Firebase / `google-services.json`).
+- Add Firebase `google-services.json` to turn on remote push (see above).
+- Per-release `versionCode` automation in CI.
