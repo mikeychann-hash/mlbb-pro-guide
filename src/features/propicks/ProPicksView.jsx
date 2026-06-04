@@ -1,6 +1,7 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { Portrait } from "../../components/Portrait.jsx";
 
 export function ProPicksView({ onSelectHero }) {
   const { getProPicks, getHeroByName } = useData();
@@ -17,7 +18,7 @@ export function ProPicksView({ onSelectHero }) {
           {role.heroes.map(h => (
             <div key={h.n} style={{ ...s.cd2, cursor: "pointer" }} onClick={() => { const f = getHeroByName(h.n); if (f) onSelectHero(f); }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <div style={{ fontSize: 12, fontWeight: 700 }}>{h.n}</div>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>{getHeroByName(h.n) && <Portrait hero={getHeroByName(h.n)} size={30} radius={8} />}<span style={{ fontSize: 13, fontWeight: 700 }}>{h.n}</span></div>
                 <div style={{ display: "flex", gap: 8 }}>
                   <div style={{ textAlign: "center" }}><div style={{ fontSize: 11, fontWeight: 800, color: P.nG }}>{h.pk}%</div><div style={{ fontSize: 7, color: P.t3 }}>PICK</div></div>
                   <div style={{ textAlign: "center" }}><div style={{ fontSize: 11, fontWeight: 800, color: P.red }}>{h.bn}%</div><div style={{ fontSize: 7, color: P.t3 }}>BAN</div></div>

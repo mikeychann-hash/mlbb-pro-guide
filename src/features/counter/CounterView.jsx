@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { s } from "../../theme/styles.js";
 import { P, ri } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { Portrait } from "../../components/Portrait.jsx";
 
 export function CounterView({ cQ, setCQ }) {
   const { getHeroes, getHeroByName } = useData();
@@ -16,8 +17,11 @@ export function CounterView({ cQ, setCQ }) {
       </div>
       {cH ? (
         <div style={{ background: P.cd, border: `1px solid ${P.brd}`, borderRadius: 12, padding: 16 }}>
-          <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 12 }}>
-            <div style={{ fontSize: 18, fontWeight: 900 }}>{ri(cH.r)} {cH.n}</div>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              <Portrait hero={cH} size={56} radius={12} />
+              <div style={{ fontSize: 19, fontWeight: 900 }}>{cH.n}</div>
+            </div>
             <div style={{ display: "flex", gap: 8 }}>
               <div style={{ textAlign: "center" }}><div style={s.wr(cH.wr)}>{cH.wr}%</div><div style={{ fontSize: 8, color: P.t3 }}>WR</div></div>
               <div style={{ textAlign: "center" }}><div style={{ fontSize: 12, fontWeight: 800, color: cH.br >= 30 ? P.red : P.t2 }}>{cH.br}%</div><div style={{ fontSize: 8, color: P.t3 }}>BAN</div></div>

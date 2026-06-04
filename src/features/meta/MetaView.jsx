@@ -1,6 +1,7 @@
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { Portrait } from "../../components/Portrait.jsx";
 
 export function MetaView({ onSelectHero }) {
   const { getMeta, getHeroByName } = useData();
@@ -16,6 +17,7 @@ export function MetaView({ onSelectHero }) {
       <div style={s.sc}>🚫 Top Bans</div>
       {BANS.map(h => (
         <div key={h.n} style={{ ...s.cd2, display: "flex", alignItems: "center", gap: 10 }} onClick={() => open(h.n)}>
+          {getHeroByName(h.n) && <Portrait hero={getHeroByName(h.n)} size={36} radius={9} />}
           <div style={{ fontSize: 18, fontWeight: 900, color: P.red, minWidth: 38 }}>{h.r}%</div>
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 12, fontWeight: 700 }}>{h.n} <span style={{ color: h.tr === "↑" ? P.nG : h.tr === "↓" ? P.red : P.t3 }}>{h.tr}</span></div>
