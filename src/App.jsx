@@ -4,7 +4,7 @@ import { s } from "./theme/styles.js";
 import { useData } from "./data/DataContext.jsx";
 import { getJSON, setJSON } from "./services/storage.js";
 import { initPush } from "./services/notify.js";
-import { emptyDraft, selectHero } from "./features/draft/draftLogic.js";
+import { emptyDraft, selectHero, undoDraft } from "./features/draft/draftLogic.js";
 import { HeroDetail } from "./components/HeroDetail.jsx";
 
 import { MetaView } from "./features/meta/MetaView.jsx";
@@ -99,6 +99,7 @@ export default function App() {
   const onSelectHero = (h) => setSel(h);
   const onDraftSelect = (name) => setDraft((d) => selectHero(d, name));
   const onDraftReset = () => { setDraft(emptyDraft()); setDQ(""); };
+  const onDraftUndo = () => setDraft((d) => undoDraft(d));
 
   const view = useMemo(() => {
     switch (tab) {
@@ -121,7 +122,7 @@ export default function App() {
       case "My Stats": return <MyStatsView {...{ tracker, saveTracker, tkHero, setTkHero, tkResult, setTkResult }} />;
       case "Climb": return <ClimbView favorites={favorites} onSelectHero={onSelectHero} />;
       case "Build": return <BuildView {...{ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }} />;
-      case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, dQ, setDQ, favorites }} />;
+      case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, onUndo: onDraftUndo, dQ, setDQ, favorites }} />;
       default: return null;
     }
   }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ]);
