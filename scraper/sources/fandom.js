@@ -46,7 +46,11 @@ export async function fetchImages(names, fetchImpl = fetch) {
     const pages = j.query?.pages || {};
     for (const k in pages) {
       const p = pages[k];
-      if (p && p.title && p.thumbnail && p.thumbnail.source) map[p.title] = p.thumbnail.source;
+      if (p && p.title && p.thumbnail && p.thumbnail.source) {
+        // Use the original PNG (strip the "/revision/.../scale-to-width-down" webp
+        // thumbnail transform) for maximum WebView compatibility.
+        map[p.title] = p.thumbnail.source.split("/revision/")[0];
+      }
     }
   }
   return Object.keys(map).length ? map : null;

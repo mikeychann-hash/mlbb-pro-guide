@@ -1,38 +1,48 @@
-import { useState } from "react";
 import { ri, rc } from "../theme/palette.js";
 
-// Hero portrait with graceful fallback to the role emoji (used when offline,
-// when a hero has no image URL yet, or if the image fails to load).
+// Hero portrait. Uses a CSS background-image layered OVER an emoji fallback:
+// if the image loads it covers the emoji; if it fails to load there is NO broken
+// image icon — the role emoji simply shows through. Robust across old WebViews.
 export function Portrait({ hero, size = 42, radius = 11 }) {
-  const [err, setErr] = useState(false);
-  const showImg = hero.img && !err;
+  const role = rc(hero.r);
   return (
     <div
       style={{
+        position: "relative",
         width: size,
         height: size,
         borderRadius: radius,
         flex: "0 0 auto",
-        background: showImg ? "#070d18" : `${rc(hero.r)}1c`,
-        border: `1px solid ${rc(hero.r)}55`,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        background: `${role}1c`,
+        border: `1px solid ${role}55`,
         overflow: "hidden",
-        fontSize: Math.round(size * 0.5),
-        boxShadow: `0 0 0 1px rgba(0,0,0,.3), 0 4px 12px ${rc(hero.r)}22`,
+        boxShadow: `0 0 0 1px rgba(0,0,0,.3), 0 4px 12px ${role}22`,
       }}
     >
-      {showImg ? (
-        <img
-          src={hero.img}
-          alt={hero.n}
-          loading="lazy"
-          onError={() => setErr(true)}
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+      {/* emoji fallback (always present, behind the image) */}
+      <span
+        style={{
+          position: "absolute",
+          inset: 0,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: Math.round(size * 0.5),
+        }}
+      >
+        {ri(hero.r)}
+      </span>
+      {/* portrait image on top — invisible (no broken icon) if it fails to load */}
+      {hero.img && (
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage: `url("${hero.img}")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center top",
+          }}
         />
-      ) : (
-        ri(hero.r)
       )}
     </div>
   );

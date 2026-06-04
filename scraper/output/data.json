@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-04T01:25:14.098Z",
+  "generatedAt": "2026-06-04T01:54:48.430Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -49,7 +49,7 @@
         "Pharsa",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Hero1311-portrait.png/revision/latest/scale-to-width-down/147?cb=20251218014024"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Hero1311-portrait.png"
     },
     {
       "n": "Fredrinn",
@@ -91,7 +91,7 @@
         "Angela",
         "Pharsa"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1171-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140652"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1171-portrait.png"
     },
     {
       "n": "Julian",
@@ -133,7 +133,7 @@
         "Khufra",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1161-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140636"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1161-portrait.png"
     },
     {
       "n": "Zhuxin",
@@ -175,7 +175,7 @@
         "Atlas",
         "Fredrinn"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero1251-portrait.png/revision/latest/scale-to-width-down/147?cb=20250406000833"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero1251-portrait.png"
     },
     {
       "n": "Helcurt",
@@ -216,7 +216,7 @@
         "Atlas",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero511-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141850"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero511-portrait.png"
     },
     {
       "n": "Tigreal",
@@ -258,7 +258,7 @@
         "Zhuxin",
         "Sora"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero061-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140350"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero061-portrait.png"
     },
     {
       "n": "Khufra",
@@ -300,7 +300,7 @@
         "Zhuxin",
         "Julian"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero781-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142534"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero781-portrait.png"
     },
     {
       "n": "Joy",
@@ -340,7 +340,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1181-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140707"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1181-portrait.png"
     },
     {
       "n": "Phoveus",
@@ -382,7 +382,7 @@
         "Tigreal",
         "Pharsa"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Hero1061-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143231"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Hero1061-portrait.png"
     },
     {
       "n": "Hayabusa",
@@ -423,7 +423,7 @@
         "Angela",
         "Mathilda"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Hero211-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141115"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Hero211-portrait.png"
     },
     {
       "n": "Arlott",
@@ -465,7 +465,7 @@
         "Atlas",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1201-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140737"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1201-portrait.png"
     },
     {
       "n": "Lapu-Lapu",
@@ -507,7 +507,7 @@
         "Pharsa",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero371-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141516"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero371-portrait.png"
     },
     {
       "n": "Freya",
@@ -549,7 +549,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/54/Hero221-portrait.png/revision/latest/scale-to-width-down/147?cb=20251110105915"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/54/Hero221-portrait.png"
     },
     {
       "n": "Leomord",
@@ -591,7 +591,7 @@
         "Angela",
         "Mathilda"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero671-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142250"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero671-portrait.png"
     },
     {
       "n": "Saber",
@@ -633,7 +633,7 @@
         "Atlas",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero031-portrait.png/revision/latest/scale-to-width-down/147?cb=20250406000702"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero031-portrait.png"
     },
     {
       "n": "Pharsa",
@@ -675,7 +675,7 @@
         "Khufra",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero521-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141905"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero521-portrait.png"
     },
     {
       "n": "Kimmy",
@@ -717,7 +717,7 @@
         "Khufra",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Hero711-portrait.png/revision/latest/scale-to-width-down/147?cb=20250320124912"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Hero711-portrait.png"
     },
     {
       "n": "Yi Sun-shin",
@@ -758,7 +758,7 @@
         "Angela",
         "Mathilda"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/29/Hero301-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141329"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/29/Hero301-portrait.png"
     },
     {
       "n": "Gloo",
@@ -800,7 +800,7 @@
         "Zhuxin",
         "Sora"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1041-portrait.png/revision/latest/scale-to-width-down/147?cb=20250403144136"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1041-portrait.png"
     },
     {
       "n": "Angela",
@@ -841,7 +841,7 @@
         "Hayabusa",
         "Sora"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6b/Hero551-portrait.png/revision/latest/scale-to-width-down/147?cb=20250406000910"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6b/Hero551-portrait.png"
     },
     {
       "n": "Mathilda",
@@ -882,7 +882,7 @@
         "Leomord",
         "Granger"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Hero1021-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143131"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Hero1021-portrait.png"
     },
     {
       "n": "Nolan",
@@ -922,7 +922,7 @@
         "Angela",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1221-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140807"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1221-portrait.png"
     },
     {
       "n": "Chip",
@@ -961,7 +961,7 @@
         "Julian",
         "Hayabusa"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Hero1241-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140835"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Hero1241-portrait.png"
     },
     {
       "n": "Chou",
@@ -1003,7 +1003,7 @@
         "Zhuxin",
         "Sora"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero261-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141231"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero261-portrait.png"
     },
     {
       "n": "Guinevere",
@@ -1045,7 +1045,7 @@
         "Atlas",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero801-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142559"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero801-portrait.png"
     },
     {
       "n": "Valentina",
@@ -1085,7 +1085,7 @@
         "Khufra",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1101-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143333"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1101-portrait.png"
     },
     {
       "n": "Wanwan",
@@ -1127,7 +1127,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero891-portrait.png/revision/latest/scale-to-width-down/147?cb=20250117142006"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero891-portrait.png"
     },
     {
       "n": "Karrie",
@@ -1169,7 +1169,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Hero401-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141602"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Hero401-portrait.png"
     },
     {
       "n": "Beatrix",
@@ -1211,7 +1211,7 @@
         "Angela",
         "Mathilda"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero1051-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143216"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero1051-portrait.png"
     },
     {
       "n": "Brody",
@@ -1252,7 +1252,7 @@
         "Angela",
         "Mathilda"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero1001-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143102"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero1001-portrait.png"
     },
     {
       "n": "Lancelot",
@@ -1293,7 +1293,7 @@
         "Angela",
         "Chip"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Hero471-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141749"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Hero471-portrait.png"
     },
     {
       "n": "Ling",
@@ -1334,7 +1334,7 @@
         "Angela",
         "Chip"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero841-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142700"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero841-portrait.png"
     },
     {
       "n": "Fanny",
@@ -1374,7 +1374,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero171-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141015"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero171-portrait.png"
     },
     {
       "n": "Atlas",
@@ -1415,7 +1415,7 @@
         "Zhuxin",
         "Sora"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero931-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142917"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero931-portrait.png"
     },
     {
       "n": "Ruby",
@@ -1457,7 +1457,7 @@
         "Zhuxin",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b4/Hero291-portrait.png/revision/latest/scale-to-width-down/147?cb=20250802152205"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b4/Hero291-portrait.png"
     },
     {
       "n": "Esmeralda",
@@ -1499,7 +1499,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/42/Hero811-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142615"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/42/Hero811-portrait.png"
     },
     {
       "n": "Diggie",
@@ -1538,7 +1538,7 @@
       "sy": [
         "Any carry"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Hero481-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141804"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Hero481-portrait.png"
     },
     {
       "n": "Estes",
@@ -1578,7 +1578,7 @@
         "Yu Zhong",
         "Thamuz"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Hero341-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141430"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Hero341-portrait.png"
     },
     {
       "n": "Marcel",
@@ -1617,7 +1617,7 @@
         "Zhuxin",
         "Sora"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/27/Hero1321-portrait.png/revision/latest/scale-to-width-down/147?cb=20260311075303"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/27/Hero1321-portrait.png"
     },
     {
       "n": "Granger",
@@ -1658,7 +1658,7 @@
         "Angela",
         "Mathilda"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/cb/Hero791-portrait.png/revision/latest/scale-to-width-down/147?cb=20250407160652"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/cb/Hero791-portrait.png"
     },
     {
       "n": "Gusion",
@@ -1698,7 +1698,7 @@
         "Angela",
         "Chip"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero561-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142006"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero561-portrait.png"
     },
     {
       "n": "Franco",
@@ -1737,7 +1737,7 @@
       "sy": [
         "Any burst damage"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Hero101-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140917"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Hero101-portrait.png"
     },
     {
       "n": "Uranus",
@@ -1777,7 +1777,7 @@
         "Estes",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Hero591-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142052"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Hero591-portrait.png"
     },
     {
       "n": "Lylia",
@@ -1817,7 +1817,7 @@
         "Khufra",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Hero861-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142730"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Hero861-portrait.png"
     },
     {
       "n": "Bruno",
@@ -1858,7 +1858,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Hero121-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140925"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Hero121-portrait.png"
     },
     {
       "n": "Hilda",
@@ -1896,7 +1896,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Hero351-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141445"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Hero351-portrait.png"
     },
     {
       "n": "Thamuz",
@@ -1937,7 +1937,7 @@
         "Estes",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Hero721-portrait.png/revision/latest/scale-to-width-down/147?cb=20250917080630"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Hero721-portrait.png"
     },
     {
       "n": "Yu Zhong",
@@ -1977,7 +1977,7 @@
         "Estes",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero951-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142947"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero951-portrait.png"
     },
     {
       "n": "Selena",
@@ -2015,7 +2015,7 @@
       "sy": [
         "Any carry"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero631-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142149"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero631-portrait.png"
     },
     {
       "n": "Kagura",
@@ -2055,7 +2055,7 @@
         "Atlas",
         "Khufra"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero251-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141216"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero251-portrait.png"
     },
     {
       "n": "Melissa",
@@ -2095,7 +2095,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Hero1141-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143430"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Hero1141-portrait.png"
     },
     {
       "n": "Lolita",
@@ -2133,7 +2133,7 @@
       "sy": [
         "Melee carries"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Hero201-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141100"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Hero201-portrait.png"
     },
     {
       "n": "Hylos",
@@ -2170,7 +2170,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Hero491-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141819"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Hero491-portrait.png"
     },
     {
       "n": "Khaleed",
@@ -2210,7 +2210,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c6/Hero981-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143032"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c6/Hero981-portrait.png"
     },
     {
       "n": "Badang",
@@ -2249,7 +2249,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero771-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142519"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero771-portrait.png"
     },
     {
       "n": "Cici",
@@ -2288,7 +2288,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1231-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140820"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1231-portrait.png"
     },
     {
       "n": "Edith",
@@ -2325,7 +2325,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1111-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143348"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1111-portrait.png"
     },
     {
       "n": "Baxia",
@@ -2364,7 +2364,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero871-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142746"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero871-portrait.png"
     },
     {
       "n": "Gatotkaca",
@@ -2401,7 +2401,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Hero411-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141617"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Hero411-portrait.png"
     },
     {
       "n": "Belerick",
@@ -2439,7 +2439,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero701-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142334"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero701-portrait.png"
     },
     {
       "n": "Claude",
@@ -2478,7 +2478,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero651-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142219"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero651-portrait.png"
     },
     {
       "n": "Natalia",
@@ -2515,7 +2515,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Hero241-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141201"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Hero241-portrait.png"
     },
     {
       "n": "Lunox",
@@ -2555,7 +2555,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero681-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142306"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero681-portrait.png"
     },
     {
       "n": "Yve",
@@ -2594,7 +2594,7 @@
         "Tigreal",
         "Khufra"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero1011-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143118"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero1011-portrait.png"
     },
     {
       "n": "Xavier",
@@ -2633,7 +2633,7 @@
         "Tigreal",
         "Khufra"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143446"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png"
     },
     {
       "n": "Johnson",
@@ -2672,7 +2672,7 @@
         "Eudora",
         "Odette"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Hero321-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141359"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Hero321-portrait.png"
     },
     {
       "n": "Harith",
@@ -2712,7 +2712,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero731-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142419"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero731-portrait.png"
     },
     {
       "n": "Obsidia",
@@ -2751,7 +2751,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1301-portrait.png/revision/latest/scale-to-width-down/147?cb=20250928040037"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1301-portrait.png"
     },
     {
       "n": "Kalea",
@@ -2788,7 +2788,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Hero1281-portrait.png/revision/latest/scale-to-width-down/147?cb=20250407160846"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Hero1281-portrait.png"
     },
     {
       "n": "Miya",
@@ -2828,7 +2828,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero011-portrait.png/revision/latest/scale-to-width-down/147?cb=20250407160822"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero011-portrait.png"
     },
     {
       "n": "Layla",
@@ -2867,7 +2867,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Hero181-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141031"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Hero181-portrait.png"
     },
     {
       "n": "Eudora",
@@ -2906,7 +2906,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Hero151-portrait.png/revision/latest/scale-to-width-down/147?cb=20260129103005"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Hero151-portrait.png"
     },
     {
       "n": "Hanabi",
@@ -2945,7 +2945,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero601-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142105"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero601-portrait.png"
     },
     {
       "n": "Paquito",
@@ -2984,7 +2984,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a9/Hero1031-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143146"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a9/Hero1031-portrait.png"
     },
     {
       "n": "Alpha",
@@ -3022,7 +3022,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero281-portrait.png/revision/latest/scale-to-width-down/147?cb=20250802155020"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero281-portrait.png"
     },
     {
       "n": "Balmond",
@@ -3060,7 +3060,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero021-portrait.png/revision/latest/scale-to-width-down/147?cb=20251110110543"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero021-portrait.png"
     },
     {
       "n": "Alice",
@@ -3099,7 +3099,7 @@
         "Tigreal",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero041-portrait.png/revision/latest/scale-to-width-down/147?cb=20250917074230"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero041-portrait.png"
     },
     {
       "n": "Sun",
@@ -3138,7 +3138,7 @@
         "Chip",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero271-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141243"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero271-portrait.png"
     },
     {
       "n": "Masha",
@@ -3177,7 +3177,7 @@
         "Chip",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Hero881-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142800"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Hero881-portrait.png"
     },
     {
       "n": "Argus",
@@ -3215,7 +3215,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero451-portrait.png/revision/latest/scale-to-width-down/147?cb=20250407160733"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero451-portrait.png"
     },
     {
       "n": "Terizla",
@@ -3253,7 +3253,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Hero821-portrait.png/revision/latest/scale-to-width-down/147?cb=20250802145756"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Hero821-portrait.png"
     },
     {
       "n": "X.Borg",
@@ -3291,7 +3291,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Hero831-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142646"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Hero831-portrait.png"
     },
     {
       "n": "Jawhead",
@@ -3328,7 +3328,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero541-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141935"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero541-portrait.png"
     },
     {
       "n": "Natan",
@@ -3367,7 +3367,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1071-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143246"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1071-portrait.png"
     },
     {
       "n": "Chang'e",
@@ -3406,7 +3406,7 @@
         "Tigreal",
         "Khufra"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Hero611-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142120"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Hero611-portrait.png"
     },
     {
       "n": "Luo Yi",
@@ -3444,7 +3444,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero961-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143002"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero961-portrait.png"
     },
     {
       "n": "Rafaela",
@@ -3481,7 +3481,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero141-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140932"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero141-portrait.png"
     },
     {
       "n": "Floryn",
@@ -3518,7 +3518,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/11/Hero1121-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143403"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/11/Hero1121-portrait.png"
     },
     {
       "n": "Akai",
@@ -3556,7 +3556,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Hero091-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140401"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Hero091-portrait.png"
     },
     {
       "n": "Zilong",
@@ -3597,7 +3597,7 @@
         "Chip",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Hero161-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141000"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Hero161-portrait.png"
     },
     {
       "n": "Alucard",
@@ -3636,7 +3636,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/01/Hero071-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140353"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/01/Hero071-portrait.png"
     },
     {
       "n": "Aldous",
@@ -3674,7 +3674,7 @@
         "Chip",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero641-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142204"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero641-portrait.png"
     },
     {
       "n": "Martis",
@@ -3714,7 +3714,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero581-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142036"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero581-portrait.png"
     },
     {
       "n": "Roger",
@@ -3752,7 +3752,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hero391-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141547"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hero391-portrait.png"
     },
     {
       "n": "Silvanna",
@@ -3790,7 +3790,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Hero901-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142831"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Hero901-portrait.png"
     },
     {
       "n": "Bane",
@@ -3829,7 +3829,7 @@
         "Chip",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero111-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140922"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero111-portrait.png"
     },
     {
       "n": "Yin",
@@ -3866,7 +3866,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bc/Hero1131-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143417"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bc/Hero1131-portrait.png"
     },
     {
       "n": "Dyrroth",
@@ -3904,7 +3904,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero851-portrait.png/revision/latest/scale-to-width-down/147?cb=20250917081250"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero851-portrait.png"
     },
     {
       "n": "Minsitthar",
@@ -3942,7 +3942,7 @@
         "Tigreal",
         "Phoveus"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Hero741-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142435"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Hero741-portrait.png"
     },
     {
       "n": "Novaria",
@@ -3980,7 +3980,7 @@
         "Tigreal",
         "Khufra"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140722"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png"
     },
     {
       "n": "Gord",
@@ -4018,7 +4018,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Hero231-portrait.png/revision/latest/scale-to-width-down/147?cb=20241123045016"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Hero231-portrait.png"
     },
     {
       "n": "Vale",
@@ -4056,7 +4056,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Hero661-portrait.png/revision/latest/scale-to-width-down/147?cb=20250406000746"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Hero661-portrait.png"
     },
     {
       "n": "Nana",
@@ -4094,7 +4094,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero051-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140348"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero051-portrait.png"
     },
     {
       "n": "Karina",
@@ -4131,7 +4131,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero081-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140357"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero081-portrait.png"
     },
     {
       "n": "Harley",
@@ -4170,7 +4170,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/81/Hero421-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141633"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/81/Hero421-portrait.png"
     },
     {
       "n": "Zhask",
@@ -4209,7 +4209,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fe/Hero501-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141834"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fe/Hero501-portrait.png"
     },
     {
       "n": "Popol and Kupa",
@@ -4249,7 +4249,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Hero941-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142932"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Hero941-portrait.png"
     },
     {
       "n": "Lesley",
@@ -4289,7 +4289,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Hero531-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141920"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Hero531-portrait.png"
     },
     {
       "n": "Moskov",
@@ -4329,7 +4329,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/60/Hero311-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141344"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/60/Hero311-portrait.png"
     },
     {
       "n": "Aamon",
@@ -4368,7 +4368,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Hero1091-portrait.png/revision/latest/scale-to-width-down/147?cb=20251225192214"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Hero1091-portrait.png"
     },
     {
       "n": "Benedetta",
@@ -4406,7 +4406,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero971-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143017"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero971-portrait.png"
     },
     {
       "n": "Ixia",
@@ -4445,7 +4445,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Hero1211-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140752"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Hero1211-portrait.png"
     },
     {
       "n": "Odette",
@@ -4483,7 +4483,7 @@
         "Johnson",
         "Tigreal"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero461-portrait.png/revision/latest/scale-to-width-down/147?cb=20250117141936"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero461-portrait.png"
     },
     {
       "n": "Aurora",
@@ -4521,7 +4521,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero361-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141501"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero361-portrait.png"
     },
     {
       "n": "Cyclops",
@@ -4559,7 +4559,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Hero331-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141415"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Hero331-portrait.png"
     },
     {
       "n": "Kadita",
@@ -4597,7 +4597,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e8/Hero751-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142450"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e8/Hero751-portrait.png"
     },
     {
       "n": "Vexana",
@@ -4634,7 +4634,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero381-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141531"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero381-portrait.png"
     },
     {
       "n": "Hanzo",
@@ -4671,7 +4671,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Hero691-portrait.png/revision/latest/scale-to-width-down/147?cb=20250117141953"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Hero691-portrait.png"
     },
     {
       "n": "Minotaur",
@@ -4708,7 +4708,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero191-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141046"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero191-portrait.png"
     },
     {
       "n": "Grock",
@@ -4745,7 +4745,7 @@
       "sy": [
         "Any team"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero441-portrait.png/revision/latest/scale-to-width-down/147?cb=20250811073746"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero441-portrait.png"
     },
     {
       "n": "Carmilla",
@@ -4783,7 +4783,7 @@
         "Tigreal",
         "Atlas"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero921-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142902"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero921-portrait.png"
     },
     {
       "n": "Faramis",
@@ -4820,7 +4820,7 @@
       "sy": [
         "Any teamfight comp"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero761-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142504"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero761-portrait.png"
     },
     {
       "n": "Clint",
@@ -4860,7 +4860,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Hero131-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021140929"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Hero131-portrait.png"
     },
     {
       "n": "Lukas",
@@ -4899,7 +4899,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1271-portrait.png/revision/latest/scale-to-width-down/147?cb=20250412174341"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1271-portrait.png"
     },
     {
       "n": "Suyou",
@@ -4937,7 +4937,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero1261-portrait.png/revision/latest/scale-to-width-down/147?cb=20250412174335"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero1261-portrait.png"
     },
     {
       "n": "Phylax",
@@ -5012,7 +5012,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero991-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021143047"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero991-portrait.png"
     },
     {
       "n": "Kaja",
@@ -5049,7 +5049,7 @@
       "sy": [
         "Any burst carry"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/Hero621-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142136"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/Hero621-portrait.png"
     },
     {
       "n": "Aulus",
@@ -5087,7 +5087,7 @@
         "Tigreal",
         "Angela"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero1081-portrait.png/revision/latest/scale-to-width-down/147?cb=20260423100521"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero1081-portrait.png"
     },
     {
       "n": "Cecilion",
@@ -5107,7 +5107,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero911-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142846",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero911-portrait.png",
       "pending": true
     },
     {
@@ -5128,7 +5128,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/19/Hero1331-portrait.png/revision/latest/scale-to-width-down/147?cb=20260313145802",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/19/Hero1331-portrait.png",
       "pending": true
     },
     {
@@ -5149,7 +5149,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero431-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021141648",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero431-portrait.png",
       "pending": true
     },
     {
@@ -5170,7 +5170,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Hero571-portrait.png/revision/latest/scale-to-width-down/147?cb=20241021142021",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Hero571-portrait.png",
       "pending": true
     },
     {
@@ -5191,7 +5191,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1291-portrait.png/revision/latest/scale-to-width-down/147?cb=20250802160054",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1291-portrait.png",
       "pending": true
     }
   ],
