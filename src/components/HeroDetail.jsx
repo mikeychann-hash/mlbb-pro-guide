@@ -1,14 +1,19 @@
+import { useState } from "react";
 import { s } from "../theme/styles.js";
 import { P, tc, rc, ri } from "../theme/palette.js";
 import { useData } from "../data/DataContext.jsx";
 import { Portrait } from "./Portrait.jsx";
+import { buildSets } from "../features/heroes/buildSets.js";
 
 // Full-page hero detail takeover. Renders nothing when no hero is selected.
 // Props: { hero, onClose, onSelectHero }
 export function HeroDetail({ hero, onClose, onSelectHero, isFav, onToggleFav }) {
   const { getHeroByName } = useData();
+  const [bset, setBset] = useState(0);
   if (!hero) return null;
   const h = hero;
+  const sets = buildSets(h);
+  const activeSet = sets[Math.min(bset, Math.max(sets.length - 1, 0))] || null;
   return (
     <div style={s.root}>
       <div style={s.wrap}>
@@ -48,8 +53,12 @@ export function HeroDetail({ hero, onClose, onSelectHero, isFav, onToggleFav }) 
             <div style={{ marginBottom: 4 }}><strong style={{ color: P.gold }}>Specialty:</strong> {h.sp}</div>
             <div style={{ marginBottom: 4 }}><strong style={{ color: P.gold }}>Emblem:</strong> {h.e} · <strong style={{ color: P.gold }}>Spells:</strong> {h.sp2?.join(" / ")}</div>
           </div>
-          <div style={s.sc}>Build</div>
-          <div style={{ display: "flex", flexWrap: "wrap" }}>{h.b.map((x, i) => <span key={i} style={{ display: "inline-block", padding: "3px 8px", background: `${P.gold}12`, border: `1px solid ${P.gold}30`, borderRadius: 6, fontSize: 10, fontWeight: 600, color: P.goldD, marginRight: 3, marginBottom: 3 }}>{i + 1}. {x}</span>)}</div>
+          {activeSet && <>
+            <div style={s.sc}>Builds</div>
+            <div style={s.fR}>{sets.map((st, i) => <button key={st.name} type="button" style={s.fb(bset === i, P.gold)} onClick={() => setBset(i)}>{st.name}</button>)}</div>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>{activeSet.items.map((x, i) => <span key={i} style={{ display: "inline-block", padding: "5px 9px", background: `${P.gold}14`, border: `1px solid ${P.gold}33`, borderRadius: 7, fontSize: 12, fontWeight: 600, color: P.gold, marginRight: 4, marginBottom: 4 }}>{i + 1}. {x}</span>)}</div>
+            <div style={{ fontSize: 11.5, color: P.t2, marginTop: 6, lineHeight: 1.5 }}>{activeSet.note}</div>
+          </>}
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 12 }}>
             <div><div style={{ fontSize: 10, fontWeight: 700, color: P.red, letterSpacing: 1, marginBottom: 4 }}>🚫 WEAK VS</div>{h.c.map((x, i) => <div key={i} style={{ fontSize: 11, color: P.red, padding: "2px 0" }}>• {x}</div>)}</div>
             <div><div style={{ fontSize: 10, fontWeight: 700, color: P.nG, letterSpacing: 1, marginBottom: 4 }}>✅ STRONG VS</div>{h.s.map((x, i) => <div key={i} style={{ fontSize: 11, color: P.nG, padding: "2px 0" }}>• {x}</div>)}</div>
