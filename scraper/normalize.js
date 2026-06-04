@@ -42,12 +42,27 @@ export function buildDataset({ roster, stats, images, patchNotes, now }) {
     }
   }
 
+  // Compile a structured patch-notes changelog from new heroes + meta movement
+  // (used unless a real official-notes source provides one).
+  const newNames = heroes.filter((h) => h.pending).map((h) => h.n);
+  const meta = BUNDLED_DATA.meta || {};
+  const compiledNotes = [{
+    version: BUNDLED_DATA.patch?.v,
+    date: BUNDLED_DATA.patch?.d,
+    summary: `${newNames.length} new hero(es), ${(meta.rising || []).length} rising, ${(meta.falling || []).length} falling.`,
+    changes: [
+      ...newNames.map((n) => ({ hero: n, type: "new", text: "Newly added to roster" })),
+      ...(meta.rising || []).map((r) => ({ hero: r.n, type: "buff", text: `${r.ch} — ${r.w}` })),
+      ...(meta.falling || []).map((f) => ({ hero: f.n, type: "nerf", text: `${f.ch} — ${f.w}` })),
+    ],
+  }];
+
   return {
     ...BUNDLED_DATA,
     source: "scraped",
     generatedAt: now,
     heroes,
-    patchNotes: Array.isArray(patchNotes) ? patchNotes : [],
+    patchNotes: Array.isArray(patchNotes) && patchNotes.length ? patchNotes : compiledNotes,
     rosterCount: heroes.length,
   };
 }
