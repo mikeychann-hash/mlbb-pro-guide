@@ -11,3 +11,5 @@ android/build/
 android/.idea/
 android/captures/
 .DS_Store
+*.apk
+*.aab

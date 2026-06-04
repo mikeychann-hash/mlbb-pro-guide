@@ -62,6 +62,16 @@ https://capacitorjs.com/docs/android/deploying-to-google-play.
 
 - `npx cap add android` ✓ — native project generated.
 - `npx cap sync android` ✓ — web build + icon/splash copied in.
-- `gradlew assembleDebug` — Gradle configures the project successfully; fails only at
-  `SDK location not found` until the Android SDK is installed and `ANDROID_HOME`/`local.properties`
-  is set. After that, the command above produces the APK.
+- Android SDK installed (cmdline-tools + platforms;android-34 + build-tools;34.0.0 + platform-tools);
+  `android/local.properties` set to the SDK path.
+- `gradlew assembleDebug` ✓ — **BUILD SUCCESSFUL**. Produces
+  `android/app/build/outputs/apk/debug/app-debug.apk` (~5.6 MB, applicationId
+  `com.mikeychann.mlbbproguide`, versionName 1.0). A convenience copy is written to the project
+  root as `mlbb-pro-guide-debug.apk`.
+
+## Install on a phone
+
+Transfer `mlbb-pro-guide-debug.apk` to your Android device (USB, Drive, email) and open it.
+Enable "Install unknown apps" for the app you opened it from. Or with the phone connected via USB
+and developer mode on: `adb install mlbb-pro-guide-debug.apk`
+(adb is at `%LOCALAPPDATA%\Android\Sdk\platform-tools\adb.exe`).
