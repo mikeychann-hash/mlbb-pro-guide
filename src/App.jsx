@@ -101,7 +101,7 @@ export default function App() {
   const view = useMemo(() => {
     switch (tab) {
       case "Meta": return <MetaView onSelectHero={onSelectHero} />;
-      case "Updates": return <UpdatesView onSelectHero={onSelectHero} />;
+      case "Updates": return <UpdatesView onSelectHero={onSelectHero} favorites={favorites} />;
       case "Heroes": return <HeroesView {...{ q, setQ, rF, setRF, tF, setTF, onSelectHero, favorites, toggleFav }} />;
       case "Tiers": return <TiersView onSelectHero={onSelectHero} />;
       case "Items": return <ItemsView {...{ iC, setIC }} />;

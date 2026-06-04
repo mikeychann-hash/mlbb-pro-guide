@@ -12,10 +12,19 @@ function agoLabel(iso) {
   return Math.floor(h / 24) + "d ago";
 }
 
-export function UpdatesView({ onSelectHero }) {
+export function UpdatesView({ onSelectHero, favorites = [] }) {
   const { data, diff, lastUpdated, source, status, error, refresh, getMeta } = useData();
   const meta = getMeta();
   const open = (n) => { const f = data.heroes.find((h) => h.n === n); if (f) onSelectHero(f); };
+  const favSet = new Set(favorites.map((f) => f.toLowerCase()));
+  const isFav = (n) => favSet.has((n || "").toLowerCase());
+  const myChanges = diff ? [
+    ...diff.newHeroes.filter(isFav).map((n) => ({ n, type: "NEW", color: P.neon, text: "added to roster" })),
+    ...diff.buffed.filter((x) => isFav(x.n)).map((x) => ({ n: x.n, type: "BUFF ↑", color: P.nG, text: `${x.from}% → ${x.to}%` })),
+    ...diff.nerfed.filter((x) => isFav(x.n)).map((x) => ({ n: x.n, type: "NERF ↓", color: P.red, text: `${x.from}% → ${x.to}%` })),
+    ...diff.tierUp.filter((x) => isFav(x.n)).map((x) => ({ n: x.n, type: "TIER ↑", color: P.gold, text: `${x.from} → ${x.to}` })),
+    ...diff.tierDown.filter((x) => isFav(x.n)).map((x) => ({ n: x.n, type: "TIER ↓", color: P.red, text: `${x.from} → ${x.to}` })),
+  ] : [];
   const Section = ({ title, names, render }) => (
     names && names.length ? (
       <>
@@ -33,6 +42,20 @@ export function UpdatesView({ onSelectHero }) {
         <button onClick={refresh} disabled={status === "syncing"} style={{ marginTop: 8, padding: "6px 14px", background: "transparent", border: `1px solid ${P.neon}55`, borderRadius: 8, color: P.neon, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>{status === "syncing" ? "Syncing…" : "↻ Check for updates"}</button>
         {error && <div style={{ fontSize: 9, color: P.t3, marginTop: 6 }}>Offline or remote unavailable — showing last known data.</div>}
       </div>
+
+      <div style={s.sc}>⭐ Your Heroes This Patch</div>
+      {favorites.length === 0 ? (
+        <div style={{ fontSize: 11, color: P.t3, padding: "4px 0 8px" }}>Star heroes (☆ in the Heroes tab) to track how each patch affects them here.</div>
+      ) : myChanges.length === 0 ? (
+        <div style={{ fontSize: 11, color: P.t2, padding: "4px 0 8px" }}>✅ Your {favorites.length} favorite{favorites.length === 1 ? "" : "s"} are unchanged this patch.</div>
+      ) : (
+        myChanges.map((c, i) => (
+          <button key={c.n + i} type="button" onClick={() => open(c.n)} style={{ ...s.cd2, ...s.btnReset, display: "flex", alignItems: "center", justifyContent: "space-between", borderLeft: `3px solid ${c.color}` }}>
+            <span style={{ fontSize: 13, fontWeight: 700 }}>⭐ {c.n}</span>
+            <span style={{ fontSize: 11, fontWeight: 700, color: c.color }}>{c.type} <span style={{ color: P.t3, fontWeight: 500 }}>{c.text}</span></span>
+          </button>
+        ))
+      )}
 
       {noChanges && (
         <div style={{ textAlign: "center", padding: 24, color: P.t3 }}>
