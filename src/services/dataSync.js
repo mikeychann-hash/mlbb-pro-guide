@@ -23,7 +23,13 @@ export async function syncData({ fetchImpl = fetch, url = DATA_URL } = {}) {
   let remote = null;
   let error = null;
   try {
-    const r = await fetchImpl(url, { headers: { "Cache-Control": "no-cache" } });
+    // Plain GET with a cache-busting query param. We intentionally avoid custom
+    // request headers (e.g. Cache-Control) so this stays a CORS "simple" request:
+    // raw.githubusercontent.com does not answer CORS preflight, so a custom header
+    // makes the fetch fail inside the Android WebView (works fine in Node, which
+    // doesn't enforce CORS — only on-device testing surfaced this).
+    const bust = url + (url.includes("?") ? "&" : "?") + "_=" + Date.now();
+    const r = await fetchImpl(bust);
     if (!r.ok) throw new Error("HTTP " + r.status);
     remote = await r.json();
   } catch (e) {
