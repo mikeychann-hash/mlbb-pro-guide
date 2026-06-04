@@ -20,3 +20,5 @@ mlbb_updates.png
 ui_meta.png
 ui_*.png
 *_tablet*.png
+keystore.properties
+android/keystore.properties
