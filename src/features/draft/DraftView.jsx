@@ -1,12 +1,23 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { s } from "../../theme/styles.js";
 import { P, rc, ri } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { copyText } from "../../services/clipboard.js";
 
 export function DraftView({ draft, onSelect, onReset, dQ, setDQ }) {
   const { getHeroes, getHeroByName } = useData();
   const H = getHeroes();
   const { t1: d1, t2: d2, phase: dP, turn: dT } = draft;
+  const [copied, setCopied] = useState(null);
+  const avgWr = (t) => { const picks = t.p.map(p => getHeroByName(p)).filter(Boolean); return picks.length ? (picks.reduce((a, p) => a + p.wr, 0) / picks.length).toFixed(1) : "0"; };
+  const copyDraft = async () => {
+    const text = `⚔️ MLBB Draft\n` +
+      `🔵 BLUE (avg WR ${avgWr(d1)}%)\nPicks: ${d1.p.join(", ") || "—"}\nBans: ${d1.b.join(", ") || "—"}\n\n` +
+      `🔴 RED (avg WR ${avgWr(d2)}%)\nPicks: ${d2.p.join(", ") || "—"}\nBans: ${d2.b.join(", ") || "—"}`;
+    const ok = await copyText(text);
+    setCopied(ok ? "✓ Copied!" : "Copy failed");
+    setTimeout(() => setCopied(null), 2000);
+  };
   const allD = [...d1.b, ...d2.b, ...d1.p, ...d2.p];
   const dAv = useMemo(() => {
     let h = H.filter(x => !allD.includes(x.n));
@@ -27,6 +38,7 @@ export function DraftView({ draft, onSelect, onReset, dQ, setDQ }) {
       <div style={{ textAlign: "center", marginBottom: 6 }}>{dP !== "done" ? <><span style={{ fontSize: 12, fontWeight: 800, color: dT === 1 ? P.blue : P.red }}>{dT === 1 ? "Blue" : "Red"}</span><span style={{ fontSize: 11, color: P.t2 }}> — {dP.includes("ban") ? "BAN" : "PICK"}</span></> : <div style={{ fontSize: 13, fontWeight: 800, color: P.nG }}>✅ Draft Complete!</div>}</div>
       {dP !== "done" && <><input style={s.ip} placeholder="🔍 Search..." value={dQ} onChange={e => setDQ(e.target.value)} /><div style={{ display: "flex", flexWrap: "wrap", gap: 3, maxHeight: 250, overflowY: "auto" }}>{dAv.slice(0, 40).map(h => <span key={h.n} style={s.ch(dP.includes("ban") ? P.red : dT === 1 ? P.blue : P.red)} onClick={() => onSelect(h.n)}>{ri(h.r)} {h.n}</span>)}</div></>}
       <button style={{ marginTop: 8, padding: "6px 0", background: "transparent", border: `1px solid ${P.gold}`, borderRadius: 6, color: P.gold, fontSize: 11, cursor: "pointer", width: "100%", fontFamily: "inherit" }} onClick={onReset}>🔄 Reset</button>
+      {dP === "done" && <button type="button" onClick={copyDraft} style={{ width: "100%", marginTop: 8, padding: "9px 0", background: `${P.neon}1a`, border: `1px solid ${P.neon}55`, borderRadius: 8, color: P.neon, fontSize: 12, fontWeight: 700, cursor: "pointer", fontFamily: "inherit" }}>{copied || "📋 Copy draft"}</button>}
       {dP === "done" && <>{[{ t: d1, l: "Blue", c: P.blue }, { t: d2, l: "Red", c: P.red }].map(({ t, l, c }) => {
         const picks = t.p.map(p => getHeroByName(p)).filter(Boolean);
         const roles = picks.map(p => p.r);

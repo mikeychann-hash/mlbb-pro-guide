@@ -1,13 +1,25 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { s } from "../../theme/styles.js";
 import { P } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
+import { copyText } from "../../services/clipboard.js";
 
 export function BuildView({ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }) {
   const { getItems } = useData();
   const ITEMS = getItems();
   const bG = useMemo(() => bS.filter(Boolean).reduce((a, i) => a + i.g, 0), [bS]);
   const count = bS.filter(Boolean).length;
+  const [copied, setCopied] = useState(null);
+  const doCopy = async () => {
+    const items = bS.filter(Boolean);
+    if (!items.length) return;
+    const text = `🛡️ MLBB Build${buildName ? `: ${buildName}` : ""}\n` +
+      items.map((it, i) => `${i + 1}. ${it.n} (${it.g}g)`).join("\n") +
+      `\nTotal: ${bG}g`;
+    const ok = await copyText(text);
+    setCopied(ok ? "✓ Copied!" : "Copy failed");
+    setTimeout(() => setCopied(null), 2000);
+  };
   return (
     <>
       <div style={{ background: P.cd, border: `1px solid ${P.brd}`, borderRadius: 12, padding: 12, marginBottom: 10 }}>
@@ -21,7 +33,10 @@ export function BuildView({ bS, setBS, bC, setBC, savedBuilds, saveBuilds, build
             setBuildName("");
           }}>💾 Save</button>
         </div>
-        <button style={{ marginTop: 4, padding: "4px 12px", background: "transparent", border: `1px solid ${P.red}33`, borderRadius: 6, color: P.red, fontSize: 10, cursor: "pointer", fontFamily: "inherit" }} onClick={() => setBS(Array(6).fill(null))}>Clear</button>
+        <div style={{ display: "flex", gap: 6, marginTop: 6 }}>
+          <button type="button" disabled={count === 0} style={{ padding: "6px 14px", background: count ? `${P.neon}1a` : "transparent", border: `1px solid ${P.neon}55`, borderRadius: 8, color: P.neon, fontSize: 11, fontWeight: 700, cursor: "pointer", fontFamily: "inherit" }} onClick={doCopy}>{copied || "📋 Copy build"}</button>
+          <button type="button" style={{ padding: "6px 14px", background: "transparent", border: `1px solid ${P.red}44`, borderRadius: 8, color: P.red, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }} onClick={() => setBS(Array(6).fill(null))}>Clear</button>
+        </div>
       </div>
       {savedBuilds.length > 0 && <><div style={s.sc}>💾 Saved Builds</div>
         {savedBuilds.map((sb, i) => (
