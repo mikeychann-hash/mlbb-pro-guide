@@ -5,7 +5,7 @@
 // then keeps the bundled/seed stats). Isolated from the other sources.
 const URL =
   "https://openmlbb.fastapicloud.dev/api/heroes/rank?days=7&rank=all&size=300&index=1&sort_field=win_rate&sort_order=desc";
-const UA = "MLBB-Guide-Scraper/1.0 (https://github.com/mikeychann/mlbb-pro-guide)";
+const UA = "MLBB-Guide-Scraper/1.0 (https://github.com/mikeychann-hash/mlbb-pro-guide)";
 
 const pct = (x) => (typeof x === "number" ? Math.round(x * 1000) / 10 : null);
 

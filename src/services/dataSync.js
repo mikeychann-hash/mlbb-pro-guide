@@ -5,7 +5,7 @@ import { getJSON, setJSON } from "./storage.js";
 // repo isn't pushed/public yet, the fetch simply fails and the app uses
 // cached/bundled data — by design.
 export const DATA_URL =
-  "https://raw.githubusercontent.com/mikeychann/mlbb-pro-guide/main/scraper/output/data.json";
+  "https://raw.githubusercontent.com/mikeychann-hash/mlbb-pro-guide/main/scraper/output/data.json";
 
 const CACHE_KEY = "mlbb-data";
 

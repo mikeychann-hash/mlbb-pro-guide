@@ -39,13 +39,13 @@ packages automatically.
 ## Enabling live data on device
 
 The app ships with the bundled seed (129 heroes) and works fully offline. Live sync is already
-wired to **`mikeychann/mlbb-pro-guide`** (`DATA_URL` in `src/services/dataSync.js`). To activate it:
+wired to **`mikeychann-hash/mlbb-pro-guide`** (`DATA_URL` in `src/services/dataSync.js`). To activate it:
 
 1. Create the GitHub repo and push (see `git remote add` / push commands below or in the chat).
 2. The daily GitHub Action (`.github/workflows/scrape.yml`) regenerates `scraper/output/data.json`.
    Enable Actions on the repo; it also runs on demand via "Run workflow".
 3. The published `scraper/output/data.json` must be reachable at
-   `https://raw.githubusercontent.com/mikeychann/mlbb-pro-guide/main/scraper/output/data.json`
+   `https://raw.githubusercontent.com/mikeychann-hash/mlbb-pro-guide/main/scraper/output/data.json`
    (the repo must be **public**, or use a different fetch method for private repos).
 4. Rebuild: `npm run cap:sync && npm run android:apk`.
 
