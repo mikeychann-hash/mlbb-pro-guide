@@ -10,7 +10,11 @@ export const s = {
   // centered column so content doesn't stretch edge-to-edge on tablets
   wrap: { maxWidth: 680, margin: "0 auto", position: "relative" },
 
-  hdr: { padding: "20px 16px 15px", textAlign: "center", position: "relative", overflow: "hidden", borderBottom: `1px solid ${P.brd}`, background: "linear-gradient(180deg, rgba(13,22,40,.72), rgba(6,10,19,0))" },
+  hdr: { padding: "14px 16px 11px", textAlign: "center", position: "relative", overflow: "hidden", borderBottom: `1px solid ${P.brd}`, background: "linear-gradient(180deg, rgba(13,22,40,.72), rgba(6,10,19,0))" },
+
+  // sticky hero-detail action bar (back · name/role/tier · favorite)
+  detailBar: { position: "sticky", top: 0, zIndex: 25, display: "flex", alignItems: "center", gap: 10, padding: "9px 12px", background: "rgba(8,13,24,.97)", borderBottom: `1px solid ${P.brd}` },
+  detailBtn: a => ({ appearance: "none", flex: "0 0 auto", width: 42, height: 42, borderRadius: 11, background: a ? `${P.gold}22` : "rgba(255,255,255,.05)", border: `1px solid ${a ? P.gold : P.brd}`, color: a ? P.gold : P.t1, fontSize: 20, lineHeight: 1, cursor: "pointer", fontFamily: "inherit" }),
   glow: { position: "absolute", top: -70, left: "50%", transform: "translateX(-50%)", width: 300, height: 130, background: `radial-gradient(ellipse, ${P.gold}33, transparent 70%)`, pointerEvents: "none" },
   title: { fontFamily: DISPLAY, fontSize: 23, fontWeight: 800, letterSpacing: 1.2, color: P.gold, textShadow: `0 0 16px ${P.gold}44`, margin: 0, lineHeight: 1.08 },
   sub: { fontSize: 11, color: P.t2, marginTop: 6, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 },

@@ -12,9 +12,15 @@ export function HeroDetail({ hero, onClose, onSelectHero, isFav, onToggleFav }) 
   return (
     <div style={s.root}>
       <div style={s.wrap}>
-      <div style={s.hdr}><div style={s.glow} /><div style={s.title}>MLBB GUIDE</div></div>
+      <div style={s.detailBar}>
+        <button type="button" style={s.detailBtn(false)} onClick={() => onClose()} aria-label="Back">←</button>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ fontFamily: "'Oxanium',sans-serif", fontSize: 16, fontWeight: 800, color: P.t1, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{h.n}</div>
+          <div style={{ fontSize: 10, color: P.t3, letterSpacing: .3 }}>{h.r}{h.r2 ? ` · ${h.r2}` : ""} · {h.t}-tier · {h.l}</div>
+        </div>
+        <button type="button" style={s.detailBtn(isFav)} onClick={onToggleFav} aria-pressed={isFav} aria-label={isFav ? "Remove favorite" : "Add favorite"}>{isFav ? "★" : "☆"}</button>
+      </div>
       <div className="view-enter" style={s.ct}>
-        <button style={s.bk} onClick={() => onClose()}>← Back</button>
         <div style={{ background: P.cd, border: `1px solid ${P.brd}`, borderRadius: 12, padding: 16, position: "relative", overflow: "hidden" }}>
           <div style={{ position: "absolute", top: -20, right: -20, fontSize: 80, opacity: 0.04 }}>{ri(h.r)}</div>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
@@ -29,7 +35,6 @@ export function HeroDetail({ hero, onClose, onSelectHero, isFav, onToggleFav }) 
                 <span style={s.bg(P.t2)}>{"⭐".repeat(h.d)}</span>
               </div>
             </div>
-            <button type="button" onClick={onToggleFav} aria-pressed={isFav} aria-label={isFav ? "Remove favorite" : "Add favorite"} style={{ appearance: "none", background: isFav ? `${P.gold}22` : "transparent", border: `1px solid ${isFav ? P.gold : P.brd}`, borderRadius: 10, color: isFav ? P.gold : P.t2, fontSize: 22, lineHeight: 1, padding: "8px 12px", cursor: "pointer", flex: "0 0 auto" }}>{isFav ? "★" : "☆"}</button>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8, marginTop: 12 }}>
             {[["Win", h.wr + "%", h.wr >= 52 ? P.nG : h.wr >= 51 ? P.gold : P.t2], ["Pick", h.pr + "%", P.blue], ["Ban", h.br + "%", h.br >= 30 ? P.red : P.t2]].map(([l, v, c]) => (
