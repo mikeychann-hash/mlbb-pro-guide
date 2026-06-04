@@ -16,6 +16,9 @@ export function DraftView({ draft, onSelect, onReset, onUndo, dQ, setDQ, favorit
   const { t1: d1, t2: d2, phase: dP, turn: dT } = draft;
   const si = stepInfo(draft);
   const [copied, setCopied] = useState(null);
+  const [side, setSide] = useState(1); // 1 = Blue is "you", 2 = Red
+  const myTurn = coach && coach.team === (side === 1 ? "Blue" : "Red");
+  const LANES = ["EXP", "Jungle", "Mid", "Gold", "Roam"];
 
   const picksOf = (t) => t.p.map((p) => getHeroByName(p)).filter(Boolean);
   const avgWr = (t) => { const ps = picksOf(t); return ps.length ? (ps.reduce((a, p) => a + (p.wr || 0), 0) / ps.length).toFixed(1) : "0"; };
@@ -36,9 +39,12 @@ export function DraftView({ draft, onSelect, onReset, onUndo, dQ, setDQ, favorit
     return h;
   }, [H, allD.join(","), dQ]);
 
-  const TeamCol = ({ t, label, color, isTurn }) => (
+  const TeamCol = ({ t, label, color, isTurn, isYou }) => (
     <div style={{ background: P.cd, border: `1px solid ${isTurn ? color : color + "33"}`, borderRadius: 10, padding: 8, boxShadow: isTurn ? `0 0 0 1px ${color}66` : "none" }}>
-      <div style={{ fontFamily: "'Oxanium',sans-serif", fontSize: 13, fontWeight: 800, color, textAlign: "center", marginBottom: 6 }}>{label}{isTurn ? " ●" : ""}</div>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 5, marginBottom: 6 }}>
+        <span style={{ fontFamily: "'Oxanium',sans-serif", fontSize: 13, fontWeight: 800, color }}>{label}{isTurn ? " ●" : ""}</span>
+        {isYou && <span style={{ fontSize: 8, fontWeight: 800, color: "#0a0a0a", background: color, borderRadius: 4, padding: "1px 5px", letterSpacing: .5 }}>YOU</span>}
+      </div>
       <div style={{ fontSize: 9, color: P.t3, marginBottom: 3, letterSpacing: .5 }}>BANS</div>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 3, minHeight: 26, marginBottom: 8 }}>
         {t.b.map((b, i) => {
@@ -89,16 +95,26 @@ export function DraftView({ draft, onSelect, onReset, onUndo, dQ, setDQ, favorit
           <span style={{ fontSize: 11, color: P.t2 }}>Avg WR {avgWr(t)}% · {phys}⚔ / {magic}🔮 · {frontline} frontline</span>
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 3, marginTop: 5 }}>{ps.map((p) => <span key={p.n} style={s.bg(rc(p.r))}>{ri(p.r)} {p.n}</span>)}</div>
-        {warn.length ? warn.map((x, i) => <div key={i} style={{ fontSize: 11, color: P.gold, marginTop: 3 }}>⚠️ {x}</div>) : <div style={{ fontSize: 11, color: P.nG, marginTop: 3 }}>✅ Well-rounded composition</div>}
+        <div style={{ display: "flex", gap: 4, marginTop: 7 }}>{LANES.map((l) => {
+          const c = ps.filter((p) => p.l === l).length;
+          const col = c === 1 ? P.nG : c > 1 ? P.gold : P.t3;
+          return <div key={l} style={{ flex: 1, textAlign: "center", fontSize: 9, fontWeight: 700, padding: "4px 0", borderRadius: 6, background: c === 1 ? `${P.nG}1a` : c > 1 ? `${P.gold}1a` : "rgba(255,255,255,.03)", color: col, border: `1px solid ${c ? col + "44" : P.brd}` }}>{l}<br />{c === 1 ? "✓" : c > 1 ? `×${c}` : "–"}</div>;
+        })}</div>
+        {warn.length ? warn.map((x, i) => <div key={i} style={{ fontSize: 11, color: P.gold, marginTop: 4 }}>⚠️ {x}</div>) : <div style={{ fontSize: 11, color: P.nG, marginTop: 4 }}>✅ Well-rounded composition</div>}
       </div>
     );
   };
 
   return (
     <>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 6, marginBottom: 8, fontSize: 11, color: P.t3 }}>
+        <span style={{ fontWeight: 700 }}>You are</span>
+        <button type="button" onClick={() => setSide(1)} style={{ ...s.fb(side === 1, P.blue), padding: "5px 14px" }}>🔵 Blue</button>
+        <button type="button" onClick={() => setSide(2)} style={{ ...s.fb(side === 2, P.red), padding: "5px 14px" }}>🔴 Red</button>
+      </div>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginBottom: 8 }}>
-        <TeamCol t={d1} label="BLUE" color={P.blue} isTurn={dP !== "done" && dT === 1} />
-        <TeamCol t={d2} label="RED" color={P.red} isTurn={dP !== "done" && dT === 2} />
+        <TeamCol t={d1} label="BLUE" color={P.blue} isTurn={dP !== "done" && dT === 1} isYou={side === 1} />
+        <TeamCol t={d2} label="RED" color={P.red} isTurn={dP !== "done" && dT === 2} isYou={side === 2} />
       </div>
 
       <div style={{ textAlign: "center", marginBottom: 8 }}>
@@ -109,8 +125,8 @@ export function DraftView({ draft, onSelect, onReset, onUndo, dQ, setDQ, favorit
 
       {coach && (
         <div style={{ background: `linear-gradient(180deg, ${P.gold}14, ${P.gold}06)`, border: `1px solid ${P.gold}44`, borderRadius: 12, padding: "10px 12px", marginBottom: 10 }}>
-          <div style={{ fontFamily: "'Oxanium',sans-serif", fontSize: 13, fontWeight: 800, color: P.gold, letterSpacing: .5 }}>🎯 COACH · {coach.team} {coach.phase === "ban" ? "BAN" : "PICK"}</div>
-          <div style={{ fontSize: 10, color: P.t3, margin: "2px 0 8px" }}>Tap a suggestion to {coach.phase === "ban" ? "ban" : "pick"} it</div>
+          <div style={{ fontFamily: "'Oxanium',sans-serif", fontSize: 13, fontWeight: 800, color: P.gold, letterSpacing: .5 }}>{myTurn ? "🎯 YOUR" : "🔍 ENEMY"} {coach.phase === "ban" ? "BAN" : "PICK"} · {coach.team}</div>
+          <div style={{ fontSize: 10, color: P.t3, margin: "2px 0 8px" }}>{myTurn ? `Tap a suggestion to ${coach.phase === "ban" ? "ban" : "pick"} it` : `Likely enemy ${coach.phase === "ban" ? "bans" : "picks"} — plan around these`}</div>
           {coach.picks.map((p, i) => {
             const h = getHeroByName(p.n);
             return (
