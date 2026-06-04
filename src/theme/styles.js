@@ -15,8 +15,12 @@ export const s = {
   title: { fontFamily: DISPLAY, fontSize: 23, fontWeight: 800, letterSpacing: 1.2, color: P.gold, textShadow: `0 0 16px ${P.gold}44`, margin: 0, lineHeight: 1.08 },
   sub: { fontSize: 11, color: P.t2, marginTop: 6, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 },
 
-  tbs: { display: "flex", overflowX: "auto", gap: 6, padding: "10px 12px", position: "sticky", top: 0, zIndex: 20, background: "#080d18", borderBottom: `1px solid ${P.brd}` },
-  tb: a => ({ fontFamily: DISPLAY, padding: "10px 16px", fontSize: 13, fontWeight: a ? 800 : 600, letterSpacing: .4, color: a ? "#0a0a0a" : P.t2, background: a ? P.gold : "rgba(255,255,255,.05)", border: `1px solid ${a ? P.gold : P.brd}`, borderRadius: 999, cursor: "pointer", whiteSpace: "nowrap", boxShadow: a ? `0 3px 14px ${P.gold}66` : "none", flex: "0 0 auto", minHeight: 40 }),
+  // sticky nav shell holding the group row + subtab row
+  navShell: { position: "sticky", top: 0, zIndex: 20, background: "#080d18", borderBottom: `1px solid ${P.brd}` },
+  gtabs: { display: "flex", gap: 2, padding: "6px 10px 0", overflowX: "auto" },
+  gtab: a => ({ fontFamily: DISPLAY, padding: "9px 16px", fontSize: 14, fontWeight: a ? 800 : 600, letterSpacing: .5, color: a ? P.gold : P.t2, background: "transparent", border: "none", borderBottom: a ? `2px solid ${P.gold}` : "2px solid transparent", cursor: "pointer", whiteSpace: "nowrap", flex: "0 0 auto" }),
+  stabs: { display: "flex", overflowX: "auto", gap: 6, padding: "9px 10px 10px" },
+  tb: a => ({ fontFamily: DISPLAY, appearance: "none", padding: "9px 15px", fontSize: 13, fontWeight: a ? 800 : 600, letterSpacing: .4, color: a ? "#0a0a0a" : P.t2, background: a ? P.gold : "rgba(255,255,255,.05)", border: `1px solid ${a ? P.gold : P.brd}`, borderRadius: 999, cursor: "pointer", whiteSpace: "nowrap", boxShadow: a ? `0 3px 14px ${P.gold}66` : "none", flex: "0 0 auto", minHeight: 40 }),
 
   ct: { padding: "14px 12px 30px" },
 
@@ -29,7 +33,9 @@ export const s = {
   sc: { fontFamily: DISPLAY, fontSize: 15, fontWeight: 800, letterSpacing: .6, color: P.t1, margin: "18px 0 10px", paddingLeft: 10, borderLeft: `3px solid ${P.gold}`, textTransform: "uppercase" },
   tp: { background: `linear-gradient(180deg, ${P.blue}14, ${P.blue}06)`, border: `1px solid ${P.blue}33`, borderRadius: 11, padding: "12px 14px", fontSize: 13, color: `${P.blue}ee`, lineHeight: 1.65, marginTop: 10 },
   bk: { fontFamily: DISPLAY, background: "rgba(255,255,255,.035)", border: `1px solid ${P.brd}`, borderRadius: 10, padding: "10px 18px", color: P.t1, fontSize: 13, fontWeight: 700, cursor: "pointer", marginBottom: 12, letterSpacing: .5, minHeight: 40 },
-  ch: c => ({ display: "inline-flex", alignItems: "center", gap: 4, padding: "7px 13px", borderRadius: 999, fontSize: 12.5, fontWeight: 600, background: c + "18", color: c, border: `1px solid ${c}3a`, marginRight: 4, marginBottom: 4, cursor: "pointer", letterSpacing: .2 }),
+  ch: c => ({ display: "inline-flex", alignItems: "center", gap: 4, padding: "7px 13px", borderRadius: 999, fontSize: 12.5, fontWeight: 600, background: c + "18", color: c, border: `1px solid ${c}3a`, marginRight: 4, marginBottom: 4, cursor: "pointer", letterSpacing: .2, appearance: "none", fontFamily: "inherit" }),
+  // spread onto s.cd2 (or other containers) when rendering them as real <button>s
+  btnReset: { appearance: "none", fontFamily: "inherit", color: "inherit", textAlign: "left", width: "100%", display: "block" },
   wr: v => ({ fontFamily: DISPLAY, fontSize: 13, fontWeight: 800, color: v >= 52 ? P.nG : v >= 51 ? P.gold : v >= 50 ? P.t2 : P.red }),
   br2: (pct, c) => ({ height: 5, borderRadius: 999, background: `${c}22`, overflow: "hidden", position: "relative", marginTop: 5 }),
   bf2: (pct, c) => ({ position: "absolute", left: 0, top: 0, bottom: 0, width: `${Math.min(pct, 100)}%`, background: `linear-gradient(90deg, ${c}, ${c}aa)`, borderRadius: 999, boxShadow: `0 0 8px ${c}88` }),

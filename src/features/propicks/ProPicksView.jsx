@@ -16,7 +16,7 @@ export function ProPicksView({ onSelectHero }) {
         <div key={role.role} style={{ marginBottom: 14 }}>
           <div style={{ fontSize: 13, fontWeight: 800, color: P.gold, marginBottom: 6 }}>{role.role}</div>
           {role.heroes.map(h => (
-            <div key={h.n} style={{ ...s.cd2, cursor: "pointer" }} onClick={() => { const f = getHeroByName(h.n); if (f) onSelectHero(f); }}>
+            <button key={h.n} type="button" style={{ ...s.cd2, ...s.btnReset, cursor: "pointer" }} onClick={() => { const f = getHeroByName(h.n); if (f) onSelectHero(f); }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 8 }}>{getHeroByName(h.n) && <Portrait hero={getHeroByName(h.n)} size={30} radius={8} />}<span style={{ fontSize: 13, fontWeight: 700 }}>{h.n}</span></div>
                 <div style={{ display: "flex", gap: 8 }}>
@@ -27,7 +27,7 @@ export function ProPicksView({ onSelectHero }) {
               </div>
               <div style={{ fontSize: 10, color: P.t2, marginTop: 3 }}>{h.note}</div>
               <div style={s.br2(h.pk, P.blue)}><div style={s.bf2(h.pk, P.blue)} /></div>
-            </div>
+            </button>
           ))}
         </div>
       ))}

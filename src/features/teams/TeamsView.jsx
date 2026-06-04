@@ -15,7 +15,7 @@ export function TeamsView({ onSelectHero }) {
             {t.cp.map((slot, j) => (
               <div key={j} style={{ background: P.bg, borderRadius: 6, padding: "5px 8px" }}>
                 <div style={{ fontSize: 9, color: P.t3 }}>{slot}</div>
-                <div style={{ fontSize: 11, fontWeight: 700, color: P.goldD, cursor: "pointer" }} onClick={() => { const f = getHeroByName(t.ex[j]); if (f) onSelectHero(f); }}>{t.ex[j]} →</div>
+                <button type="button" style={{ appearance: "none", background: "transparent", border: "none", padding: 0, fontFamily: "inherit", fontSize: 13, fontWeight: 700, color: P.goldD, cursor: "pointer" }} onClick={() => { const f = getHeroByName(t.ex[j]); if (f) onSelectHero(f); }}>{t.ex[j]} →</button>
               </div>
             ))}
           </div>

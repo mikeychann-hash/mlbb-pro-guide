@@ -14,9 +14,9 @@ export function SugBox({ val, onPick, placeholder }) {
       {val && !found && sg.length > 0 && (
         <div style={{ position: "absolute", top: 40, left: 0, right: 0, background: P.cd, border: `1px solid ${P.brd}`, borderRadius: 8, zIndex: 10, maxHeight: 180, overflow: "auto" }}>
           {sg.map(h => (
-            <div key={h.n} style={{ padding: "5px 10px", fontSize: 12, cursor: "pointer", borderBottom: `1px solid ${P.brd}` }} onClick={() => onPick(h.n)}>
+            <button key={h.n} type="button" style={{ display: "block", width: "100%", textAlign: "left", appearance: "none", background: "transparent", color: "inherit", fontFamily: "inherit", padding: "9px 12px", fontSize: 13, cursor: "pointer", border: "none", borderBottom: `1px solid ${P.brd}` }} onClick={() => onPick(h.n)}>
               {ri(h.r)} {h.n}
-            </div>
+            </button>
           ))}
         </div>
       )}

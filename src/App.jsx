@@ -26,7 +26,14 @@ import { MyStatsView } from "./features/mystats/MyStatsView.jsx";
 import { BuildView } from "./features/build/BuildView.jsx";
 import { DraftView } from "./features/draft/DraftView.jsx";
 
-const TABS = ["Meta", "Updates", "Heroes", "Tiers", "Items", "Counter", "Teams", "Spells", "Jungle", "Roam", "Macro", "Compare", "Emblems", "Pro Picks", "Glossary", "Learn", "My Stats", "Build", "Draft"];
+const GROUPS = [
+  { name: "Meta", tabs: ["Meta", "Updates", "Tiers", "Pro Picks"] },
+  { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
+  { name: "Loadout", tabs: ["Build", "Items", "Emblems", "Spells", "Draft"] },
+  { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
+  { name: "You", tabs: ["My Stats"] },
+];
+const groupOf = (tab) => (GROUPS.find((g) => g.tabs.includes(tab)) || GROUPS[0]).name;
 
 function agoLabel(iso) {
   if (!iso) return "bundled data";
@@ -43,7 +50,14 @@ function agoLabel(iso) {
 export default function App() {
   const { getHeroes, getMeta, status, lastUpdated, source, refresh, syncMsg } = useData();
   const [tab, setTab] = useState("Meta");
+  const [group, setGroup] = useState("Meta");
   const [sel, setSel] = useState(null);
+
+  const selectGroup = (name) => {
+    setGroup(name);
+    const g = GROUPS.find((x) => x.name === name);
+    if (g && !g.tabs.includes(tab)) setTab(g.tabs[0]);
+  };
   // Heroes filters
   const [q, setQ] = useState(""); const [rF, setRF] = useState("All"); const [tF, setTF] = useState("All");
   // Counter / Compare
@@ -124,7 +138,14 @@ export default function App() {
             </button>
           </div>
         </div>
-        <div style={s.tbs}>{TABS.map(t => <button key={t} style={s.tb(tab === t)} onClick={() => setTab(t)}>{t}</button>)}</div>
+        <div style={s.navShell}>
+          <div style={s.gtabs} role="tablist" aria-label="Sections">
+            {GROUPS.map(g => <button key={g.name} type="button" role="tab" aria-selected={group === g.name} style={s.gtab(group === g.name)} onClick={() => selectGroup(g.name)}>{g.name}</button>)}
+          </div>
+          <div style={s.stabs} role="tablist" aria-label={`${group} tabs`}>
+            {(GROUPS.find(g => g.name === group) || GROUPS[0]).tabs.map(t => <button key={t} type="button" role="tab" aria-selected={tab === t} style={s.tb(tab === t)} onClick={() => setTab(t)}>{t}</button>)}
+          </div>
+        </div>
         <div key={tab} className="view-enter" style={s.ct}>{view}</div>
         <div style={{ textAlign: "center", padding: "18px 12px 26px", fontSize: 9.5, color: P.t3, letterSpacing: .5, borderTop: `1px solid ${P.brd}` }}>MLBB PRO GUIDE · {heroCount} HEROES · PATCH {PATCH.v} · S{PATCH.s} · Not affiliated with Moonton</div>
       </div>

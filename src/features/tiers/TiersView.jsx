@@ -18,7 +18,7 @@ export function TiersView({ onSelectHero }) {
               <span style={{ fontSize: 12, fontWeight: 700, color: tc(t) }}>{t === "S+" ? "Must Ban/Pick" : t === "S" ? "Meta" : t === "A" ? "Strong" : t === "B" ? "Viable" : "Situational"}</span>
               <span style={{ fontSize: 10, color: P.t3 }}>({heroes.length})</span>
             </div>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>{heroes.map(h => <span key={h.n} style={s.ch(tc(t))} onClick={() => onSelectHero(h)}>{ri(h.r)} {h.n} <span style={{ opacity: .5, fontSize: 8 }}>{h.wr}%</span><Badge change={getChange(h.n)} /></span>)}</div>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>{heroes.map(h => <button key={h.n} type="button" style={s.ch(tc(t))} onClick={() => onSelectHero(h)}>{ri(h.r)} {h.n} <span style={{ opacity: .5, fontSize: 9 }}>{h.wr}%</span><Badge change={getChange(h.n)} /></button>)}</div>
           </div>
         );
       })}

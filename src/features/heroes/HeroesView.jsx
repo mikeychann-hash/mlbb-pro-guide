@@ -28,7 +28,7 @@ export function HeroesView({ q, setQ, rF, setRF, tF, setTF, onSelectHero }) {
       </div>
       <div style={{ fontSize: 10, color: P.t3, marginBottom: 6 }}>{flt.length} heroes</div>
       {flt.map(h => (
-        <div key={h.n} style={s.cd2} onClick={() => onSelectHero(h)}>
+        <button key={h.n} type="button" style={{ ...s.cd2, ...s.btnReset }} onClick={() => onSelectHero(h)}>
           <div style={{ display: "flex", alignItems: "center", gap: 11 }}>
             <Portrait hero={h} size={46} />
             <div style={{ flex: 1, minWidth: 0 }}>
@@ -37,9 +37,9 @@ export function HeroesView({ q, setQ, rF, setRF, tF, setTF, onSelectHero }) {
                 <span style={s.bg(rc(h.r))}>{h.r}</span>{h.r2 && <span style={s.bg(rc(h.r2))}>{h.r2}</span>}<span style={s.bg(tc(h.t), true)}>{h.t}</span><span style={s.bg(P.t2)}>{h.l}</span>
               </div>
             </div>
-            <div style={{ textAlign: "right", flex: "0 0 auto" }}><div style={s.wr(h.wr)}>{h.wr}%</div><div style={{ fontSize: 8, color: P.t3 }}>WR</div></div>
+            <div style={{ textAlign: "right", flex: "0 0 auto" }}><div style={s.wr(h.wr)}>{h.wr}%</div><div style={{ fontSize: 9, color: P.t3 }}>WR</div></div>
           </div>
-        </div>
+        </button>
       ))}
     </>
   );

@@ -31,7 +31,7 @@ export function CounterView({ cQ, setCQ }) {
             <div><div style={{ fontSize: 10, fontWeight: 700, color: P.red, letterSpacing: 1, marginBottom: 4 }}>🚫 COUNTERED BY</div>{cH.c.map((x, i) => <div key={i} style={{ fontSize: 11, color: P.red, padding: "2px 0", cursor: "pointer" }} onClick={() => setCQ(x)}>{x}</div>)}</div>
             <div><div style={{ fontSize: 10, fontWeight: 700, color: P.nG, letterSpacing: 1, marginBottom: 4 }}>✅ STRONG VS</div>{cH.s.map((x, i) => <div key={i} style={{ fontSize: 11, color: P.nG, padding: "2px 0" }}>{x}</div>)}</div>
           </div>
-          {cH.sy && <><div style={{ fontSize: 10, fontWeight: 700, color: P.neon, letterSpacing: 1, marginTop: 10, marginBottom: 4 }}>🤝 SYNERGIES</div><div style={{ display: "flex", flexWrap: "wrap" }}>{cH.sy.map(x => <span key={x} style={s.ch(P.neon)} onClick={() => setCQ(x)}>{x}</span>)}</div></>}
+          {cH.sy && <><div style={{ fontSize: 10, fontWeight: 700, color: P.neon, letterSpacing: 1, marginTop: 10, marginBottom: 4 }}>🤝 SYNERGIES</div><div style={{ display: "flex", flexWrap: "wrap" }}>{cH.sy.map(x => <button key={x} type="button" style={s.ch(P.neon)} onClick={() => setCQ(x)}>{x}</button>)}</div></>}
           <div style={{ marginTop: 10 }}><div style={{ fontSize: 10, fontWeight: 700, color: P.gold, letterSpacing: 1, marginBottom: 4 }}>🛡️ BUILD</div><div style={{ display: "flex", flexWrap: "wrap" }}>{cH.b.map((x, i) => <span key={i} style={{ display: "inline-block", padding: "3px 8px", background: `${P.gold}12`, border: `1px solid ${P.gold}30`, borderRadius: 6, fontSize: 10, fontWeight: 600, color: P.goldD, marginRight: 3, marginBottom: 3 }}>{x}</span>)}</div></div>
           <div style={s.tp}>💡 {cH.tip}</div>
         </div>
@@ -39,7 +39,7 @@ export function CounterView({ cQ, setCQ }) {
         <div style={{ textAlign: "center", padding: "30px", color: P.t3 }}>
           <div style={{ fontSize: 36, marginBottom: 8 }}>⚔️</div>
           <div style={{ fontSize: 13 }}>Search hero for counters & matchups</div>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 3, marginTop: 12 }}>{["Sora", "Fredrinn", "Julian", "Zhuxin", "Joy", "Helcurt", "Saber", "Ling"].map(n => <span key={n} style={s.ch(P.gold)} onClick={() => setCQ(n)}>{n}</span>)}</div>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 3, marginTop: 12 }}>{["Sora", "Fredrinn", "Julian", "Zhuxin", "Joy", "Helcurt", "Saber", "Ling"].map(n => <button key={n} type="button" style={s.ch(P.gold)} onClick={() => setCQ(n)}>{n}</button>)}</div>
         </div>
       )}
     </>
