@@ -10,8 +10,9 @@ export function HeroDetail({ hero, onClose, onSelectHero }) {
   const h = hero;
   return (
     <div style={s.root}>
+      <div style={s.wrap}>
       <div style={s.hdr}><div style={s.glow} /><div style={s.title}>MLBB GUIDE</div></div>
-      <div style={s.ct}>
+      <div className="view-enter" style={s.ct}>
         <button style={s.bk} onClick={() => onClose()}>← Back</button>
         <div style={{ background: P.cd, border: `1px solid ${P.brd}`, borderRadius: 12, padding: 16, position: "relative", overflow: "hidden" }}>
           <div style={{ position: "absolute", top: -20, right: -20, fontSize: 80, opacity: 0.04 }}>{ri(h.r)}</div>
@@ -44,6 +45,7 @@ export function HeroDetail({ hero, onClose, onSelectHero }) {
           {h.sy && <><div style={{ fontSize: 10, fontWeight: 700, color: P.neon, letterSpacing: 1, marginTop: 12, marginBottom: 4 }}>🤝 SYNERGIES</div><div style={{ display: "flex", flexWrap: "wrap" }}>{h.sy.map(x => <span key={x} style={s.ch(P.neon)} onClick={() => { const f = getHeroByName(x); if (f) onSelectHero(f); }}>{x}</span>)}</div></>}
           <div style={s.tp}>💡 {h.tip}</div>
         </div>
+      </div>
       </div>
     </div>
   );

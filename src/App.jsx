@@ -105,22 +105,29 @@ export default function App() {
   const PATCH = getMeta().patch;
   const heroCount = getHeroes().length;
 
+  const live = source !== "bundled";
+
   return (
     <div style={s.root}>
-      <div style={s.hdr}>
-        <div style={s.glow} />
-        <div style={s.title}>MOBILE LEGENDS: BANG BANG</div>
-        <div style={s.sub}>{heroCount} Heroes · Patch {PATCH.v} · Season {PATCH.s}</div>
+      <div style={s.wrap}>
+        <div style={s.hdr}>
+          <div style={s.glow} />
+          <div style={s.title}>MOBILE LEGENDS: BANG BANG</div>
+          <div style={s.sub}>{heroCount} Heroes · Patch {PATCH.v} · Season {PATCH.s}</div>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: 8, marginTop: 10, padding: "4px 5px 4px 12px", background: "rgba(17,26,46,.6)", border: `1px solid ${P.brd}`, borderRadius: 999, fontSize: 10, color: P.t2, fontWeight: 600 }}>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 5 }}>
+              <span style={{ width: 7, height: 7, borderRadius: 999, background: live ? P.nG : P.gold, boxShadow: `0 0 8px ${live ? P.nG : P.gold}` }} />
+              {live ? "LIVE" : "BUNDLED"} · {agoLabel(lastUpdated)}
+            </span>
+            <button onClick={refresh} disabled={status === "syncing"} style={{ background: status === "syncing" ? "transparent" : `${P.neon}1a`, border: `1px solid ${P.neon}55`, borderRadius: 999, color: P.neon, fontSize: 10, fontWeight: 700, padding: "3px 11px", cursor: "pointer", fontFamily: "'Oxanium',sans-serif", letterSpacing: .3 }}>
+              {status === "syncing" ? "SYNCING…" : "↻ REFRESH"}
+            </button>
+          </div>
+        </div>
+        <div style={s.tbs}>{TABS.map(t => <button key={t} style={s.tb(tab === t)} onClick={() => setTab(t)}>{t}</button>)}</div>
+        <div key={tab} className="view-enter" style={s.ct}>{view}</div>
+        <div style={{ textAlign: "center", padding: "18px 12px 26px", fontSize: 9.5, color: P.t3, letterSpacing: .5, borderTop: `1px solid ${P.brd}` }}>MLBB PRO GUIDE · {heroCount} HEROES · PATCH {PATCH.v} · S{PATCH.s} · Not affiliated with Moonton</div>
       </div>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "4px 8px", background: P.bg2, borderBottom: `1px solid ${P.brd}`, fontSize: 9, color: P.t3 }}>
-        <span>{source === "bundled" ? "📦" : "🛰️"} Data: {agoLabel(lastUpdated)}</span>
-        <button onClick={refresh} disabled={status === "syncing"} style={{ background: "transparent", border: `1px solid ${P.brd}`, borderRadius: 6, color: status === "syncing" ? P.t3 : P.neon, fontSize: 9, padding: "2px 8px", cursor: "pointer", fontFamily: "inherit" }}>
-          {status === "syncing" ? "Syncing…" : "↻ Refresh"}
-        </button>
-      </div>
-      <div style={s.tbs}>{TABS.map(t => <button key={t} style={s.tb(tab === t)} onClick={() => setTab(t)}>{t}</button>)}</div>
-      <div style={s.ct}>{view}</div>
-      <div style={{ textAlign: "center", padding: "16px 12px 24px", fontSize: 9, color: P.t3, borderTop: `1px solid ${P.brd}` }}>MLBB Pro Guide · {heroCount} Heroes · Patch {PATCH.v} · S{PATCH.s} · Not affiliated with Moonton</div>
     </div>
   );
 }

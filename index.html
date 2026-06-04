@@ -5,9 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>MLBB Pro Guide</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        background-color: #05070e;
+        background-image:
+          radial-gradient(1000px 520px at 50% -12%, rgba(240,178,50,.11), transparent 70%),
+          radial-gradient(760px 520px at 102% 8%, rgba(0,229,255,.07), transparent 70%),
+          radial-gradient(720px 620px at -2% 32%, rgba(168,85,247,.06), transparent 70%),
+          linear-gradient(rgba(255,255,255,.020) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,.020) 1px, transparent 1px);
+        background-size: 100% 100%, 100% 100%, 100% 100%, 46px 46px, 46px 46px;
+        background-attachment: fixed;
+        color: #eef2f8;
+        font-family: 'Rajdhani', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      #root { min-height: 100vh; }
+      ::selection { background: rgba(240,178,50,.32); color: #fff; }
+
+      *::-webkit-scrollbar { width: 7px; height: 7px; }
+      *::-webkit-scrollbar-track { background: transparent; }
+      *::-webkit-scrollbar-thumb { background: #1a2540; border-radius: 999px; }
+      *::-webkit-scrollbar-thumb:hover { background: #2c3e66; }
+
+      /* App-wide interactive polish — no per-element classes needed */
+      button {
+        transition: transform .12s ease, background .2s ease, color .2s ease,
+                    border-color .2s ease, box-shadow .2s ease, opacity .2s ease;
+        -webkit-tap-highlight-color: transparent;
+      }
+      button:active { transform: scale(.94); }
+      button:disabled { opacity: .55; }
+      input {
+        transition: border-color .2s ease, box-shadow .2s ease, background .2s ease;
+        -webkit-tap-highlight-color: transparent;
+      }
+      input:focus {
+        border-color: rgba(240,178,50,.65) !important;
+        box-shadow: 0 0 0 3px rgba(240,178,50,.13);
+        background: rgba(17,26,46,.95) !important;
+      }
+      input::placeholder { color: #4a5873; }
+
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      .view-enter > * { animation: fadeUp .42s cubic-bezier(.22,.61,.36,1) both; }
+      .view-enter > *:nth-child(1){animation-delay:.00s}
+      .view-enter > *:nth-child(2){animation-delay:.04s}
+      .view-enter > *:nth-child(3){animation-delay:.08s}
+      .view-enter > *:nth-child(4){animation-delay:.12s}
+      .view-enter > *:nth-child(5){animation-delay:.16s}
+      .view-enter > *:nth-child(6){animation-delay:.20s}
+      .view-enter > *:nth-child(n+7){animation-delay:.24s}
+    </style>
   </head>
-  <body style="margin:0;background:#060a13">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
