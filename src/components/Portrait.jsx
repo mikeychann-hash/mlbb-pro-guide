@@ -7,6 +7,8 @@ export function Portrait({ hero, size = 42, radius = 11 }) {
   const role = rc(hero.r);
   return (
     <div
+      role="img"
+      aria-label={`${hero.n} portrait`}
       style={{
         position: "relative",
         width: size,
