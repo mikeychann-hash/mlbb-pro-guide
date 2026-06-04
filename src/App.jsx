@@ -118,7 +118,7 @@ export default function App() {
       case "Learn": return <LearnView />;
       case "My Stats": return <MyStatsView {...{ tracker, saveTracker, tkHero, setTkHero, tkResult, setTkResult }} />;
       case "Build": return <BuildView {...{ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }} />;
-      case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, dQ, setDQ }} />;
+      case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, dQ, setDQ, favorites }} />;
       default: return null;
     }
   }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ]);
