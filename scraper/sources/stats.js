@@ -9,9 +9,24 @@ const UA = "MLBB-Guide-Scraper/1.0 (https://github.com/mikeychann-hash/mlbb-pro-
 
 const pct = (x) => (typeof x === "number" ? Math.round(x * 1000) / 10 : null);
 
+const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
+
 export async function fetchStats(fetchImpl = fetch) {
-  const r = await fetchImpl(URL, { headers: { "User-Agent": UA } });
-  if (!r.ok) throw new Error("stats HTTP " + r.status);
+  // The upstream API 502s intermittently; retry a few times before giving up.
+  let r = null;
+  let lastErr = null;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      r = await fetchImpl(URL, { headers: { "User-Agent": UA } });
+      if (r.ok) break;
+      lastErr = new Error("stats HTTP " + r.status);
+    } catch (e) {
+      lastErr = e;
+    }
+    r = null;
+    await sleep(1500 * (attempt + 1));
+  }
+  if (!r) throw lastErr || new Error("stats fetch failed");
   const j = await r.json();
   const records = j?.data?.records || [];
   const map = {};
@@ -22,10 +37,12 @@ export async function fetchStats(fetchImpl = fetch) {
     const wr = pct(d.main_hero_win_rate);
     const pr = pct(d.main_hero_appearance_rate);
     const br = pct(d.main_hero_ban_rate);
+    const img = d?.main_hero?.data?.head;
     map[name] = {};
     if (wr != null) map[name].wr = wr;
     if (pr != null) map[name].pr = pr;
     if (br != null) map[name].br = br;
+    if (img) map[name].img = img;
   }
   return Object.keys(map).length ? map : null;
 }

@@ -1,6 +1,7 @@
 import { s } from "../theme/styles.js";
 import { P, tc, rc, ri } from "../theme/palette.js";
 import { useData } from "../data/DataContext.jsx";
+import { Portrait } from "./Portrait.jsx";
 
 // Full-page hero detail takeover. Renders nothing when no hero is selected.
 // Props: { hero, onClose, onSelectHero }
@@ -16,13 +17,18 @@ export function HeroDetail({ hero, onClose, onSelectHero }) {
         <button style={s.bk} onClick={() => onClose()}>← Back</button>
         <div style={{ background: P.cd, border: `1px solid ${P.brd}`, borderRadius: 12, padding: 16, position: "relative", overflow: "hidden" }}>
           <div style={{ position: "absolute", top: -20, right: -20, fontSize: 80, opacity: 0.04 }}>{ri(h.r)}</div>
-          <div style={{ fontSize: 20, fontWeight: 900 }}>{ri(h.r)} {h.n}</div>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 6 }}>
-            <span style={s.bg(rc(h.r))}>{h.r}</span>
-            {h.r2 && <span style={s.bg(rc(h.r2))}>{h.r2}</span>}
-            <span style={s.bg(tc(h.t), true)}>{h.t}</span>
-            <span style={s.bg(P.neon)}>{h.l}</span>
-            <span style={s.bg(P.t2)}>{"⭐".repeat(h.d)}</span>
+          <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+            <Portrait hero={h} size={68} radius={14} />
+            <div>
+              <div style={{ fontSize: 22, fontWeight: 900, letterSpacing: .3 }}>{h.n}</div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 6 }}>
+                <span style={s.bg(rc(h.r))}>{h.r}</span>
+                {h.r2 && <span style={s.bg(rc(h.r2))}>{h.r2}</span>}
+                <span style={s.bg(tc(h.t), true)}>{h.t}</span>
+                <span style={s.bg(P.neon)}>{h.l}</span>
+                <span style={s.bg(P.t2)}>{"⭐".repeat(h.d)}</span>
+              </div>
+            </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8, marginTop: 12 }}>
             {[["Win", h.wr + "%", h.wr >= 52 ? P.nG : h.wr >= 51 ? P.gold : P.t2], ["Pick", h.pr + "%", P.blue], ["Ban", h.br + "%", h.br >= 30 ? P.red : P.t2]].map(([l, v, c]) => (

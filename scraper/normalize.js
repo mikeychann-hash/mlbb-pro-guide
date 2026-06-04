@@ -27,6 +27,7 @@ export function buildDataset({ roster, stats, patchNotes, now }) {
         if (typeof s.pr === "number") h.pr = s.pr;
         if (typeof s.br === "number") h.br = s.br;
         if (s.tier) h.t = s.tier;
+        if (s.img) h.img = s.img;
         h.pending = false;
       }
     }

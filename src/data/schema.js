@@ -17,5 +17,6 @@
  * @property {string[]} sp2 battle spells
  * @property {string} tip short tip
  * @property {string[]} sy synergies
+ * @property {string} [img] portrait image URL (from live data; absent on seed)
  */
 export const SCHEMA_VERSION = 1;
