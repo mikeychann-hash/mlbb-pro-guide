@@ -5,7 +5,7 @@ const DISPLAY = "'Oxanium', system-ui, sans-serif";
 // Esports tactical-HUD theme. Atoms are consumed by every feature view, so
 // refining them here restyles the whole app at once.
 export const s = {
-  root: { fontFamily: "'Rajdhani',system-ui,sans-serif", color: P.t1, minHeight: "100vh", position: "relative" },
+  root: { fontFamily: 'system-ui, "Segoe UI", Roboto, sans-serif', color: P.t1, minHeight: "100vh", position: "relative" },
 
   // centered column so content doesn't stretch edge-to-edge on tablets
   wrap: { maxWidth: 680, margin: "0 auto", position: "relative" },

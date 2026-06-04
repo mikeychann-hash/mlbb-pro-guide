@@ -31,7 +31,8 @@ import { ClimbView } from "./features/climb/ClimbView.jsx";
 const GROUPS = [
   { name: "Meta", tabs: ["Meta", "Updates", "Tiers", "Pro Picks"] },
   { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
-  { name: "Loadout", tabs: ["Build", "Items", "Emblems", "Spells", "Draft"] },
+  { name: "Draft", tabs: ["Draft"] },
+  { name: "Build", tabs: ["Build", "Items", "Emblems", "Spells"] },
   { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
   { name: "You", tabs: ["My Stats", "Climb"] },
 ];
