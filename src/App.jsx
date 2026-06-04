@@ -70,6 +70,8 @@ export default function App() {
   // Tracker + saved builds (persisted)
   const [tracker, setTracker] = useState([]); const [tkHero, setTkHero] = useState(""); const [tkResult, setTkResult] = useState("Win");
   const [savedBuilds, setSavedBuilds] = useState([]);
+  // Favorites (persisted)
+  const [favorites, setFavorites] = useState([]);
   // Draft
   const [draft, setDraft] = useState(emptyDraft()); const [dQ, setDQ] = useState("");
 
@@ -77,11 +79,19 @@ export default function App() {
     (async () => {
       setTracker(await getJSON("mlbb-tracker", []));
       setSavedBuilds(await getJSON("mlbb-builds", []));
+      setFavorites(await getJSON("mlbb-favorites", []));
     })();
   }, []);
 
   const saveTracker = (next) => { setTracker(next); setJSON("mlbb-tracker", next); };
   const saveBuilds = (next) => { setSavedBuilds(next); setJSON("mlbb-builds", next); };
+  const toggleFav = (name) => {
+    setFavorites((cur) => {
+      const next = cur.includes(name) ? cur.filter((n) => n !== name) : [...cur, name];
+      setJSON("mlbb-favorites", next);
+      return next;
+    });
+  };
   const onSelectHero = (h) => setSel(h);
   const onDraftSelect = (name) => setDraft((d) => selectHero(d, name));
   const onDraftReset = () => { setDraft(emptyDraft()); setDQ(""); };
@@ -90,7 +100,7 @@ export default function App() {
     switch (tab) {
       case "Meta": return <MetaView onSelectHero={onSelectHero} />;
       case "Updates": return <UpdatesView onSelectHero={onSelectHero} />;
-      case "Heroes": return <HeroesView {...{ q, setQ, rF, setRF, tF, setTF, onSelectHero }} />;
+      case "Heroes": return <HeroesView {...{ q, setQ, rF, setRF, tF, setTF, onSelectHero, favorites, toggleFav }} />;
       case "Tiers": return <TiersView onSelectHero={onSelectHero} />;
       case "Items": return <ItemsView {...{ iC, setIC }} />;
       case "Counter": return <CounterView {...{ cQ, setCQ }} />;
@@ -109,11 +119,11 @@ export default function App() {
       case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, dQ, setDQ }} />;
       default: return null;
     }
-  }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, draft, dQ]);
+  }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ]);
 
   // Hero detail is a full-page takeover.
   if (sel) {
-    return <HeroDetail hero={sel} onClose={() => setSel(null)} onSelectHero={onSelectHero} />;
+    return <HeroDetail hero={sel} onClose={() => setSel(null)} onSelectHero={onSelectHero} isFav={favorites.includes(sel.n)} onToggleFav={() => toggleFav(sel.n)} />;
   }
 
   const PATCH = getMeta().patch;

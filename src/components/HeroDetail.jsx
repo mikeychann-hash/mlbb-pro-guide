@@ -5,7 +5,7 @@ import { Portrait } from "./Portrait.jsx";
 
 // Full-page hero detail takeover. Renders nothing when no hero is selected.
 // Props: { hero, onClose, onSelectHero }
-export function HeroDetail({ hero, onClose, onSelectHero }) {
+export function HeroDetail({ hero, onClose, onSelectHero, isFav, onToggleFav }) {
   const { getHeroByName } = useData();
   if (!hero) return null;
   const h = hero;
@@ -19,7 +19,7 @@ export function HeroDetail({ hero, onClose, onSelectHero }) {
           <div style={{ position: "absolute", top: -20, right: -20, fontSize: 80, opacity: 0.04 }}>{ri(h.r)}</div>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
             <Portrait hero={h} size={68} radius={14} />
-            <div>
+            <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ fontSize: 22, fontWeight: 900, letterSpacing: .3 }}>{h.n}</div>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 6 }}>
                 <span style={s.bg(rc(h.r))}>{h.r}</span>
@@ -29,6 +29,7 @@ export function HeroDetail({ hero, onClose, onSelectHero }) {
                 <span style={s.bg(P.t2)}>{"⭐".repeat(h.d)}</span>
               </div>
             </div>
+            <button type="button" onClick={onToggleFav} aria-pressed={isFav} aria-label={isFav ? "Remove favorite" : "Add favorite"} style={{ appearance: "none", background: isFav ? `${P.gold}22` : "transparent", border: `1px solid ${isFav ? P.gold : P.brd}`, borderRadius: 10, color: isFav ? P.gold : P.t2, fontSize: 22, lineHeight: 1, padding: "8px 12px", cursor: "pointer", flex: "0 0 auto" }}>{isFav ? "★" : "☆"}</button>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8, marginTop: 12 }}>
             {[["Win", h.wr + "%", h.wr >= 52 ? P.nG : h.wr >= 51 ? P.gold : P.t2], ["Pick", h.pr + "%", P.blue], ["Ban", h.br + "%", h.br >= 30 ? P.red : P.t2]].map(([l, v, c]) => (
