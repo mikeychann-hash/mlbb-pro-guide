@@ -13,3 +13,10 @@ android/captures/
 .DS_Store
 *.apk
 *.aab
+mlbb_tablet.png
+mlbb_tablet2.png
+mlbb_tablet3.png
+mlbb_updates.png
+ui_meta.png
+ui_*.png
+*_tablet*.png
