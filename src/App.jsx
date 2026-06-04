@@ -41,7 +41,7 @@ function agoLabel(iso) {
 }
 
 export default function App() {
-  const { getHeroes, getMeta, status, lastUpdated, source, refresh } = useData();
+  const { getHeroes, getMeta, status, lastUpdated, source, refresh, syncMsg } = useData();
   const [tab, setTab] = useState("Meta");
   const [sel, setSel] = useState(null);
   // Heroes filters
@@ -115,9 +115,9 @@ export default function App() {
           <div style={s.title}>MOBILE LEGENDS: BANG BANG</div>
           <div style={s.sub}>{heroCount} Heroes · Patch {PATCH.v} · Season {PATCH.s}</div>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, marginTop: 10, padding: "4px 5px 4px 12px", background: "rgba(17,26,46,.6)", border: `1px solid ${P.brd}`, borderRadius: 999, fontSize: 10, color: P.t2, fontWeight: 600 }}>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 5 }}>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, color: syncMsg ? (syncMsg.startsWith("⚠") ? P.gold : P.nG) : P.t2 }}>
               <span style={{ width: 7, height: 7, borderRadius: 999, background: live ? P.nG : P.gold, boxShadow: `0 0 8px ${live ? P.nG : P.gold}` }} />
-              {live ? "LIVE" : "BUNDLED"} · {agoLabel(lastUpdated)}
+              {syncMsg ? syncMsg : `${live ? "LIVE" : "BUNDLED"} · ${agoLabel(lastUpdated)}`}
             </span>
             <button onClick={refresh} disabled={status === "syncing"} style={{ background: status === "syncing" ? "transparent" : `${P.neon}1a`, border: `1px solid ${P.neon}55`, borderRadius: 999, color: P.neon, fontSize: 10, fontWeight: 700, padding: "3px 11px", cursor: "pointer", fontFamily: "'Oxanium',sans-serif", letterSpacing: .3 }}>
               {status === "syncing" ? "SYNCING…" : "↻ REFRESH"}

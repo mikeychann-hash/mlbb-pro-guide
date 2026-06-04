@@ -4,7 +4,7 @@ import { pendingHero } from "../src/data/dataset.js";
 // Merge live roster onto the rich seed. Seed heroes keep full detail; roster
 // heroes not in the seed are added as `pending`. stats/patchNotes are applied
 // when available (null today).
-export function buildDataset({ roster, stats, patchNotes, now }) {
+export function buildDataset({ roster, stats, images, patchNotes, now }) {
   const heroes = BUNDLED_DATA.heroes.map((h) => ({ ...h }));
   const have = new Set(heroes.map((h) => h.n.toLowerCase()));
 
@@ -27,9 +27,18 @@ export function buildDataset({ roster, stats, patchNotes, now }) {
         if (typeof s.pr === "number") h.pr = s.pr;
         if (typeof s.br === "number") h.br = s.br;
         if (s.tier) h.t = s.tier;
-        if (s.img) h.img = s.img;
         h.pending = false;
       }
+    }
+  }
+
+  // Portraits (Fandom) applied to the whole roster for a consistent look.
+  if (images) {
+    const idx = {};
+    for (const k of Object.keys(images)) idx[k.toLowerCase()] = images[k];
+    for (const h of heroes) {
+      const im = idx[h.n.toLowerCase()];
+      if (im) h.img = im;
     }
   }
 

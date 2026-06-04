@@ -12,11 +12,11 @@ export const s = {
 
   hdr: { padding: "20px 16px 15px", textAlign: "center", position: "relative", overflow: "hidden", borderBottom: `1px solid ${P.brd}`, background: "linear-gradient(180deg, rgba(13,22,40,.72), rgba(6,10,19,0))" },
   glow: { position: "absolute", top: -70, left: "50%", transform: "translateX(-50%)", width: 300, height: 130, background: `radial-gradient(ellipse, ${P.gold}33, transparent 70%)`, pointerEvents: "none" },
-  title: { fontFamily: DISPLAY, fontSize: 22, fontWeight: 800, letterSpacing: 1.5, background: `linear-gradient(92deg, ${P.gold}, #ffe1a3 42%, ${P.neon})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: 0, lineHeight: 1.05 },
-  sub: { fontSize: 9.5, color: P.t3, marginTop: 6, letterSpacing: 3, textTransform: "uppercase", fontWeight: 600 },
+  title: { fontFamily: DISPLAY, fontSize: 23, fontWeight: 800, letterSpacing: 1.2, color: P.gold, textShadow: `0 0 16px ${P.gold}44`, margin: 0, lineHeight: 1.08 },
+  sub: { fontSize: 10.5, color: P.t2, marginTop: 6, letterSpacing: 2, textTransform: "uppercase", fontWeight: 600 },
 
-  tbs: { display: "flex", overflowX: "auto", gap: 6, padding: "10px 12px", position: "sticky", top: 0, zIndex: 20, background: "rgba(6,10,19,.82)", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", borderBottom: `1px solid ${P.brd}` },
-  tb: a => ({ fontFamily: DISPLAY, padding: "7px 14px", fontSize: 11, fontWeight: a ? 800 : 600, letterSpacing: .5, color: a ? "#0a0a0a" : P.t2, background: a ? `linear-gradient(180deg, ${P.gold}, ${P.goldD})` : "rgba(255,255,255,.035)", border: `1px solid ${a ? P.gold : P.brd}`, borderRadius: 999, cursor: "pointer", whiteSpace: "nowrap", boxShadow: a ? `0 4px 16px ${P.gold}55` : "none", flex: "0 0 auto" }),
+  tbs: { display: "flex", overflowX: "auto", gap: 6, padding: "10px 12px", position: "sticky", top: 0, zIndex: 20, background: "#080d18", borderBottom: `1px solid ${P.brd}` },
+  tb: a => ({ fontFamily: DISPLAY, padding: "8px 15px", fontSize: 12, fontWeight: a ? 800 : 600, letterSpacing: .4, color: a ? "#0a0a0a" : P.t2, background: a ? P.gold : "rgba(255,255,255,.05)", border: `1px solid ${a ? P.gold : P.brd}`, borderRadius: 999, cursor: "pointer", whiteSpace: "nowrap", boxShadow: a ? `0 3px 14px ${P.gold}66` : "none", flex: "0 0 auto" }),
 
   ct: { padding: "14px 12px 30px" },
 

@@ -12,13 +12,30 @@ export function DataProvider({ children }) {
   const [error, setError] = useState(null);
   const [diff, setDiff] = useState(null);
   const [changes, setChanges] = useState({});
+  const [syncMsg, setSyncMsg] = useState(null);
 
   const refresh = useCallback(async () => {
     setStatus("syncing");
+    const before = await getJSON("mlbb-data", null);
+    const prevGen = before?.generatedAt ?? null;
     const res = await syncData();
     setData(res.data);
     setError(res.error);
     setStatus(res.error && res.data.source === "bundled" ? "error" : "ok");
+
+    // user-facing feedback so a manual refresh always confirms something
+    const changedNow = (res.data.generatedAt ?? null) !== prevGen;
+    const msg = res.error
+      ? "⚠ Offline — showing cached"
+      : res.data.source === "bundled"
+        ? "⚠ Live data unavailable"
+        : changedNow
+          ? "✓ Updated to latest"
+          : "✓ Up to date";
+    setSyncMsg(msg);
+    // eslint-disable-next-line no-console
+    console.log("[mlbb sync]", res.data.source, "gen:", res.data.generatedAt, "err:", res.error || "none");
+    setTimeout(() => setSyncMsg(null), 3200);
 
     const currentHeroes = res.data.heroes;
     const seen = await getJSON("mlbb-seen", null);
@@ -50,6 +67,7 @@ export function DataProvider({ children }) {
     lastUpdated: data.generatedAt || null,
     source: data.source,
     refresh,
+    syncMsg,
     diff,
     changes,
     getChange: (name) => changes[name] || null,

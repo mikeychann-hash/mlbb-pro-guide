@@ -1,7 +1,7 @@
 import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { fetchRoster } from "./sources/fandom.js";
+import { fetchRoster, fetchImages } from "./sources/fandom.js";
 import { fetchStats } from "./sources/stats.js";
 import { fetchPatchNotes } from "./sources/official.js";
 import { buildDataset } from "./normalize.js";
@@ -19,9 +19,16 @@ async function main() {
   const roster = await safe(() => fetchRoster(), "fandom roster");
   const stats = await safe(() => fetchStats(), "stats");
   const patchNotes = await safe(() => fetchPatchNotes(), "patch notes");
+  // Portraits for the whole roster (seed names + any new ones from the roster).
+  const { BUNDLED_DATA } = await import("../src/data/bundled.js");
+  const allNames = Array.from(new Set([
+    ...BUNDLED_DATA.heroes.map((h) => h.n),
+    ...(Array.isArray(roster) ? roster : []),
+  ]));
+  const images = await safe(() => fetchImages(allNames), "fandom images");
 
   const now = new Date().toISOString();
-  const ds = buildDataset({ roster, stats, patchNotes, now });
+  const ds = buildDataset({ roster, stats, images, patchNotes, now });
   const { ok, errors } = validate(ds);
   if (!ok) {
     console.error("[scrape] validation failed:", errors.join("; "));
