@@ -3,6 +3,7 @@ import { s } from "../../theme/styles.js";
 import { P, tc, rc, ri } from "../../theme/palette.js";
 import { useData } from "../../data/DataContext.jsx";
 import { SugBox } from "../../components/SugBox.jsx";
+import { matchupPlan } from "./matchup.js";
 
 export function CompareView({ cmpA, setCmpA, cmpB, setCmpB }) {
   const { getHeroByName } = useData();
@@ -48,6 +49,13 @@ export function CompareView({ cmpA, setCmpA, cmpB, setCmpB }) {
               <div><span style={{ fontSize: 20, fontWeight: 900, color: heroB.wr > heroA.wr ? P.nG : P.t3 }}>{heroB.wr}%</span><div style={{ fontSize: 9, color: P.t3 }}>{heroB.n} WR</div></div>
             </div>
           </div>
+          {(() => { const mp = matchupPlan(heroA, heroB); return mp ? (
+            <div style={{ ...s.cd2, marginTop: 8, cursor: "default", borderLeft: `3px solid ${mp.tone === "good" ? P.nG : mp.tone === "bad" ? P.red : P.gold}` }}>
+              <div style={{ fontSize: 12, fontWeight: 800, color: P.gold, marginBottom: 2 }}>🧠 How to play {heroA.n} vs {heroB.n}</div>
+              <div style={{ fontSize: 11, fontWeight: 700, color: mp.tone === "good" ? P.nG : mp.tone === "bad" ? P.red : P.t2, marginBottom: 6 }}>{mp.verdict}</div>
+              {mp.tips.map((t, i) => <div key={i} style={{ fontSize: 11, color: P.t2, lineHeight: 1.5, padding: "2px 0" }}>• {t}</div>)}
+            </div>
+          ) : null; })()}
         </div>
       ) : (
         <div style={{ textAlign: "center", padding: "30px", color: P.t3 }}>
