@@ -18,8 +18,10 @@ export function buildDataset({ roster, stats, patchNotes, now }) {
   }
 
   if (stats) {
+    const idx = {};
+    for (const k of Object.keys(stats)) idx[k.toLowerCase()] = stats[k];
     for (const h of heroes) {
-      const s = stats[h.n];
+      const s = idx[h.n.toLowerCase()];
       if (s) {
         if (typeof s.wr === "number") h.wr = s.wr;
         if (typeof s.pr === "number") h.pr = s.pr;

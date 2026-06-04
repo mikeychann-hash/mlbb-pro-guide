@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-04T00:00:06.923Z",
+  "generatedAt": "2026-06-04T00:10:08.576Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -16,9 +16,9 @@
       "t": "S+",
       "l": "EXP",
       "d": 2,
-      "wr": 52.3,
-      "pr": 14.2,
-      "br": 22,
+      "wr": 48.5,
+      "pr": 0.8,
+      "br": 41.1,
       "sp": "AoE CC Stance Switch",
       "c": [
         "Phoveus",
@@ -48,7 +48,8 @@
         "Tigreal",
         "Pharsa",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Fredrinn",
@@ -57,9 +58,9 @@
       "t": "S+",
       "l": "Jungle",
       "d": 2,
-      "wr": 51.9,
-      "pr": 12.8,
-      "br": 28,
+      "wr": 51.4,
+      "pr": 0.8,
+      "br": 6.6,
       "sp": "Utility Tank Jungler",
       "c": [
         "Karrie",
@@ -89,7 +90,8 @@
         "Sora",
         "Angela",
         "Pharsa"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Julian",
@@ -98,9 +100,9 @@
       "t": "S+",
       "l": "EXP",
       "d": 3,
-      "wr": 52.1,
-      "pr": 11.5,
-      "br": 18,
+      "wr": 50,
+      "pr": 1.1,
+      "br": 3.9,
       "sp": "6-Combo Burst",
       "c": [
         "Phoveus",
@@ -130,7 +132,8 @@
         "Tigreal",
         "Khufra",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Zhuxin",
@@ -139,9 +142,9 @@
       "t": "S+",
       "l": "Mid",
       "d": 2,
-      "wr": 51.7,
-      "pr": 13.1,
-      "br": 15,
+      "wr": 51,
+      "pr": 0.6,
+      "br": 18.8,
       "sp": "Displacement Execute",
       "c": [
         "Valentina",
@@ -171,7 +174,8 @@
         "Tigreal",
         "Atlas",
         "Fredrinn"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Helcurt",
@@ -180,9 +184,9 @@
       "t": "S+",
       "l": "Jungle",
       "d": 2,
-      "wr": 51.4,
-      "pr": 8.2,
-      "br": 79,
+      "wr": 49.8,
+      "pr": 0.8,
+      "br": 29.3,
       "sp": "Silence + Darkness",
       "c": [
         "Tanky lineups",
@@ -211,7 +215,8 @@
         "Tigreal",
         "Atlas",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Tigreal",
@@ -220,9 +225,9 @@
       "t": "S+",
       "l": "Roam",
       "d": 1,
-      "wr": 51.2,
-      "pr": 16.4,
-      "br": 8,
+      "wr": 47.7,
+      "pr": 2,
+      "br": 7.3,
       "sp": "AoE Engage",
       "c": [
         "Valir",
@@ -252,7 +257,8 @@
         "Pharsa",
         "Zhuxin",
         "Sora"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Khufra",
@@ -261,9 +267,9 @@
       "t": "S+",
       "l": "Roam",
       "d": 2,
-      "wr": 51.5,
-      "pr": 11.3,
-      "br": 14,
+      "wr": 53.6,
+      "pr": 0.3,
+      "br": 3,
       "sp": "Anti-Dash",
       "c": [
         "Valir",
@@ -293,7 +299,8 @@
         "Pharsa",
         "Zhuxin",
         "Julian"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Joy",
@@ -302,9 +309,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 3,
-      "wr": 51.8,
-      "pr": 6.1,
-      "br": 82,
+      "wr": 48.1,
+      "pr": 0.2,
+      "br": 0.6,
       "sp": "Unavoidable Burst",
       "c": [
         "Khufra",
@@ -332,7 +339,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Phoveus",
@@ -341,9 +349,9 @@
       "t": "S",
       "l": "EXP",
       "d": 2,
-      "wr": 52,
-      "pr": 9.8,
-      "br": 12,
+      "wr": 51,
+      "pr": 0.7,
+      "br": 3.1,
       "sp": "Anti-Dash Punisher",
       "c": [
         "Esmeralda",
@@ -373,7 +381,8 @@
         "Khufra",
         "Tigreal",
         "Pharsa"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Hayabusa",
@@ -382,9 +391,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 3,
-      "wr": 51.6,
-      "pr": 10.5,
-      "br": 11,
+      "wr": 48.1,
+      "pr": 0.9,
+      "br": 5,
       "sp": "Safest Jungler",
       "c": [
         "Saber",
@@ -413,7 +422,8 @@
         "Tigreal",
         "Angela",
         "Mathilda"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Arlott",
@@ -422,9 +432,9 @@
       "t": "S",
       "l": "EXP",
       "d": 2,
-      "wr": 51.4,
-      "pr": 8.9,
-      "br": 9,
+      "wr": 47.5,
+      "pr": 0.4,
+      "br": 0.6,
       "sp": "Wall-Pin Burst",
       "c": [
         "Chou",
@@ -454,7 +464,8 @@
         "Tigreal",
         "Atlas",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lapu-Lapu",
@@ -463,9 +474,9 @@
       "t": "S",
       "l": "EXP",
       "d": 2,
-      "wr": 51.1,
-      "pr": 8.4,
-      "br": 7,
+      "wr": 48.2,
+      "pr": 0.5,
+      "br": 1,
       "sp": "Dual Stance Shield",
       "c": [
         "Chou",
@@ -495,7 +506,8 @@
         "Tigreal",
         "Pharsa",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Freya",
@@ -504,9 +516,9 @@
       "t": "S",
       "l": "EXP",
       "d": 1,
-      "wr": 51.3,
-      "pr": 9.1,
-      "br": 10,
+      "wr": 51.6,
+      "pr": 1.1,
+      "br": 18.4,
       "sp": "Sacred Orb Duelist",
       "c": [
         "Chou",
@@ -536,7 +548,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Leomord",
@@ -545,9 +558,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 2,
-      "wr": 51,
-      "pr": 7.8,
-      "br": 35,
+      "wr": 53.2,
+      "pr": 1.2,
+      "br": 13.6,
       "sp": "Mount Burst Chase",
       "c": [
         "Khufra",
@@ -577,7 +590,8 @@
         "Tigreal",
         "Angela",
         "Mathilda"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Saber",
@@ -586,9 +600,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 1,
-      "wr": 51.2,
-      "pr": 9.5,
-      "br": 41,
+      "wr": 49.7,
+      "pr": 1,
+      "br": 23.3,
       "sp": "Point-Click Delete",
       "c": [
         "Chou",
@@ -618,7 +632,8 @@
         "Tigreal",
         "Atlas",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Pharsa",
@@ -627,9 +642,9 @@
       "t": "S",
       "l": "Mid",
       "d": 2,
-      "wr": 51.9,
-      "pr": 8.7,
-      "br": 6,
+      "wr": 47.4,
+      "pr": 0.6,
+      "br": 0.5,
       "sp": "Artillery Zone",
       "c": [
         "Lancelot",
@@ -659,7 +674,8 @@
         "Tigreal",
         "Khufra",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Kimmy",
@@ -668,9 +684,9 @@
       "t": "S",
       "l": "Gold",
       "d": 2,
-      "wr": 51.5,
-      "pr": 10.2,
-      "br": 5,
+      "wr": 47.4,
+      "pr": 0.7,
+      "br": 0.6,
       "sp": "Move + Shoot",
       "c": [
         "Saber",
@@ -700,7 +716,8 @@
         "Tigreal",
         "Khufra",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Yi Sun-shin",
@@ -709,9 +726,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 2,
-      "wr": 51,
-      "pr": 7.3,
-      "br": 8,
+      "wr": 50.2,
+      "pr": 1.5,
+      "br": 12.4,
       "sp": "Global Vision Ship",
       "c": [
         "Khufra",
@@ -740,7 +757,8 @@
         "Tigreal",
         "Angela",
         "Mathilda"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Gloo",
@@ -749,9 +767,9 @@
       "t": "S",
       "l": "Roam",
       "d": 2,
-      "wr": 51.1,
-      "pr": 8.5,
-      "br": 9,
+      "wr": 55.4,
+      "pr": 0.6,
+      "br": 71.1,
       "sp": "Sticky Isolation",
       "c": [
         "Purify",
@@ -781,7 +799,8 @@
         "Pharsa",
         "Zhuxin",
         "Sora"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Angela",
@@ -790,9 +809,9 @@
       "t": "S",
       "l": "Roam",
       "d": 1,
-      "wr": 51.3,
-      "pr": 9.8,
-      "br": 4,
+      "wr": 49.1,
+      "pr": 1.6,
+      "br": 8.6,
       "sp": "Global Attach",
       "c": [
         "Burst AoE",
@@ -821,7 +840,8 @@
         "Fredrinn",
         "Hayabusa",
         "Sora"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Mathilda",
@@ -830,9 +850,9 @@
       "t": "S",
       "l": "Roam",
       "d": 2,
-      "wr": 51.4,
-      "pr": 8.1,
-      "br": 44,
+      "wr": 43.3,
+      "pr": 0.1,
+      "br": 0.6,
       "sp": "Aggressive Roam",
       "c": [
         "Diggie",
@@ -861,7 +881,8 @@
         "Hayabusa",
         "Leomord",
         "Granger"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Nolan",
@@ -870,9 +891,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 3,
-      "wr": 51,
-      "pr": 6.5,
-      "br": 12,
+      "wr": 47.4,
+      "pr": 0.3,
+      "br": 0.4,
       "sp": "Dimensional Rift",
       "c": [
         "Khufra",
@@ -900,7 +921,8 @@
         "Tigreal",
         "Angela",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Chip",
@@ -909,9 +931,9 @@
       "t": "S",
       "l": "Roam",
       "d": 2,
-      "wr": 50.8,
-      "pr": 7.2,
-      "br": 6,
+      "wr": 48.8,
+      "pr": 0.1,
+      "br": 2.8,
       "sp": "Global Teleport",
       "c": [
         "Burst damage",
@@ -938,7 +960,8 @@
         "Sora",
         "Julian",
         "Hayabusa"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Chou",
@@ -947,9 +970,9 @@
       "t": "A",
       "l": "EXP",
       "d": 3,
-      "wr": 50.5,
-      "pr": 11.2,
-      "br": 5,
+      "wr": 46.4,
+      "pr": 1.1,
+      "br": 3.2,
       "sp": "Kick Isolation",
       "c": [
         "Phoveus",
@@ -979,7 +1002,8 @@
         "Pharsa",
         "Zhuxin",
         "Sora"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Guinevere",
@@ -988,9 +1012,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 51.8,
-      "pr": 7.4,
-      "br": 4,
+      "wr": 50.7,
+      "pr": 1.3,
+      "br": 33.3,
       "sp": "Jump Knock-Up",
       "c": [
         "Chou",
@@ -1020,7 +1044,8 @@
         "Tigreal",
         "Atlas",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Valentina",
@@ -1029,9 +1054,9 @@
       "t": "A",
       "l": "Mid",
       "d": 3,
-      "wr": 52.8,
-      "pr": 7.3,
-      "br": 5,
+      "wr": 43.1,
+      "pr": 0.2,
+      "br": 0.4,
       "sp": "Ultimate Copy",
       "c": [
         "Heroes with bad ults"
@@ -1059,7 +1084,8 @@
         "Tigreal",
         "Khufra",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Wanwan",
@@ -1068,9 +1094,9 @@
       "t": "A",
       "l": "Gold",
       "d": 3,
-      "wr": 50.9,
-      "pr": 7.2,
-      "br": 7,
+      "wr": 48.4,
+      "pr": 0.2,
+      "br": 0.3,
       "sp": "Weakness-Point Ult",
       "c": [
         "Khufra",
@@ -1100,7 +1126,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Karrie",
@@ -1109,9 +1136,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 51.2,
-      "pr": 6.8,
-      "br": 3,
+      "wr": 50.2,
+      "pr": 0.9,
+      "br": 3.6,
       "sp": "True DMG Tank Killer",
       "c": [
         "Saber",
@@ -1141,7 +1168,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Beatrix",
@@ -1150,9 +1178,9 @@
       "t": "A",
       "l": "Gold",
       "d": 3,
-      "wr": 50.7,
-      "pr": 8.6,
-      "br": 4,
+      "wr": 50.3,
+      "pr": 0.8,
+      "br": 0.9,
       "sp": "4-Weapon Arsenal",
       "c": [
         "Saber",
@@ -1182,7 +1210,8 @@
         "Tigreal",
         "Angela",
         "Mathilda"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Brody",
@@ -1191,9 +1220,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 52.5,
-      "pr": 11.5,
-      "br": 3,
+      "wr": 50.7,
+      "pr": 0.5,
+      "br": 0.6,
       "sp": "Early-Game Stack",
       "c": [
         "Saber",
@@ -1222,7 +1251,8 @@
         "Tigreal",
         "Angela",
         "Mathilda"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lancelot",
@@ -1231,9 +1261,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.8,
-      "pr": 7.1,
-      "br": 8,
+      "wr": 43.2,
+      "pr": 0.7,
+      "br": 1.1,
       "sp": "Triple Dash Immune",
       "c": [
         "Khufra",
@@ -1262,7 +1292,8 @@
         "Tigreal",
         "Angela",
         "Chip"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Ling",
@@ -1271,9 +1302,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.6,
-      "pr": 6.3,
-      "br": 61,
+      "wr": 45.3,
+      "pr": 0.2,
+      "br": 0.2,
       "sp": "Wall Walker",
       "c": [
         "Khufra",
@@ -1302,7 +1333,8 @@
         "Tigreal",
         "Angela",
         "Chip"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Fanny",
@@ -1311,9 +1343,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.4,
-      "pr": 4.8,
-      "br": 58,
+      "wr": 42.9,
+      "pr": 0.6,
+      "br": 3.3,
       "sp": "Cable Swing",
       "c": [
         "Khufra",
@@ -1341,7 +1373,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Atlas",
@@ -1350,9 +1383,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 51.8,
-      "pr": 7.2,
-      "br": 4,
+      "wr": 51.3,
+      "pr": 0.6,
+      "br": 5.8,
       "sp": "Mass Grab",
       "c": [
         "Diggie",
@@ -1381,7 +1414,8 @@
         "Pharsa",
         "Zhuxin",
         "Sora"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Ruby",
@@ -1390,9 +1424,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 51.5,
-      "pr": 6.9,
-      "br": 2,
+      "wr": 50.7,
+      "pr": 0.4,
+      "br": 0.5,
       "sp": "Lifesteal Queen",
       "c": [
         "Esmeralda",
@@ -1422,7 +1456,8 @@
         "Pharsa",
         "Zhuxin",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Esmeralda",
@@ -1431,9 +1466,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.9,
-      "pr": 6.4,
-      "br": 3,
+      "wr": 43.5,
+      "pr": 0.4,
+      "br": 0.7,
       "sp": "Shield Vampire",
       "c": [
         "Baxia",
@@ -1463,7 +1498,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Diggie",
@@ -1472,9 +1508,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 51,
-      "pr": 5.8,
-      "br": 3,
+      "wr": 54,
+      "pr": 0.2,
+      "br": 17.3,
       "sp": "Anti-CC Cleanser",
       "c": [
         "Burst damage",
@@ -1501,7 +1537,8 @@
       "tip": "THE CC counter. Press Ult when enemy Tigreal/Atlas engages.",
       "sy": [
         "Any carry"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Estes",
@@ -1510,9 +1547,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 51.3,
-      "pr": 6.2,
-      "br": 4,
+      "wr": 52.3,
+      "pr": 0.6,
+      "br": 48.4,
       "sp": "Fountain Healer",
       "c": [
         "Anti-heal",
@@ -1540,7 +1577,8 @@
       "sy": [
         "Yu Zhong",
         "Thamuz"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Marcel",
@@ -1549,9 +1587,9 @@
       "t": "A",
       "l": "Roam",
       "d": 3,
-      "wr": 50.4,
-      "pr": 5.1,
-      "br": 2,
+      "wr": 55.2,
+      "pr": 0.3,
+      "br": 127.6,
       "sp": "True DMG Support",
       "c": [
         "Poke comps",
@@ -1578,7 +1616,8 @@
         "Pharsa",
         "Zhuxin",
         "Sora"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Granger",
@@ -1587,9 +1626,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.8,
-      "pr": 7.5,
-      "br": 3,
+      "wr": 42.6,
+      "pr": 1.4,
+      "br": 3.3,
       "sp": "6th Bullet Burst",
       "c": [
         "Khufra",
@@ -1618,7 +1657,8 @@
         "Tigreal",
         "Angela",
         "Mathilda"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Gusion",
@@ -1627,9 +1667,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.5,
-      "pr": 5.8,
-      "br": 5,
+      "wr": 49.2,
+      "pr": 1.6,
+      "br": 11.9,
       "sp": "10-Dagger Burst",
       "c": [
         "Khufra",
@@ -1657,7 +1697,8 @@
         "Tigreal",
         "Angela",
         "Chip"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Franco",
@@ -1666,9 +1707,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.6,
-      "pr": 6.1,
-      "br": 2,
+      "wr": 44.4,
+      "pr": 1.2,
+      "br": 6.7,
       "sp": "Hook & Suppress",
       "c": [
         "Diggie",
@@ -1695,7 +1736,8 @@
       "tip": "One hook on carry = win fight. Practice angles.",
       "sy": [
         "Any burst damage"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Uranus",
@@ -1704,9 +1746,9 @@
       "t": "A",
       "l": "EXP",
       "d": 1,
-      "wr": 50.8,
-      "pr": 6.5,
-      "br": 3,
+      "wr": 51.5,
+      "pr": 0.5,
+      "br": 0.9,
       "sp": "Unkillable Regen",
       "c": [
         "Anti-heal",
@@ -1734,7 +1776,8 @@
       "sy": [
         "Estes",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lylia",
@@ -1743,9 +1786,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 51.2,
-      "pr": 5.9,
-      "br": 2,
+      "wr": 48.6,
+      "pr": 0.7,
+      "br": 1,
       "sp": "Zone + Rewind",
       "c": [
         "Lancelot",
@@ -1773,7 +1816,8 @@
         "Tigreal",
         "Khufra",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Bruno",
@@ -1782,9 +1826,9 @@
       "t": "A",
       "l": "Gold",
       "d": 1,
-      "wr": 51.7,
-      "pr": 5.2,
-      "br": 1,
+      "wr": 47.7,
+      "pr": 0.2,
+      "br": 0.1,
       "sp": "Passive Crit Stack",
       "c": [
         "Saber",
@@ -1813,7 +1857,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Hilda",
@@ -1822,9 +1867,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 51.4,
-      "pr": 5.3,
-      "br": 2,
+      "wr": 52.7,
+      "pr": 1,
+      "br": 20,
       "sp": "Bush Ambush",
       "c": [
         "Kite heroes",
@@ -1850,7 +1895,8 @@
       "tip": "Rising. Ult stacks PERMANENTLY per kill. Snowball machine.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Thamuz",
@@ -1859,9 +1905,9 @@
       "t": "A",
       "l": "EXP",
       "d": 1,
-      "wr": 51,
-      "pr": 6.1,
-      "br": 2,
+      "wr": 49.9,
+      "pr": 1.1,
+      "br": 4.4,
       "sp": "Fire Sustain",
       "c": [
         "Esmeralda",
@@ -1890,7 +1936,8 @@
       "sy": [
         "Estes",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Yu Zhong",
@@ -1899,9 +1946,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.6,
-      "pr": 6.3,
-      "br": 3,
+      "wr": 47.8,
+      "pr": 1.2,
+      "br": 2.9,
       "sp": "Black Dragon",
       "c": [
         "Anti-heal",
@@ -1929,7 +1976,8 @@
       "sy": [
         "Estes",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Selena",
@@ -1938,9 +1986,9 @@
       "t": "A",
       "l": "Roam",
       "d": 3,
-      "wr": 50.3,
-      "pr": 5.4,
-      "br": 3,
+      "wr": 47.8,
+      "pr": 1.2,
+      "br": 3.9,
       "sp": "Long Stun Arrow",
       "c": [
         "Purify",
@@ -1966,7 +2014,8 @@
       "tip": "Arrow from fog = 3s stun. Practice trajectories.",
       "sy": [
         "Any carry"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Kagura",
@@ -1975,9 +2024,9 @@
       "t": "A",
       "l": "Mid",
       "d": 3,
-      "wr": 50.4,
-      "pr": 4.5,
-      "br": 2,
+      "wr": 50.2,
+      "pr": 0.6,
+      "br": 1.1,
       "sp": "Umbrella Master",
       "c": [
         "Lancelot",
@@ -2005,7 +2054,8 @@
         "Tigreal",
         "Atlas",
         "Khufra"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Melissa",
@@ -2014,9 +2064,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 51,
-      "pr": 5.8,
-      "br": 2,
+      "wr": 51.7,
+      "pr": 0.6,
+      "br": 1.1,
       "sp": "Anti-Dive MM",
       "c": [
         "Long range poke",
@@ -2044,7 +2094,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lolita",
@@ -2053,9 +2104,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.9,
-      "pr": 4.8,
-      "br": 2,
+      "wr": 54.7,
+      "pr": 0.1,
+      "br": 1.6,
       "sp": "Projectile Shield",
       "c": [
         "Non-projectile heroes"
@@ -2081,7 +2132,8 @@
       "tip": "Shield blocks ALL projectiles including ults.",
       "sy": [
         "Melee carries"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Hylos",
@@ -2090,9 +2142,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.7,
-      "pr": 5.5,
-      "br": 2,
+      "wr": 48.5,
+      "pr": 0.4,
+      "br": 1.1,
       "sp": "HP Drain Ring",
       "c": [
         "Karrie",
@@ -2117,7 +2169,8 @@
       "tip": "Ring + Vengeance = massive reflected damage.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Khaleed",
@@ -2126,9 +2179,9 @@
       "t": "A",
       "l": "EXP",
       "d": 1,
-      "wr": 50.8,
-      "pr": 5.7,
-      "br": 1,
+      "wr": 52.7,
+      "pr": 0.4,
+      "br": 0.9,
       "sp": "Sand Sustain",
       "c": [
         "Esmeralda",
@@ -2156,7 +2209,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Badang",
@@ -2166,8 +2220,8 @@
       "l": "EXP",
       "d": 2,
       "wr": 50.5,
-      "pr": 5,
-      "br": 2,
+      "pr": 0.9,
+      "br": 1.2,
       "sp": "Wall Trap Burst",
       "c": [
         "Purify",
@@ -2194,7 +2248,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Cici",
@@ -2203,9 +2258,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.7,
-      "pr": 5.4,
-      "br": 2,
+      "wr": 47.9,
+      "pr": 0.3,
+      "br": 1.6,
       "sp": "Yo-Yo Sustain",
       "c": [
         "Phoveus",
@@ -2232,7 +2287,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Edith",
@@ -2241,9 +2297,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.6,
-      "pr": 4.7,
-      "br": 2,
+      "wr": 51.2,
+      "pr": 0.2,
+      "br": 0.1,
       "sp": "Transform Tank→MM",
       "c": [
         "Karrie",
@@ -2268,7 +2324,8 @@
       "tip": "Tank form CC → fly up → rain magic damage.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Baxia",
@@ -2277,9 +2334,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.5,
-      "pr": 4.9,
-      "br": 2,
+      "wr": 51.1,
+      "pr": 0.2,
+      "br": 0.6,
       "sp": "Anti-Heal Tank",
       "c": [
         "Burst damage",
@@ -2306,7 +2363,8 @@
       "tip": "Best anti-heal tank. Passive reduces all enemy healing/shields.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Gatotkaca",
@@ -2315,9 +2373,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.4,
-      "pr": 4.6,
-      "br": 2,
+      "wr": 47.1,
+      "pr": 0.7,
+      "br": 0.6,
       "sp": "Global Dive Taunt",
       "c": [
         "Karrie",
@@ -2342,7 +2400,8 @@
       "tip": "Global ult dive + taunt. Great counter-engage.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Belerick",
@@ -2351,9 +2410,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.3,
-      "pr": 4.4,
-      "br": 1,
+      "wr": 52.8,
+      "pr": 1.5,
+      "br": 10.6,
       "sp": "Reflect Tank",
       "c": [
         "Magic damage",
@@ -2379,7 +2438,8 @@
       "tip": "Passive reflects damage. Counters dive. CC immune ult.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Claude",
@@ -2388,9 +2448,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 50.5,
-      "pr": 5.1,
-      "br": 2,
+      "wr": 49.4,
+      "pr": 1.1,
+      "br": 0.7,
       "sp": "Mirror DPS",
       "c": [
         "Saber",
@@ -2417,7 +2477,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Natalia",
@@ -2426,9 +2487,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.2,
-      "pr": 3.9,
-      "br": 3,
+      "wr": 50.3,
+      "pr": 0.3,
+      "br": 2.1,
       "sp": "Stealth Burst",
       "c": [
         "Detection",
@@ -2453,7 +2514,8 @@
       "tip": "Invisible in bush. Silence on first stealth hit.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lunox",
@@ -2462,9 +2524,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.6,
-      "pr": 4.8,
-      "br": 2,
+      "wr": 48,
+      "pr": 0.3,
+      "br": 0.4,
       "sp": "Light/Dark Dual Mode",
       "c": [
         "Saber",
@@ -2492,7 +2554,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Yve",
@@ -2501,9 +2564,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.5,
-      "pr": 4.5,
-      "br": 2,
+      "wr": 51.2,
+      "pr": 0.1,
+      "br": 0.2,
       "sp": "Real-Time Target Ult",
       "c": [
         "Lancelot",
@@ -2530,7 +2593,8 @@
       "sy": [
         "Tigreal",
         "Khufra"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Xavier",
@@ -2539,9 +2603,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.4,
-      "pr": 4.3,
-      "br": 2,
+      "wr": 47.8,
+      "pr": 0.5,
+      "br": 0.2,
       "sp": "Global Snipe",
       "c": [
         "Lancelot",
@@ -2568,7 +2632,8 @@
       "sy": [
         "Tigreal",
         "Khufra"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Johnson",
@@ -2577,9 +2642,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.3,
-      "pr": 4.6,
-      "br": 2,
+      "wr": 50.6,
+      "pr": 0.9,
+      "br": 2.8,
       "sp": "Car Engage",
       "c": [
         "Diggie",
@@ -2606,7 +2671,8 @@
       "sy": [
         "Eudora",
         "Odette"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Harith",
@@ -2615,9 +2681,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.7,
-      "pr": 4.6,
-      "br": 2,
+      "wr": 48.9,
+      "pr": 0.6,
+      "br": 3,
       "sp": "Dash Spam Mage",
       "c": [
         "Khufra",
@@ -2645,7 +2711,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Obsidia",
@@ -2654,9 +2721,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 50.3,
-      "pr": 3.8,
-      "br": 1,
+      "wr": 49.8,
+      "pr": 0.8,
+      "br": 2.3,
       "sp": "Bone Shard Scaling",
       "c": [
         "Early aggression",
@@ -2683,7 +2750,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Kalea",
@@ -2692,9 +2760,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.5,
-      "pr": 4.2,
-      "br": 2,
+      "wr": 46.2,
+      "pr": 0.3,
+      "br": 1.6,
       "sp": "Engage Healer",
       "c": [
         "Burst damage",
@@ -2719,7 +2787,8 @@
       "tip": "Engage bruiser AND healer. Immediate meta impact.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Miya",
@@ -2728,9 +2797,9 @@
       "t": "B",
       "l": "Gold",
       "d": 1,
-      "wr": 49.8,
-      "pr": 8.5,
-      "br": 1,
+      "wr": 51.6,
+      "pr": 2.7,
+      "br": 5.6,
       "sp": "Hyper Carry",
       "c": [
         "Saber",
@@ -2758,7 +2827,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Layla",
@@ -2767,9 +2837,9 @@
       "t": "B",
       "l": "Gold",
       "d": 1,
-      "wr": 49.5,
-      "pr": 9.2,
-      "br": 0,
+      "wr": 48.3,
+      "pr": 1.1,
+      "br": 1.1,
       "sp": "Longest Range",
       "c": [
         "Any assassin",
@@ -2796,7 +2866,8 @@
         "Tigreal",
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Eudora",
@@ -2805,9 +2876,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.5,
-      "pr": 6.8,
-      "br": 1,
+      "wr": 48.8,
+      "pr": 0.8,
+      "br": 2.6,
       "sp": "One-Combo Delete",
       "c": [
         "Athena's Shield",
@@ -2834,7 +2905,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Hanabi",
@@ -2843,9 +2915,9 @@
       "t": "B",
       "l": "Gold",
       "d": 1,
-      "wr": 49.6,
-      "pr": 4.5,
-      "br": 0,
+      "wr": 54.6,
+      "pr": 3.3,
+      "br": 11.8,
       "sp": "Bounce AA + CC Immune",
       "c": [
         "Saber",
@@ -2872,7 +2944,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Paquito",
@@ -2881,9 +2954,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.8,
-      "pr": 4.5,
-      "br": 1,
+      "wr": 51.8,
+      "pr": 1.6,
+      "br": 13.1,
       "sp": "Boxing Combo",
       "c": [
         "Phoveus",
@@ -2910,7 +2983,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Alpha",
@@ -2919,9 +2993,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.2,
-      "pr": 4.3,
-      "br": 1,
+      "wr": 47.2,
+      "pr": 1.1,
+      "br": 0.8,
       "sp": "Sustain True DMG",
       "c": [
         "Anti-heal",
@@ -2947,7 +3021,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Balmond",
@@ -2956,9 +3031,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 1,
-      "wr": 50.2,
-      "pr": 5.1,
-      "br": 0,
+      "wr": 43.2,
+      "pr": 0.3,
+      "br": 0.3,
       "sp": "Spin Execute",
       "c": [
         "Kite heroes",
@@ -2984,7 +3059,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Alice",
@@ -2993,9 +3069,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 50.1,
-      "pr": 4.2,
-      "br": 1,
+      "wr": 49.8,
+      "pr": 0.7,
+      "br": 9,
       "sp": "Blood Drain Diver",
       "c": [
         "Anti-heal",
@@ -3022,7 +3098,8 @@
       "sy": [
         "Tigreal",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Sun",
@@ -3031,9 +3108,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 50.3,
-      "pr": 4.8,
-      "br": 1,
+      "wr": 53.9,
+      "pr": 1.6,
+      "br": 40,
       "sp": "Clone Split Push",
       "c": [
         "AoE damage",
@@ -3060,7 +3137,8 @@
       "sy": [
         "Chip",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Masha",
@@ -3069,9 +3147,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 50,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 56,
+      "pr": 0.1,
+      "br": 0.6,
       "sp": "3 HP Bar Push",
       "c": [
         "Burst damage",
@@ -3098,7 +3176,8 @@
       "sy": [
         "Chip",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Argus",
@@ -3107,9 +3186,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 49.7,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 52.5,
+      "pr": 0.4,
+      "br": 1.4,
       "sp": "Immortal Ult DPS",
       "c": [
         "Kite heroes",
@@ -3135,7 +3214,8 @@
       "sy": [
         "Angela",
         "Estes"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Terizla",
@@ -3144,9 +3224,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 49.9,
-      "pr": 4.1,
-      "br": 1,
+      "wr": 52.5,
+      "pr": 0.6,
+      "br": 0.7,
       "sp": "Damage Reduction",
       "c": [
         "Ranged poke",
@@ -3172,7 +3252,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "X.Borg",
@@ -3181,9 +3262,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.9,
-      "br": 0,
+      "wr": 49.6,
+      "pr": 0.6,
+      "br": 4.3,
       "sp": "Fire Spray Area",
       "c": [
         "Ranged poke",
@@ -3209,7 +3290,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Jawhead",
@@ -3218,9 +3300,9 @@
       "t": "B",
       "l": "Roam",
       "d": 2,
-      "wr": 50,
-      "pr": 4,
-      "br": 1,
+      "wr": 47.8,
+      "pr": 0.4,
+      "br": 0.4,
       "sp": "Throw Mechanic",
       "c": [
         "Grouped teams",
@@ -3245,7 +3327,8 @@
       "tip": "Throw enemies into team or behind turrets.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Natan",
@@ -3254,9 +3337,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 50,
-      "pr": 3.7,
-      "br": 1,
+      "wr": 50.7,
+      "pr": 0.4,
+      "br": 0.3,
       "sp": "Magic MM",
       "c": [
         "Saber",
@@ -3283,7 +3366,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Chang'e",
@@ -3292,9 +3376,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.1,
-      "pr": 4,
-      "br": 0,
+      "wr": 48.8,
+      "pr": 0.8,
+      "br": 0.6,
       "sp": "Long Beam Poke",
       "c": [
         "Lancelot",
@@ -3321,7 +3405,8 @@
       "sy": [
         "Tigreal",
         "Khufra"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Luo Yi",
@@ -3330,9 +3415,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 46.6,
+      "pr": 0.2,
+      "br": 0.2,
       "sp": "Yin-Yang CC Teleport",
       "c": [
         "Purify",
@@ -3358,7 +3443,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Rafaela",
@@ -3367,9 +3453,9 @@
       "t": "B",
       "l": "Roam",
       "d": 1,
-      "wr": 50.2,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 51.6,
+      "pr": 0.3,
+      "br": 2.8,
       "sp": "Speed + Heal + Stun",
       "c": [
         "Anti-heal",
@@ -3394,7 +3480,8 @@
       "tip": "Underrated. Speed boost for rotations. Ult stuns in line.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Floryn",
@@ -3403,9 +3490,9 @@
       "t": "B",
       "l": "Roam",
       "d": 1,
-      "wr": 50.1,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 53.3,
+      "pr": 1,
+      "br": 25.2,
       "sp": "Global Heal + Item Share",
       "c": [
         "Burst",
@@ -3430,7 +3517,8 @@
       "tip": "Only global heal ult support. Shares lantern item with ally.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Akai",
@@ -3439,9 +3527,9 @@
       "t": "B",
       "l": "Roam",
       "d": 1,
-      "wr": 49.8,
-      "pr": 3.9,
-      "br": 1,
+      "wr": 50.4,
+      "pr": 0.5,
+      "br": 3,
       "sp": "Pinball Ult Push",
       "c": [
         "Purify",
@@ -3467,7 +3555,8 @@
       "tip": "Ult pins enemies vs walls. Use near terrain.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Zilong",
@@ -3476,9 +3565,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49.2,
-      "pr": 5.5,
-      "br": 0,
+      "wr": 47.2,
+      "pr": 0.9,
+      "br": 0.7,
       "sp": "Chase & Flip",
       "c": [
         "CC",
@@ -3507,7 +3596,8 @@
       "sy": [
         "Chip",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Alucard",
@@ -3516,9 +3606,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 1,
-      "wr": 49,
-      "pr": 5.8,
-      "br": 0,
+      "wr": 49.8,
+      "pr": 0.6,
+      "br": 0.7,
       "sp": "Lifesteal King",
       "c": [
         "Anti-heal",
@@ -3545,7 +3635,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Aldous",
@@ -3554,9 +3645,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 48.8,
-      "pr": 4.2,
-      "br": 0,
+      "wr": 50,
+      "pr": 0.4,
+      "br": 0.5,
       "sp": "Infinite Stack Global",
       "c": [
         "Wind of Nature",
@@ -3582,7 +3673,8 @@
       "sy": [
         "Chip",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Martis",
@@ -3591,9 +3683,9 @@
       "t": "C",
       "l": "EXP",
       "d": 2,
-      "wr": 49.4,
-      "pr": 5.1,
-      "br": 38,
+      "wr": 46.8,
+      "pr": 0.6,
+      "br": 0.7,
       "sp": "CC Chain Execute",
       "c": [
         "Ranged poke",
@@ -3621,7 +3713,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Roger",
@@ -3630,9 +3723,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 2,
-      "wr": 49.3,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 49,
+      "pr": 0.3,
+      "br": 0.1,
       "sp": "Ranged↔Melee Transform",
       "c": [
         "CC",
@@ -3658,7 +3751,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Silvanna",
@@ -3667,9 +3761,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49.1,
-      "pr": 3.2,
-      "br": 0,
+      "wr": 52.9,
+      "pr": 1.3,
+      "br": 3.2,
       "sp": "Imperial Prison",
       "c": [
         "Purify",
@@ -3695,7 +3789,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Bane",
@@ -3704,9 +3799,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49,
-      "pr": 3,
-      "br": 0,
+      "wr": 51.5,
+      "pr": 0.3,
+      "br": 0.2,
       "sp": "Shark Push",
       "c": [
         "Burst",
@@ -3733,7 +3828,8 @@
       "sy": [
         "Chip",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Yin",
@@ -3742,9 +3838,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 2,
-      "wr": 49.2,
-      "pr": 3.4,
-      "br": 0,
+      "wr": 48.2,
+      "pr": 0.6,
+      "br": 3.2,
       "sp": "1v1 Dimension",
       "c": [
         "Wind of Nature",
@@ -3769,7 +3865,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Dyrroth",
@@ -3778,9 +3875,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49,
-      "pr": 3.3,
-      "br": 0,
+      "wr": 48,
+      "pr": 1.3,
+      "br": 1.1,
       "sp": "Armor Shred",
       "c": [
         "Kite heroes",
@@ -3806,7 +3903,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Minsitthar",
@@ -3815,9 +3913,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 50.2,
-      "pr": 4,
-      "br": 1,
+      "wr": 51.9,
+      "pr": 0.9,
+      "br": 24.1,
       "sp": "Anti-Dash Ult Zone",
       "c": [
         "Ranged poke",
@@ -3843,7 +3941,8 @@
       "sy": [
         "Tigreal",
         "Phoveus"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Novaria",
@@ -3852,9 +3951,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50.3,
-      "pr": 3.6,
-      "br": 0,
+      "wr": 47.2,
+      "pr": 0.8,
+      "br": 1.5,
       "sp": "Star Burst Poke",
       "c": [
         "Dive assassins",
@@ -3880,7 +3979,8 @@
       "sy": [
         "Tigreal",
         "Khufra"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Gord",
@@ -3889,9 +3989,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.1,
-      "pr": 3.4,
-      "br": 0,
+      "wr": 55.5,
+      "pr": 1.5,
+      "br": 3.2,
       "sp": "Laser Beam",
       "c": [
         "Dive assassins",
@@ -3917,7 +4017,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Vale",
@@ -3926,9 +4027,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50.2,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 50.7,
+      "pr": 0.6,
+      "br": 0.4,
       "sp": "Wind CC/Burst Choice",
       "c": [
         "Dive assassins",
@@ -3954,7 +4055,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Nana",
@@ -3963,9 +4065,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.4,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 48.2,
+      "pr": 1.6,
+      "br": 4.9,
       "sp": "Molina Transform",
       "c": [
         "Dive assassins",
@@ -3991,7 +4093,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Karina",
@@ -4000,9 +4103,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.4,
-      "pr": 4.5,
-      "br": 1,
+      "wr": 46.2,
+      "pr": 0.5,
+      "br": 2.1,
       "sp": "Execute Resets",
       "c": [
         "CC chains",
@@ -4027,7 +4130,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Harley",
@@ -4036,9 +4140,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.2,
-      "pr": 3.8,
-      "br": 1,
+      "wr": 50.3,
+      "pr": 1.2,
+      "br": 70.7,
       "sp": "Burst Teleport",
       "c": [
         "Khufra",
@@ -4065,7 +4169,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Zhask",
@@ -4074,9 +4179,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50.1,
-      "pr": 3.2,
-      "br": 0,
+      "wr": 51.7,
+      "pr": 0.3,
+      "br": 0.4,
       "sp": "Spawn Turret",
       "c": [
         "Dive assassins",
@@ -4103,7 +4208,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Popol and Kupa",
@@ -4112,9 +4218,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.9,
-      "pr": 3.1,
-      "br": 0,
+      "wr": 52.9,
+      "pr": 0.3,
+      "br": 0.4,
       "sp": "Pet + Traps",
       "c": [
         "Saber",
@@ -4142,7 +4248,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lesley",
@@ -4151,9 +4258,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.7,
-      "pr": 4.8,
-      "br": 0,
+      "wr": 46.5,
+      "pr": 1.8,
+      "br": 8.9,
       "sp": "Sniper Crit",
       "c": [
         "Saber",
@@ -4181,7 +4288,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Moskov",
@@ -4190,9 +4298,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.4,
-      "br": 0,
+      "wr": 49.9,
+      "pr": 1,
+      "br": 0.4,
       "sp": "Penetrating AA",
       "c": [
         "Saber",
@@ -4220,7 +4328,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Aamon",
@@ -4229,9 +4338,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50,
-      "pr": 4,
-      "br": 2,
+      "wr": 51.1,
+      "pr": 0.8,
+      "br": 7.8,
       "sp": "Stealth Burst Mage",
       "c": [
         "Detection",
@@ -4258,7 +4367,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Benedetta",
@@ -4267,9 +4377,9 @@
       "t": "B",
       "l": "EXP",
       "d": 3,
-      "wr": 49.8,
-      "pr": 3.5,
-      "br": 1,
+      "wr": 51.9,
+      "pr": 0.5,
+      "br": 0.9,
       "sp": "Dash Immune Fighter",
       "c": [
         "CC chains",
@@ -4295,7 +4405,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Ixia",
@@ -4304,9 +4415,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.5,
-      "pr": 4.2,
-      "br": 3,
+      "wr": 50.1,
+      "pr": 0.8,
+      "br": 1.8,
       "sp": "Long Range Poke MM",
       "c": [
         "Saber",
@@ -4333,7 +4444,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Odette",
@@ -4342,9 +4454,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50,
-      "pr": 3.3,
-      "br": 0,
+      "wr": 50.9,
+      "pr": 0.7,
+      "br": 0.6,
       "sp": "Channeling AoE Ult",
       "c": [
         "CC interrupts",
@@ -4370,7 +4482,8 @@
       "sy": [
         "Johnson",
         "Tigreal"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Aurora",
@@ -4379,9 +4492,9 @@
       "t": "C",
       "l": "Mid",
       "d": 1,
-      "wr": 49.3,
-      "pr": 2.8,
-      "br": 0,
+      "wr": 47.8,
+      "pr": 0.4,
+      "br": 0.3,
       "sp": "Freeze Burst",
       "c": [
         "Athena's Shield",
@@ -4407,7 +4520,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Cyclops",
@@ -4416,9 +4530,9 @@
       "t": "C",
       "l": "Mid",
       "d": 1,
-      "wr": 49.2,
-      "pr": 2.5,
-      "br": 0,
+      "wr": 51.4,
+      "pr": 0.8,
+      "br": 0.4,
       "sp": "Rapid Fire Mage",
       "c": [
         "Dive assassins",
@@ -4444,7 +4558,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Kadita",
@@ -4453,9 +4568,9 @@
       "t": "C",
       "l": "Mid",
       "d": 2,
-      "wr": 49.1,
-      "pr": 2.3,
-      "br": 0,
+      "wr": 51.3,
+      "pr": 1,
+      "br": 8.3,
       "sp": "Ocean Burst Immune",
       "c": [
         "Poke",
@@ -4481,7 +4596,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Vexana",
@@ -4490,9 +4606,9 @@
       "t": "C",
       "l": "Mid",
       "d": 1,
-      "wr": 49,
-      "pr": 2.1,
-      "br": 0,
+      "wr": 50.8,
+      "pr": 1.9,
+      "br": 1.8,
       "sp": "Summon + Burst",
       "c": [
         "Dive assassins"
@@ -4517,7 +4633,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Hanzo",
@@ -4526,9 +4643,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 2,
-      "wr": 48.8,
-      "pr": 2.5,
-      "br": 0,
+      "wr": 50.5,
+      "pr": 0.3,
+      "br": 2.8,
       "sp": "Soul Projection",
       "c": [
         "Body hunters",
@@ -4553,7 +4670,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Minotaur",
@@ -4562,9 +4680,9 @@
       "t": "C",
       "l": "Roam",
       "d": 1,
-      "wr": 49,
-      "pr": 2.8,
-      "br": 0,
+      "wr": 52.6,
+      "pr": 0.4,
+      "br": 5.5,
       "sp": "Rage Heal + CC",
       "c": [
         "Karrie",
@@ -4589,7 +4707,8 @@
       "tip": "Heal in normal mode. Rage mode = massive AoE CC.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Grock",
@@ -4598,9 +4717,9 @@
       "t": "C",
       "l": "Roam",
       "d": 2,
-      "wr": 48.5,
-      "pr": 2.2,
-      "br": 0,
+      "wr": 47.9,
+      "pr": 0.6,
+      "br": 4.4,
       "sp": "Wall Builder",
       "c": [
         "Karrie",
@@ -4625,7 +4744,8 @@
       "tip": "Build walls to block paths. Strong early but falls off late.",
       "sy": [
         "Any team"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Carmilla",
@@ -4634,9 +4754,9 @@
       "t": "C",
       "l": "Roam",
       "d": 2,
-      "wr": 49,
-      "pr": 2,
-      "br": 0,
+      "wr": 51.3,
+      "pr": 0.6,
+      "br": 1.4,
       "sp": "Chain Link CC",
       "c": [
         "Burst",
@@ -4662,7 +4782,8 @@
       "sy": [
         "Tigreal",
         "Atlas"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Faramis",
@@ -4671,9 +4792,9 @@
       "t": "C",
       "l": "Roam",
       "d": 2,
-      "wr": 49.1,
-      "pr": 2.2,
-      "br": 0,
+      "wr": 49.7,
+      "pr": 0.1,
+      "br": 0.7,
       "sp": "Resurrect Zone",
       "c": [
         "Burst",
@@ -4698,7 +4819,8 @@
       "tip": "Ult = resurrection zone. Allies who die inside revive instantly.",
       "sy": [
         "Any teamfight comp"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Clint",
@@ -4707,9 +4829,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 50.8,
-      "pr": 4.8,
-      "br": 1,
+      "wr": 50.6,
+      "pr": 0.8,
+      "br": 0.9,
       "sp": "Enhanced AA Burst",
       "c": [
         "Saber",
@@ -4737,7 +4859,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Lukas",
@@ -4746,9 +4869,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.7,
-      "pr": 3.5,
-      "br": 1,
+      "wr": 50.2,
+      "pr": 0.3,
+      "br": 0.8,
       "sp": "Naruto Collab Fighter",
       "c": [
         "Phoveus",
@@ -4775,7 +4898,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Suyou",
@@ -4784,9 +4908,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.2,
-      "br": 1,
+      "wr": 51.3,
+      "pr": 1.9,
+      "br": 35.8,
       "sp": "Sasuke Collab",
       "c": [
         "Phoveus",
@@ -4812,7 +4936,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Phylax",
@@ -4857,9 +4982,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 50,
-      "pr": 3,
-      "br": 1,
+      "wr": 49.6,
+      "pr": 0.1,
+      "br": 0.1,
       "sp": "Grow + Devour",
       "c": [
         "Karrie",
@@ -4886,7 +5011,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Kaja",
@@ -4895,9 +5021,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 51,
-      "pr": 4.5,
-      "br": 5,
+      "wr": 53.8,
+      "pr": 0.3,
+      "br": 10.4,
       "sp": "Suppress Grab",
       "c": [
         "Purify",
@@ -4922,7 +5048,8 @@
       "tip": "S+ ban priority. Suppress ult GRABS enemy and drags them. Guaranteed pick.",
       "sy": [
         "Any burst carry"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Aulus",
@@ -4931,9 +5058,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 48.9,
-      "pr": 3,
-      "br": 0,
+      "wr": 50.9,
+      "pr": 0.2,
+      "br": 1.9,
       "sp": "Stacking Axe",
       "c": [
         "Kite heroes",
@@ -4959,7 +5086,8 @@
       "sy": [
         "Tigreal",
         "Angela"
-      ]
+      ],
+      "pending": false
     },
     {
       "n": "Cecilion",
@@ -4968,9 +5096,9 @@
       "t": "?",
       "l": "—",
       "d": 1,
-      "wr": 0,
-      "pr": 0,
-      "br": 0,
+      "wr": 49.2,
+      "pr": 0.6,
+      "br": 0.2,
       "sp": "Newly released — data pending",
       "c": [],
       "s": [],
@@ -4979,7 +5107,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "pending": true
+      "pending": false
     },
     {
       "n": "Hirara",
@@ -5008,9 +5136,9 @@
       "t": "?",
       "l": "—",
       "d": 1,
-      "wr": 0,
-      "pr": 0,
-      "br": 0,
+      "wr": 51.4,
+      "pr": 0.6,
+      "br": 0.3,
       "sp": "Newly released — data pending",
       "c": [],
       "s": [],
@@ -5019,7 +5147,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "pending": true
+      "pending": false
     },
     {
       "n": "Valir",
@@ -5028,9 +5156,9 @@
       "t": "?",
       "l": "—",
       "d": 1,
-      "wr": 0,
-      "pr": 0,
-      "br": 0,
+      "wr": 52.9,
+      "pr": 1,
+      "br": 2.7,
       "sp": "Newly released — data pending",
       "c": [],
       "s": [],
@@ -5039,7 +5167,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "pending": true
+      "pending": false
     },
     {
       "n": "Zetian",
@@ -5048,9 +5176,9 @@
       "t": "?",
       "l": "—",
       "d": 1,
-      "wr": 0,
-      "pr": 0,
-      "br": 0,
+      "wr": 51.5,
+      "pr": 2,
+      "br": 25,
       "sp": "Newly released — data pending",
       "c": [],
       "s": [],
@@ -5059,7 +5187,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "pending": true
+      "pending": false
     }
   ],
   "items": {
