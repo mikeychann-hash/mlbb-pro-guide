@@ -1,5 +1,5 @@
 const API = "https://mobile-legends.fandom.com/api.php";
-const UA = "MLBB-Guide-Scraper/1.0 (https://github.com/USER/REPO)";
+const UA = "MLBB-Guide-Scraper/1.0 (https://github.com/mikeychann/mlbb-pro-guide)";
 
 // Returns array of hero names from Category:Heroes (paginated). Throws on failure.
 export async function fetchRoster(fetchImpl = fetch) {
