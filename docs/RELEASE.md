@@ -81,12 +81,15 @@ release APK launches (install it and confirm the UI loads, not a blank WebView).
 - **Local notifications** (`@capacitor/local-notifications`) fire automatically when a data sync detects
   new heroes or balance changes — no backend needed. Handled in `src/services/notify.js` (`notifyUpdate`),
   triggered from `src/data/DataContext.jsx`.
-- **Remote push (FCM)** (`@capacitor/push-notifications`) is scaffolded in `initPush()` and registered on
-  launch, but only activates on a native build with Firebase configured. To enable:
+- **Remote push (FCM)** (`@capacitor/push-notifications`) is scaffolded in `initPush()` but **disabled by a
+  `PUSH_ENABLED = false` flag** in `src/services/notify.js`. This is deliberate: calling `register()`
+  without Firebase throws a *native* `Default FirebaseApp is not initialized` exception that crashes the
+  app (it can't be caught in JS). To enable:
   1. Create a Firebase project, add an Android app with id `com.mikeychann.mlbbproguide`.
   2. Download `google-services.json` into `android/app/`.
-  3. Rebuild — `build.gradle` auto-applies the google-services plugin when that file is present.
-  4. To push on new patches, have the scrape Action call the FCM HTTP v1 API with your server key after a
+  3. Set `PUSH_ENABLED = true` in `src/services/notify.js`.
+  4. Rebuild — `build.gradle` auto-applies the google-services plugin when that file is present.
+  5. To push on new patches, have the scrape Action call the FCM HTTP v1 API with your server key after a
      successful data change.
 
 ## Optional next hardening
