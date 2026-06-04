@@ -28,6 +28,12 @@ export const emptyDraft = () => ({
 
 export function selectHero(draft, name) {
   if (draft.phase === "done" || draft.step >= SEQUENCE.length) return draft;
+  if (!name) return draft;
+  // Guard against double-clicks / stale suggestion taps appending a duplicate.
+  const taken = new Set(
+    [...draft.t1.b, ...draft.t2.b, ...draft.t1.p, ...draft.t2.p].map((n) => n.toLowerCase())
+  );
+  if (taken.has(name.toLowerCase())) return draft;
   const [action, team] = SEQUENCE[draft.step];
   const t1 = { b: [...draft.t1.b], p: [...draft.t1.p] };
   const t2 = { b: [...draft.t2.b], p: [...draft.t2.p] };
