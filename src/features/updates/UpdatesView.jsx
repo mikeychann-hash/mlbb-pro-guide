@@ -13,7 +13,8 @@ function agoLabel(iso) {
 }
 
 export function UpdatesView({ onSelectHero }) {
-  const { data, diff, lastUpdated, source, status, error, refresh } = useData();
+  const { data, diff, lastUpdated, source, status, error, refresh, getMeta } = useData();
+  const meta = getMeta();
   const open = (n) => { const f = data.heroes.find((h) => h.n === n); if (f) onSelectHero(f); };
   const Section = ({ title, names, render }) => (
     names && names.length ? (
@@ -49,14 +50,30 @@ export function UpdatesView({ onSelectHero }) {
         <Section title="⬇️ Tier Down" names={diff.tierDown.map((x) => `${x.n} ${x.from}→${x.to}`)} render={(n) => <span key={n} style={s.ch(P.t2)}>{n}</span>} />
       </>}
 
-      <div style={s.sc}>📋 Patch Notes</div>
+      <div style={s.sc}>📋 Patch {meta.patch?.v} Highlights</div>
+      <div style={{ fontSize: 10, color: P.t3, marginBottom: 8 }}>Season {meta.patch?.s} · {meta.patch?.d} · compiled from current meta movement</div>
       {data.patchNotes && data.patchNotes.length ? data.patchNotes.map((p, i) => (
         <div key={i} style={{ ...s.cd2, cursor: "default" }}>
-          <div style={{ fontSize: 13, fontWeight: 800, color: P.gold }}>{p.version} <span style={{ fontSize: 10, color: P.t3 }}>{p.date}</span></div>
-          {p.summary && <div style={{ fontSize: 11, color: P.t2, marginTop: 3 }}>{p.summary}</div>}
-          {(p.changes || []).map((c, j) => <div key={j} style={{ fontSize: 10, color: P.t2, marginTop: 2 }}>• {c.hero ? <strong>{c.hero}: </strong> : null}{c.text}</div>)}
+          <div style={{ fontSize: 14, fontWeight: 800, color: P.gold }}>{p.version} <span style={{ fontSize: 11, color: P.t3 }}>{p.date}</span></div>
+          {p.summary && <div style={{ fontSize: 12, color: P.t2, marginTop: 3 }}>{p.summary}</div>}
+          {(p.changes || []).map((c, j) => <div key={j} style={{ fontSize: 11, color: P.t2, marginTop: 2 }}>• {c.hero ? <strong>{c.hero}: </strong> : null}{c.text}</div>)}
         </div>
-      )) : <div style={{ fontSize: 11, color: P.t3, padding: "8px 0" }}>Patch notes will populate when the official-notes source is enabled. For now, see the Meta tab for the current patch summary.</div>}
+      )) : (
+        <>
+          {(meta.rising || []).map((r) => (
+            <button key={"u" + r.n} type="button" style={{ ...s.cd2, ...s.btnReset, borderLeft: `3px solid ${P.nG}` }} onClick={() => open(r.n)}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}><span style={{ fontSize: 13, fontWeight: 700 }}>📈 {r.n}</span><span style={{ fontSize: 11, color: P.nG, fontWeight: 700 }}>{r.ch}</span></div>
+              <div style={{ fontSize: 11, color: P.t2, marginTop: 2 }}>{r.w}</div>
+            </button>
+          ))}
+          {(meta.falling || []).map((f) => (
+            <button key={"d" + f.n} type="button" style={{ ...s.cd2, ...s.btnReset, borderLeft: `3px solid ${P.red}` }} onClick={() => open(f.n)}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}><span style={{ fontSize: 13, fontWeight: 700 }}>📉 {f.n}</span><span style={{ fontSize: 11, color: P.red, fontWeight: 700 }}>{f.ch}</span></div>
+              <div style={{ fontSize: 11, color: P.t2, marginTop: 2 }}>{f.w}</div>
+            </button>
+          ))}
+        </>
+      )}
     </>
   );
 }
