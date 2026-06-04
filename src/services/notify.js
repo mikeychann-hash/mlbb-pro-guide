@@ -45,9 +45,15 @@ export async function notifyUpdate(title, body) {
   } catch (_) { return false; }
 }
 
-// Register for remote push (FCM). No-op unless native + Firebase configured.
+// Remote push (FCM) is OFF until Firebase is configured. Calling register()
+// without google-services.json throws a NATIVE FirebaseApp-not-initialized
+// exception that crashes the app (can't be caught in JS), so it's gated here.
+// To enable: add android/app/google-services.json, then set PUSH_ENABLED = true.
+const PUSH_ENABLED = false;
+
 export async function initPush() {
   try {
+    if (!PUSH_ENABLED) return;
     if (!(await isNative())) return;
     const { PushNotifications } = await import("@capacitor/push-notifications");
     const perm = await PushNotifications.requestPermissions();
