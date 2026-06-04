@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-04T23:19:50.108Z",
+  "generatedAt": "2026-06-04T23:54:01.352Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -1627,7 +1627,7 @@
       "d": 3,
       "wr": 55.3,
       "pr": 0.3,
-      "br": 123.1,
+      "br": 2,
       "sp": "True DMG Support",
       "c": [
         "Poke comps",

@@ -23,6 +23,13 @@ describe("buildDataset", () => {
     const ds = buildDataset({ roster: seedNames, stats: { Tigreal: { wr: 99, tier: "S+" } }, patchNotes: null, now: "2030-01-01T00:00:00Z" });
     expect(ds.heroes.find((h) => h.n === "Tigreal").wr).toBe(99);
   });
+  it("rejects out-of-range rates and applies valid ones (no '123.1% ban rate')", () => {
+    const ds = buildDataset({ roster: seedNames, stats: { Tigreal: { wr: 52.3, pr: 45, br: 123.1 } }, patchNotes: null, now: "2030-01-01T00:00:00Z" });
+    const t = ds.heroes.find((h) => h.n === "Tigreal");
+    expect(t.wr).toBe(52.3); // valid → applied
+    expect(t.pr).toBe(45);   // valid → applied
+    expect(t.br).not.toBe(123.1); // impossible ban rate → dropped, seed value kept
+  });
 });
 
 describe("validate", () => {

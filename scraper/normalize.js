@@ -18,14 +18,17 @@ export function buildDataset({ roster, stats, images, patchNotes, now }) {
   }
 
   if (stats) {
+    // Final gate before write: rates are percentages, so anything outside
+    // [0,100] is corrupt — drop it and keep the existing seed value.
+    const rate = (x) => (typeof x === "number" && x >= 0 && x <= 100 ? x : null);
     const idx = {};
     for (const k of Object.keys(stats)) idx[k.toLowerCase()] = stats[k];
     for (const h of heroes) {
       const s = idx[h.n.toLowerCase()];
       if (s) {
-        if (typeof s.wr === "number") h.wr = s.wr;
-        if (typeof s.pr === "number") h.pr = s.pr;
-        if (typeof s.br === "number") h.br = s.br;
+        const wr = rate(s.wr); if (wr != null) h.wr = wr;
+        const pr = rate(s.pr); if (pr != null) h.pr = pr;
+        const br = rate(s.br); if (br != null) h.br = br;
         if (s.tier) h.t = s.tier;
         h.pending = false;
       }

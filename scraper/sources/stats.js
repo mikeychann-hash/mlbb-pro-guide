@@ -7,7 +7,11 @@ const URL =
   "https://openmlbb.fastapicloud.dev/api/heroes/rank?days=7&rank=all&size=300&index=1&sort_field=win_rate&sort_order=desc";
 const UA = "MLBB-Guide-Scraper/1.0 (https://github.com/mikeychann-hash/mlbb-pro-guide)";
 
-const pct = (x) => (typeof x === "number" ? Math.round(x * 1000) / 10 : null);
+// The API reports rates as fractions (0.231 = 23.1%). A win/pick/ban rate can
+// never exceed 100%, so reject anything outside [0,1] — a single bad upstream
+// value (e.g. Marcel's ban_rate of 1.23) must not leak a "123.1%" into the app.
+const pct = (x) =>
+  typeof x === "number" && x >= 0 && x <= 1 ? Math.round(x * 1000) / 10 : null;
 
 const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
 
