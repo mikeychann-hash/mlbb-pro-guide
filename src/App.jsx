@@ -26,17 +26,17 @@ import { LearnView } from "./features/learn/LearnView.jsx";
 import { MyStatsView } from "./features/mystats/MyStatsView.jsx";
 import { BuildView } from "./features/build/BuildView.jsx";
 import { DraftView } from "./features/draft/DraftView.jsx";
+import { ThreatView } from "./features/threats/ThreatView.jsx";
 import { ClimbView } from "./features/climb/ClimbView.jsx";
 
 const GROUPS = [
   { name: "Meta", tabs: ["Meta", "Updates", "Tiers", "Pro Picks"] },
   { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
-  { name: "Draft", tabs: ["Draft"] },
+  { name: "Draft", tabs: ["Draft", "Threats"] },
   { name: "Build", tabs: ["Build", "Items", "Emblems", "Spells"] },
   { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
   { name: "You", tabs: ["My Stats", "Climb"] },
 ];
-const groupOf = (tab) => (GROUPS.find((g) => g.tabs.includes(tab)) || GROUPS[0]).name;
 
 function agoLabel(iso) {
   if (!iso) return "bundled data";
@@ -77,6 +77,8 @@ export default function App() {
   const [favorites, setFavorites] = useState([]);
   // Draft
   const [draft, setDraft] = useState(emptyDraft()); const [dQ, setDQ] = useState("");
+  // Threat Radar (lineups survive tab switches within a session)
+  const [thMine, setThMine] = useState([]); const [thEnemy, setThEnemy] = useState([]);
 
   useEffect(() => {
     (async () => {
@@ -123,9 +125,10 @@ export default function App() {
       case "Climb": return <ClimbView favorites={favorites} onSelectHero={onSelectHero} />;
       case "Build": return <BuildView {...{ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }} />;
       case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, onUndo: onDraftUndo, dQ, setDQ, favorites }} />;
+      case "Threats": return <ThreatView {...{ mine: thMine, setMine: setThMine, enemy: thEnemy, setEnemy: setThEnemy }} />;
       default: return null;
     }
-  }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ]);
+  }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ, thMine, thEnemy]);
 
   // Hero detail is a full-page takeover.
   if (sel) {
