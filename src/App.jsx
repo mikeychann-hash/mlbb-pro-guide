@@ -106,8 +106,9 @@ export default function App() {
   };
   const onSelectHero = (h) => setSel(h);
   const onDraftSelect = (name) => setDraft((d) => selectHero(d, name));
-  const onDraftReset = () => { setDraft(emptyDraft()); setDQ(""); };
+  const onDraftReset = () => { setDraft((d) => emptyDraft(d.mode)); setDQ(""); }; // keep chosen ban format
   const onDraftUndo = () => setDraft((d) => undoDraft(d));
+  const onDraftMode = (mode) => setDraft((d) => { if (d.mode === mode) return d; setDQ(""); return emptyDraft(mode); });
 
   const view = useMemo(() => {
     switch (tab) {
@@ -130,7 +131,7 @@ export default function App() {
       case "My Stats": return <MyStatsView {...{ tracker, saveTracker, tkHero, setTkHero, tkResult, setTkResult }} />;
       case "Climb": return <ClimbView favorites={favorites} onSelectHero={onSelectHero} />;
       case "Build": return <BuildView {...{ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }} />;
-      case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, onUndo: onDraftUndo, dQ, setDQ, favorites }} />;
+      case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, onUndo: onDraftUndo, onMode: onDraftMode, dQ, setDQ, favorites }} />;
       case "Threats": return <ThreatView {...{ mine: thMine, setMine: setThMine, enemy: thEnemy, setEnemy: setThEnemy }} />;
       case "Lock-In": return <LockInView {...{ hero: lkHero, setHero: setLkHero, enemy: lkEnemy, setEnemy: setLkEnemy, mine: lkMine, setMine: setLkMine }} />;
       case "Play Now": return <PlayNowView {...{ tracker, favorites, lane: pnLane, setLane: setPnLane, onSelectHero }} />;

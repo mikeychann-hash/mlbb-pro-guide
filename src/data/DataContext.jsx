@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState, useCallback } from "react";
+import { createContext, useContext, useEffect, useState, useCallback, useMemo } from "react";
 import { BUNDLED_DATA } from "./bundled.js";
 import { syncData } from "../services/dataSync.js";
 import { computeDiff, buildChangeMap } from "../services/diffEngine.js";
@@ -67,9 +67,19 @@ export function DataProvider({ children }) {
 
   useEffect(() => { refresh(); }, [refresh]);
 
+  // O(1) name lookup, rebuilt only when the roster changes (was an O(n) scan
+  // run dozens of times per render in Draft/Threats/etc.).
+  const byName = useMemo(() => {
+    const m = new Map();
+    for (const h of data.heroes) m.set(h.n.toLowerCase(), h);
+    return m;
+  }, [data.heroes]);
+
   // Same-named getters as src/data/index.js, bound to the live dataset, so views
-  // only swap their import + add one destructure line.
-  const value = {
+  // only swap their import + add one destructure line. Memoized so the getters
+  // keep a stable identity — otherwise every consumer's useMemo (keyed on these)
+  // invalidates on each provider render and the whole tree re-renders.
+  const value = useMemo(() => ({
     data,
     status,
     error,
@@ -81,11 +91,7 @@ export function DataProvider({ children }) {
     changes,
     getChange: (name) => changes[name] || null,
     getHeroes: () => data.heroes,
-    getHeroByName: (name) => {
-      if (!name) return null;
-      const q = name.toLowerCase();
-      return data.heroes.find((h) => h.n.toLowerCase() === q) || null;
-    },
+    getHeroByName: (name) => (name ? byName.get(name.toLowerCase()) || null : null),
     getItems: () => data.items,
     getSpells: () => data.spells,
     getMeta: () => data.meta,
@@ -96,7 +102,7 @@ export function DataProvider({ children }) {
     getEmblems: () => data.emblems,
     getRoam: () => data.roam,
     getMacro: () => data.macro,
-  };
+  }), [data, status, error, refresh, syncMsg, diff, changes, byName]);
   return <DataCtx.Provider value={value}>{children}</DataCtx.Provider>;
 }
 
