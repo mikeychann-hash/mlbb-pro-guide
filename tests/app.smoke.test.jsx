@@ -7,10 +7,10 @@ import { DataProvider } from "../src/data/DataContext.jsx";
 const GROUPS = [
   { name: "Meta", tabs: ["Meta", "Updates", "Tiers", "Pro Picks"] },
   { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
-  { name: "Draft", tabs: ["Draft"] },
+  { name: "Draft", tabs: ["Draft", "Threats", "Lock-In"] },
   { name: "Build", tabs: ["Build", "Items", "Emblems", "Spells"] },
   { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
-  { name: "You", tabs: ["My Stats", "Climb"] },
+  { name: "You", tabs: ["Play Now", "My Stats", "Climb"] },
 ];
 
 const renderApp = () => render(<DataProvider><App /></DataProvider>);
@@ -60,7 +60,8 @@ describe("App shell", () => {
 
   it("logs a match in My Stats and persists it to storage", () => {
     renderApp();
-    clickGroup("You"); // auto-selects My Stats (only tab in group)
+    clickGroup("You"); // opens on Play Now
+    clickTab("My Stats");
     fireEvent.change(screen.getByPlaceholderText("Hero name..."), { target: { value: "Tigreal" } });
     fireEvent.click(screen.getByRole("button", { name: /Log Match/ }));
     const stored = JSON.parse(localStorage.getItem("mlbb-tracker"));

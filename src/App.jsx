@@ -27,15 +27,17 @@ import { MyStatsView } from "./features/mystats/MyStatsView.jsx";
 import { BuildView } from "./features/build/BuildView.jsx";
 import { DraftView } from "./features/draft/DraftView.jsx";
 import { ThreatView } from "./features/threats/ThreatView.jsx";
+import { LockInView } from "./features/lockin/LockInView.jsx";
+import { PlayNowView } from "./features/playnow/PlayNowView.jsx";
 import { ClimbView } from "./features/climb/ClimbView.jsx";
 
 const GROUPS = [
   { name: "Meta", tabs: ["Meta", "Updates", "Tiers", "Pro Picks"] },
   { name: "Heroes", tabs: ["Heroes", "Counter", "Compare"] },
-  { name: "Draft", tabs: ["Draft", "Threats"] },
+  { name: "Draft", tabs: ["Draft", "Threats", "Lock-In"] },
   { name: "Build", tabs: ["Build", "Items", "Emblems", "Spells"] },
   { name: "Guides", tabs: ["Jungle", "Roam", "Macro", "Teams", "Learn", "Glossary"] },
-  { name: "You", tabs: ["My Stats", "Climb"] },
+  { name: "You", tabs: ["Play Now", "My Stats", "Climb"] },
 ];
 
 function agoLabel(iso) {
@@ -79,6 +81,10 @@ export default function App() {
   const [draft, setDraft] = useState(emptyDraft()); const [dQ, setDQ] = useState("");
   // Threat Radar (lineups survive tab switches within a session)
   const [thMine, setThMine] = useState([]); const [thEnemy, setThEnemy] = useState([]);
+  // Lock-In Risk Scanner
+  const [lkHero, setLkHero] = useState(""); const [lkEnemy, setLkEnemy] = useState([]); const [lkMine, setLkMine] = useState([]);
+  // Play Now (lane filter)
+  const [pnLane, setPnLane] = useState("All");
 
   useEffect(() => {
     (async () => {
@@ -126,9 +132,11 @@ export default function App() {
       case "Build": return <BuildView {...{ bS, setBS, bC, setBC, savedBuilds, saveBuilds, buildName, setBuildName }} />;
       case "Draft": return <DraftView {...{ draft, onSelect: onDraftSelect, onReset: onDraftReset, onUndo: onDraftUndo, dQ, setDQ, favorites }} />;
       case "Threats": return <ThreatView {...{ mine: thMine, setMine: setThMine, enemy: thEnemy, setEnemy: setThEnemy }} />;
+      case "Lock-In": return <LockInView {...{ hero: lkHero, setHero: setLkHero, enemy: lkEnemy, setEnemy: setLkEnemy, mine: lkMine, setMine: setLkMine }} />;
+      case "Play Now": return <PlayNowView {...{ tracker, favorites, lane: pnLane, setLane: setPnLane, onSelectHero }} />;
       default: return null;
     }
-  }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ, thMine, thEnemy]);
+  }, [tab, q, rF, tF, cQ, cmpA, cmpB, iC, bS, bC, buildName, glsCat, tracker, tkHero, tkResult, savedBuilds, favorites, draft, dQ, thMine, thEnemy, lkHero, lkEnemy, lkMine, pnLane]);
 
   // Hero detail is a full-page takeover.
   if (sel) {
