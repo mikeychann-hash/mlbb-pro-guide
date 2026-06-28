@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-27T08:06:18.121Z",
+  "generatedAt": "2026-06-28T08:28:33.005Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -16,9 +16,9 @@
       "t": "S+",
       "l": "EXP",
       "d": 2,
-      "wr": 52.3,
-      "pr": 14.2,
-      "br": 22,
+      "wr": 49.6,
+      "pr": 0.9,
+      "br": 17.5,
       "sp": "AoE CC Stance Switch",
       "c": [
         "Phoveus",
@@ -49,6 +49,7 @@
         "Pharsa",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Hero1311-portrait.png"
     },
     {
@@ -58,9 +59,9 @@
       "t": "S+",
       "l": "Jungle",
       "d": 2,
-      "wr": 51.9,
-      "pr": 12.8,
-      "br": 28,
+      "wr": 52.6,
+      "pr": 0.9,
+      "br": 7.6,
       "sp": "Utility Tank Jungler",
       "c": [
         "Karrie",
@@ -91,6 +92,7 @@
         "Angela",
         "Pharsa"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1171-portrait.png"
     },
     {
@@ -100,9 +102,9 @@
       "t": "S+",
       "l": "EXP",
       "d": 3,
-      "wr": 52.1,
-      "pr": 11.5,
-      "br": 18,
+      "wr": 49.6,
+      "pr": 0.9,
+      "br": 2,
       "sp": "6-Combo Burst",
       "c": [
         "Phoveus",
@@ -133,6 +135,7 @@
         "Khufra",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1161-portrait.png"
     },
     {
@@ -142,9 +145,9 @@
       "t": "S+",
       "l": "Mid",
       "d": 2,
-      "wr": 51.7,
-      "pr": 13.1,
-      "br": 15,
+      "wr": 50.4,
+      "pr": 0.5,
+      "br": 9.1,
       "sp": "Displacement Execute",
       "c": [
         "Valentina",
@@ -175,6 +178,7 @@
         "Atlas",
         "Fredrinn"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero1251-portrait.png"
     },
     {
@@ -184,9 +188,9 @@
       "t": "S+",
       "l": "Jungle",
       "d": 2,
-      "wr": 51.4,
-      "pr": 8.2,
-      "br": 79,
+      "wr": 49.6,
+      "pr": 0.9,
+      "br": 20.8,
       "sp": "Silence + Darkness",
       "c": [
         "Tanky lineups",
@@ -216,6 +220,7 @@
         "Atlas",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero511-portrait.png"
     },
     {
@@ -225,9 +230,9 @@
       "t": "S+",
       "l": "Roam",
       "d": 1,
-      "wr": 51.2,
-      "pr": 16.4,
-      "br": 8,
+      "wr": 45.2,
+      "pr": 1.8,
+      "br": 5,
       "sp": "AoE Engage",
       "c": [
         "Valir",
@@ -258,6 +263,7 @@
         "Zhuxin",
         "Sora"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero061-portrait.png"
     },
     {
@@ -267,9 +273,9 @@
       "t": "S+",
       "l": "Roam",
       "d": 2,
-      "wr": 51.5,
-      "pr": 11.3,
-      "br": 14,
+      "wr": 54.6,
+      "pr": 0.3,
+      "br": 1,
       "sp": "Anti-Dash",
       "c": [
         "Valir",
@@ -300,6 +306,7 @@
         "Zhuxin",
         "Julian"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero781-portrait.png"
     },
     {
@@ -309,9 +316,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 3,
-      "wr": 51.8,
-      "pr": 6.1,
-      "br": 82,
+      "wr": 50.4,
+      "pr": 0.2,
+      "br": 0.3,
       "sp": "Unavoidable Burst",
       "c": [
         "Khufra",
@@ -340,6 +347,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1181-portrait.png"
     },
     {
@@ -349,9 +357,9 @@
       "t": "S",
       "l": "EXP",
       "d": 2,
-      "wr": 52,
-      "pr": 9.8,
-      "br": 12,
+      "wr": 49.3,
+      "pr": 0.5,
+      "br": 2.3,
       "sp": "Anti-Dash Punisher",
       "c": [
         "Esmeralda",
@@ -382,6 +390,7 @@
         "Tigreal",
         "Pharsa"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Hero1061-portrait.png"
     },
     {
@@ -391,9 +400,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 3,
-      "wr": 51.6,
-      "pr": 10.5,
-      "br": 11,
+      "wr": 48.5,
+      "pr": 0.7,
+      "br": 3.2,
       "sp": "Safest Jungler",
       "c": [
         "Saber",
@@ -423,6 +432,7 @@
         "Angela",
         "Mathilda"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Hero211-portrait.png"
     },
     {
@@ -432,9 +442,9 @@
       "t": "S",
       "l": "EXP",
       "d": 2,
-      "wr": 51.4,
-      "pr": 8.9,
-      "br": 9,
+      "wr": 49.5,
+      "pr": 0.5,
+      "br": 0.6,
       "sp": "Wall-Pin Burst",
       "c": [
         "Chou",
@@ -465,6 +475,7 @@
         "Atlas",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1201-portrait.png"
     },
     {
@@ -474,9 +485,9 @@
       "t": "S",
       "l": "EXP",
       "d": 2,
-      "wr": 51.1,
-      "pr": 8.4,
-      "br": 7,
+      "wr": 49.5,
+      "pr": 0.5,
+      "br": 0.7,
       "sp": "Dual Stance Shield",
       "c": [
         "Chou",
@@ -507,6 +518,7 @@
         "Pharsa",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero371-portrait.png"
     },
     {
@@ -516,9 +528,9 @@
       "t": "S",
       "l": "EXP",
       "d": 1,
-      "wr": 51.3,
-      "pr": 9.1,
-      "br": 10,
+      "wr": 48.4,
+      "pr": 0.8,
+      "br": 6.6,
       "sp": "Sacred Orb Duelist",
       "c": [
         "Chou",
@@ -549,6 +561,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/54/Hero221-portrait.png"
     },
     {
@@ -559,8 +572,8 @@
       "l": "Jungle",
       "d": 2,
       "wr": 51,
-      "pr": 7.8,
-      "br": 35,
+      "pr": 0.6,
+      "br": 4,
       "sp": "Mount Burst Chase",
       "c": [
         "Khufra",
@@ -591,6 +604,7 @@
         "Angela",
         "Mathilda"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero671-portrait.png"
     },
     {
@@ -600,9 +614,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 1,
-      "wr": 51.2,
-      "pr": 9.5,
-      "br": 41,
+      "wr": 49.7,
+      "pr": 1.1,
+      "br": 26.8,
       "sp": "Point-Click Delete",
       "c": [
         "Chou",
@@ -633,6 +647,7 @@
         "Atlas",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero031-portrait.png"
     },
     {
@@ -642,9 +657,9 @@
       "t": "S",
       "l": "Mid",
       "d": 2,
-      "wr": 51.9,
-      "pr": 8.7,
-      "br": 6,
+      "wr": 47.3,
+      "pr": 0.5,
+      "br": 0.3,
       "sp": "Artillery Zone",
       "c": [
         "Lancelot",
@@ -675,6 +690,7 @@
         "Khufra",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero521-portrait.png"
     },
     {
@@ -684,9 +700,9 @@
       "t": "S",
       "l": "Gold",
       "d": 2,
-      "wr": 51.5,
-      "pr": 10.2,
-      "br": 5,
+      "wr": 48.3,
+      "pr": 0.9,
+      "br": 0.6,
       "sp": "Move + Shoot",
       "c": [
         "Saber",
@@ -717,6 +733,7 @@
         "Khufra",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Hero711-portrait.png"
     },
     {
@@ -726,9 +743,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 2,
-      "wr": 51,
-      "pr": 7.3,
-      "br": 8,
+      "wr": 52,
+      "pr": 1.5,
+      "br": 9.2,
       "sp": "Global Vision Ship",
       "c": [
         "Khufra",
@@ -758,6 +775,7 @@
         "Angela",
         "Mathilda"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/29/Hero301-portrait.png"
     },
     {
@@ -767,9 +785,9 @@
       "t": "S",
       "l": "Roam",
       "d": 2,
-      "wr": 51.1,
-      "pr": 8.5,
-      "br": 9,
+      "wr": 54.7,
+      "pr": 0.7,
+      "br": 57.3,
       "sp": "Sticky Isolation",
       "c": [
         "Purify",
@@ -800,6 +818,7 @@
         "Zhuxin",
         "Sora"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1041-portrait.png"
     },
     {
@@ -809,9 +828,9 @@
       "t": "S",
       "l": "Roam",
       "d": 1,
-      "wr": 51.3,
-      "pr": 9.8,
-      "br": 4,
+      "wr": 48.9,
+      "pr": 1.8,
+      "br": 9.1,
       "sp": "Global Attach",
       "c": [
         "Burst AoE",
@@ -841,6 +860,7 @@
         "Hayabusa",
         "Sora"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6b/Hero551-portrait.png"
     },
     {
@@ -850,9 +870,9 @@
       "t": "S",
       "l": "Roam",
       "d": 2,
-      "wr": 51.4,
-      "pr": 8.1,
-      "br": 44,
+      "wr": 47.6,
+      "pr": 0.2,
+      "br": 1,
       "sp": "Aggressive Roam",
       "c": [
         "Diggie",
@@ -882,6 +902,7 @@
         "Leomord",
         "Granger"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Hero1021-portrait.png"
     },
     {
@@ -891,9 +912,9 @@
       "t": "S",
       "l": "Jungle",
       "d": 3,
-      "wr": 51,
-      "pr": 6.5,
-      "br": 12,
+      "wr": 48.3,
+      "pr": 0.2,
+      "br": 0.2,
       "sp": "Dimensional Rift",
       "c": [
         "Khufra",
@@ -922,6 +943,7 @@
         "Angela",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1221-portrait.png"
     },
     {
@@ -931,9 +953,9 @@
       "t": "S",
       "l": "Roam",
       "d": 2,
-      "wr": 50.8,
-      "pr": 7.2,
-      "br": 6,
+      "wr": 48.6,
+      "pr": 0.1,
+      "br": 0.7,
       "sp": "Global Teleport",
       "c": [
         "Burst damage",
@@ -961,6 +983,7 @@
         "Julian",
         "Hayabusa"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Hero1241-portrait.png"
     },
     {
@@ -970,9 +993,9 @@
       "t": "A",
       "l": "EXP",
       "d": 3,
-      "wr": 50.5,
-      "pr": 11.2,
-      "br": 5,
+      "wr": 46,
+      "pr": 1,
+      "br": 2.6,
       "sp": "Kick Isolation",
       "c": [
         "Phoveus",
@@ -1003,6 +1026,7 @@
         "Zhuxin",
         "Sora"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero261-portrait.png"
     },
     {
@@ -1012,9 +1036,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 51.8,
-      "pr": 7.4,
-      "br": 4,
+      "wr": 52.1,
+      "pr": 1.3,
+      "br": 23.5,
       "sp": "Jump Knock-Up",
       "c": [
         "Chou",
@@ -1045,6 +1069,7 @@
         "Atlas",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero801-portrait.png"
     },
     {
@@ -1054,9 +1079,9 @@
       "t": "A",
       "l": "Mid",
       "d": 3,
-      "wr": 52.8,
-      "pr": 7.3,
-      "br": 5,
+      "wr": 44.7,
+      "pr": 0.1,
+      "br": 0.1,
       "sp": "Ultimate Copy",
       "c": [
         "Heroes with bad ults"
@@ -1085,6 +1110,7 @@
         "Khufra",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1101-portrait.png"
     },
     {
@@ -1094,9 +1120,9 @@
       "t": "A",
       "l": "Gold",
       "d": 3,
-      "wr": 50.9,
-      "pr": 7.2,
-      "br": 7,
+      "wr": 48.4,
+      "pr": 0.2,
+      "br": 0.2,
       "sp": "Weakness-Point Ult",
       "c": [
         "Khufra",
@@ -1127,6 +1153,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero891-portrait.png"
     },
     {
@@ -1136,9 +1163,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 51.2,
-      "pr": 6.8,
-      "br": 3,
+      "wr": 50,
+      "pr": 0.8,
+      "br": 2.9,
       "sp": "True DMG Tank Killer",
       "c": [
         "Saber",
@@ -1169,6 +1196,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Hero401-portrait.png"
     },
     {
@@ -1178,9 +1206,9 @@
       "t": "A",
       "l": "Gold",
       "d": 3,
-      "wr": 50.7,
-      "pr": 8.6,
-      "br": 4,
+      "wr": 51.1,
+      "pr": 0.8,
+      "br": 1.2,
       "sp": "4-Weapon Arsenal",
       "c": [
         "Saber",
@@ -1211,6 +1239,7 @@
         "Angela",
         "Mathilda"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero1051-portrait.png"
     },
     {
@@ -1220,9 +1249,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 52.5,
-      "pr": 11.5,
-      "br": 3,
+      "wr": 50.9,
+      "pr": 0.5,
+      "br": 0.5,
       "sp": "Early-Game Stack",
       "c": [
         "Saber",
@@ -1252,6 +1281,7 @@
         "Angela",
         "Mathilda"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero1001-portrait.png"
     },
     {
@@ -1261,9 +1291,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.8,
-      "pr": 7.1,
-      "br": 8,
+      "wr": 44.4,
+      "pr": 0.6,
+      "br": 0.8,
       "sp": "Triple Dash Immune",
       "c": [
         "Khufra",
@@ -1293,6 +1323,7 @@
         "Angela",
         "Chip"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Hero471-portrait.png"
     },
     {
@@ -1302,9 +1333,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.6,
-      "pr": 6.3,
-      "br": 61,
+      "wr": 53.8,
+      "pr": 0.6,
+      "br": 1.2,
       "sp": "Wall Walker",
       "c": [
         "Khufra",
@@ -1334,6 +1365,7 @@
         "Angela",
         "Chip"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero841-portrait.png"
     },
     {
@@ -1343,9 +1375,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.4,
-      "pr": 4.8,
-      "br": 58,
+      "wr": 44.1,
+      "pr": 0.5,
+      "br": 2.5,
       "sp": "Cable Swing",
       "c": [
         "Khufra",
@@ -1374,6 +1406,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero171-portrait.png"
     },
     {
@@ -1383,9 +1416,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 51.8,
-      "pr": 7.2,
-      "br": 4,
+      "wr": 53.6,
+      "pr": 0.9,
+      "br": 5.3,
       "sp": "Mass Grab",
       "c": [
         "Diggie",
@@ -1415,6 +1448,7 @@
         "Zhuxin",
         "Sora"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero931-portrait.png"
     },
     {
@@ -1424,9 +1458,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 51.5,
-      "pr": 6.9,
-      "br": 2,
+      "wr": 50.8,
+      "pr": 0.9,
+      "br": 4,
       "sp": "Lifesteal Queen",
       "c": [
         "Esmeralda",
@@ -1457,6 +1491,7 @@
         "Zhuxin",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b4/Hero291-portrait.png"
     },
     {
@@ -1466,9 +1501,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.9,
-      "pr": 6.4,
-      "br": 3,
+      "wr": 43.2,
+      "pr": 0.3,
+      "br": 0.4,
       "sp": "Shield Vampire",
       "c": [
         "Baxia",
@@ -1499,6 +1534,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/42/Hero811-portrait.png"
     },
     {
@@ -1508,9 +1544,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 51,
-      "pr": 5.8,
-      "br": 3,
+      "wr": 54.3,
+      "pr": 0.2,
+      "br": 4.5,
       "sp": "Anti-CC Cleanser",
       "c": [
         "Burst damage",
@@ -1538,6 +1574,7 @@
       "sy": [
         "Any carry"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Hero481-portrait.png"
     },
     {
@@ -1547,9 +1584,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 51.3,
-      "pr": 6.2,
-      "br": 4,
+      "wr": 53,
+      "pr": 0.7,
+      "br": 27.9,
       "sp": "Fountain Healer",
       "c": [
         "Anti-heal",
@@ -1578,6 +1615,7 @@
         "Yu Zhong",
         "Thamuz"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Hero341-portrait.png"
     },
     {
@@ -1587,9 +1625,9 @@
       "t": "A",
       "l": "Roam",
       "d": 3,
-      "wr": 50.4,
-      "pr": 5.1,
-      "br": 2,
+      "wr": 56.9,
+      "pr": 0.3,
+      "br": 23.2,
       "sp": "True DMG Support",
       "c": [
         "Poke comps",
@@ -1617,6 +1655,7 @@
         "Zhuxin",
         "Sora"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/27/Hero1321-portrait.png"
     },
     {
@@ -1626,9 +1665,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.8,
-      "pr": 7.5,
-      "br": 3,
+      "wr": 43.1,
+      "pr": 1.4,
+      "br": 2.5,
       "sp": "6th Bullet Burst",
       "c": [
         "Khufra",
@@ -1658,6 +1697,7 @@
         "Angela",
         "Mathilda"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/cb/Hero791-portrait.png"
     },
     {
@@ -1667,9 +1707,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.5,
-      "pr": 5.8,
-      "br": 5,
+      "wr": 49.6,
+      "pr": 1.4,
+      "br": 7.4,
       "sp": "10-Dagger Burst",
       "c": [
         "Khufra",
@@ -1698,6 +1738,7 @@
         "Angela",
         "Chip"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero561-portrait.png"
     },
     {
@@ -1707,9 +1748,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.6,
-      "pr": 6.1,
-      "br": 2,
+      "wr": 43.4,
+      "pr": 1.1,
+      "br": 4.4,
       "sp": "Hook & Suppress",
       "c": [
         "Diggie",
@@ -1737,6 +1778,7 @@
       "sy": [
         "Any burst damage"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Hero101-portrait.png"
     },
     {
@@ -1746,9 +1788,9 @@
       "t": "A",
       "l": "EXP",
       "d": 1,
-      "wr": 50.8,
-      "pr": 6.5,
-      "br": 3,
+      "wr": 50.3,
+      "pr": 0.4,
+      "br": 0.6,
       "sp": "Unkillable Regen",
       "c": [
         "Anti-heal",
@@ -1777,6 +1819,7 @@
         "Estes",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Hero591-portrait.png"
     },
     {
@@ -1786,9 +1829,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 51.2,
-      "pr": 5.9,
-      "br": 2,
+      "wr": 48.9,
+      "pr": 0.6,
+      "br": 0.6,
       "sp": "Zone + Rewind",
       "c": [
         "Lancelot",
@@ -1817,6 +1860,7 @@
         "Khufra",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Hero861-portrait.png"
     },
     {
@@ -1826,9 +1870,9 @@
       "t": "A",
       "l": "Gold",
       "d": 1,
-      "wr": 51.7,
-      "pr": 5.2,
-      "br": 1,
+      "wr": 51.1,
+      "pr": 0.2,
+      "br": 0.1,
       "sp": "Passive Crit Stack",
       "c": [
         "Saber",
@@ -1858,6 +1902,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Hero121-portrait.png"
     },
     {
@@ -1867,9 +1912,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 51.4,
-      "pr": 5.3,
-      "br": 2,
+      "wr": 51.6,
+      "pr": 0.8,
+      "br": 9.3,
       "sp": "Bush Ambush",
       "c": [
         "Kite heroes",
@@ -1896,6 +1941,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Hero351-portrait.png"
     },
     {
@@ -1905,9 +1951,9 @@
       "t": "A",
       "l": "EXP",
       "d": 1,
-      "wr": 51,
-      "pr": 6.1,
-      "br": 2,
+      "wr": 48.6,
+      "pr": 1,
+      "br": 2.9,
       "sp": "Fire Sustain",
       "c": [
         "Esmeralda",
@@ -1937,6 +1983,7 @@
         "Estes",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Hero721-portrait.png"
     },
     {
@@ -1946,9 +1993,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.6,
-      "pr": 6.3,
-      "br": 3,
+      "wr": 49.2,
+      "pr": 0.9,
+      "br": 1.6,
       "sp": "Black Dragon",
       "c": [
         "Anti-heal",
@@ -1977,6 +2024,7 @@
         "Estes",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero951-portrait.png"
     },
     {
@@ -1986,9 +2034,9 @@
       "t": "A",
       "l": "Roam",
       "d": 3,
-      "wr": 50.3,
-      "pr": 5.4,
-      "br": 3,
+      "wr": 49.6,
+      "pr": 1,
+      "br": 2.9,
       "sp": "Long Stun Arrow",
       "c": [
         "Purify",
@@ -2015,6 +2063,7 @@
       "sy": [
         "Any carry"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero631-portrait.png"
     },
     {
@@ -2024,9 +2073,9 @@
       "t": "A",
       "l": "Mid",
       "d": 3,
-      "wr": 50.4,
-      "pr": 4.5,
-      "br": 2,
+      "wr": 51.7,
+      "pr": 0.6,
+      "br": 0.6,
       "sp": "Umbrella Master",
       "c": [
         "Lancelot",
@@ -2055,6 +2104,7 @@
         "Atlas",
         "Khufra"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero251-portrait.png"
     },
     {
@@ -2064,9 +2114,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 51,
-      "pr": 5.8,
-      "br": 2,
+      "wr": 51.1,
+      "pr": 0.7,
+      "br": 0.9,
       "sp": "Anti-Dive MM",
       "c": [
         "Long range poke",
@@ -2095,6 +2145,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Hero1141-portrait.png"
     },
     {
@@ -2104,9 +2155,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.9,
-      "pr": 4.8,
-      "br": 2,
+      "wr": 55.3,
+      "pr": 0.1,
+      "br": 0.3,
       "sp": "Projectile Shield",
       "c": [
         "Non-projectile heroes"
@@ -2133,6 +2184,7 @@
       "sy": [
         "Melee carries"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Hero201-portrait.png"
     },
     {
@@ -2142,9 +2194,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.7,
-      "pr": 5.5,
-      "br": 2,
+      "wr": 48.6,
+      "pr": 0.4,
+      "br": 0.5,
       "sp": "HP Drain Ring",
       "c": [
         "Karrie",
@@ -2170,6 +2222,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Hero491-portrait.png"
     },
     {
@@ -2179,9 +2232,9 @@
       "t": "A",
       "l": "EXP",
       "d": 1,
-      "wr": 50.8,
-      "pr": 5.7,
-      "br": 1,
+      "wr": 51.9,
+      "pr": 0.3,
+      "br": 0.4,
       "sp": "Sand Sustain",
       "c": [
         "Esmeralda",
@@ -2210,6 +2263,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c6/Hero981-portrait.png"
     },
     {
@@ -2219,9 +2273,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.5,
-      "pr": 5,
-      "br": 2,
+      "wr": 50.8,
+      "pr": 0.8,
+      "br": 0.8,
       "sp": "Wall Trap Burst",
       "c": [
         "Purify",
@@ -2249,6 +2303,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero771-portrait.png"
     },
     {
@@ -2258,9 +2313,9 @@
       "t": "A",
       "l": "EXP",
       "d": 2,
-      "wr": 50.7,
-      "pr": 5.4,
-      "br": 2,
+      "wr": 48.8,
+      "pr": 0.4,
+      "br": 1.2,
       "sp": "Yo-Yo Sustain",
       "c": [
         "Phoveus",
@@ -2288,6 +2343,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1231-portrait.png"
     },
     {
@@ -2297,9 +2353,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.6,
-      "pr": 4.7,
-      "br": 2,
+      "wr": 51,
+      "pr": 0.2,
+      "br": 0.1,
       "sp": "Transform Tank→MM",
       "c": [
         "Karrie",
@@ -2325,6 +2381,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1111-portrait.png"
     },
     {
@@ -2334,9 +2391,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.5,
-      "pr": 4.9,
-      "br": 2,
+      "wr": 51.8,
+      "pr": 0.3,
+      "br": 2.6,
       "sp": "Anti-Heal Tank",
       "c": [
         "Burst damage",
@@ -2364,6 +2421,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero871-portrait.png"
     },
     {
@@ -2373,9 +2431,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.4,
-      "pr": 4.6,
-      "br": 2,
+      "wr": 46.2,
+      "pr": 0.7,
+      "br": 0.4,
       "sp": "Global Dive Taunt",
       "c": [
         "Karrie",
@@ -2401,6 +2459,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Hero411-portrait.png"
     },
     {
@@ -2410,9 +2469,9 @@
       "t": "A",
       "l": "Roam",
       "d": 1,
-      "wr": 50.3,
-      "pr": 4.4,
-      "br": 1,
+      "wr": 52.2,
+      "pr": 1.7,
+      "br": 13.5,
       "sp": "Reflect Tank",
       "c": [
         "Magic damage",
@@ -2439,6 +2498,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero701-portrait.png"
     },
     {
@@ -2448,9 +2508,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 50.5,
-      "pr": 5.1,
-      "br": 2,
+      "wr": 49.8,
+      "pr": 1.2,
+      "br": 0.6,
       "sp": "Mirror DPS",
       "c": [
         "Saber",
@@ -2478,6 +2538,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero651-portrait.png"
     },
     {
@@ -2487,9 +2548,9 @@
       "t": "A",
       "l": "Jungle",
       "d": 3,
-      "wr": 50.2,
-      "pr": 3.9,
-      "br": 3,
+      "wr": 52.5,
+      "pr": 0.3,
+      "br": 1.5,
       "sp": "Stealth Burst",
       "c": [
         "Detection",
@@ -2515,6 +2576,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Hero241-portrait.png"
     },
     {
@@ -2524,9 +2586,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.6,
-      "pr": 4.8,
-      "br": 2,
+      "wr": 49.6,
+      "pr": 0.3,
+      "br": 0.2,
       "sp": "Light/Dark Dual Mode",
       "c": [
         "Saber",
@@ -2555,6 +2617,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero681-portrait.png"
     },
     {
@@ -2564,9 +2627,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.5,
-      "pr": 4.5,
-      "br": 2,
+      "wr": 52.7,
+      "pr": 0.1,
+      "br": 0.1,
       "sp": "Real-Time Target Ult",
       "c": [
         "Lancelot",
@@ -2594,6 +2657,7 @@
         "Tigreal",
         "Khufra"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero1011-portrait.png"
     },
     {
@@ -2603,9 +2667,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.4,
-      "pr": 4.3,
-      "br": 2,
+      "wr": 48.7,
+      "pr": 0.5,
+      "br": 0.1,
       "sp": "Global Snipe",
       "c": [
         "Lancelot",
@@ -2633,6 +2697,7 @@
         "Tigreal",
         "Khufra"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png"
     },
     {
@@ -2642,9 +2707,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.3,
-      "pr": 4.6,
-      "br": 2,
+      "wr": 48.9,
+      "pr": 0.8,
+      "br": 2.4,
       "sp": "Car Engage",
       "c": [
         "Diggie",
@@ -2672,6 +2737,7 @@
         "Eudora",
         "Odette"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Hero321-portrait.png"
     },
     {
@@ -2681,9 +2747,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.7,
-      "pr": 4.6,
-      "br": 2,
+      "wr": 48.7,
+      "pr": 0.5,
+      "br": 1.8,
       "sp": "Dash Spam Mage",
       "c": [
         "Khufra",
@@ -2712,6 +2778,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero731-portrait.png"
     },
     {
@@ -2721,9 +2788,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 50.3,
-      "pr": 3.8,
-      "br": 1,
+      "wr": 50.5,
+      "pr": 0.6,
+      "br": 1.1,
       "sp": "Bone Shard Scaling",
       "c": [
         "Early aggression",
@@ -2751,6 +2818,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1301-portrait.png"
     },
     {
@@ -2760,9 +2828,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 50.5,
-      "pr": 4.2,
-      "br": 2,
+      "wr": 43.7,
+      "pr": 0.2,
+      "br": 0.7,
       "sp": "Engage Healer",
       "c": [
         "Burst damage",
@@ -2788,6 +2856,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Hero1281-portrait.png"
     },
     {
@@ -2797,9 +2866,9 @@
       "t": "B",
       "l": "Gold",
       "d": 1,
-      "wr": 49.8,
-      "pr": 8.5,
-      "br": 1,
+      "wr": 50.6,
+      "pr": 2.8,
+      "br": 5.5,
       "sp": "Hyper Carry",
       "c": [
         "Saber",
@@ -2828,6 +2897,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero011-portrait.png"
     },
     {
@@ -2837,9 +2907,9 @@
       "t": "B",
       "l": "Gold",
       "d": 1,
-      "wr": 49.5,
-      "pr": 9.2,
-      "br": 0,
+      "wr": 47.6,
+      "pr": 1,
+      "br": 0.9,
       "sp": "Longest Range",
       "c": [
         "Any assassin",
@@ -2867,6 +2937,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Hero181-portrait.png"
     },
     {
@@ -2876,9 +2947,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.5,
-      "pr": 6.8,
-      "br": 1,
+      "wr": 49.6,
+      "pr": 1.1,
+      "br": 2.9,
       "sp": "One-Combo Delete",
       "c": [
         "Athena's Shield",
@@ -2906,6 +2977,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Hero151-portrait.png"
     },
     {
@@ -2915,9 +2987,9 @@
       "t": "B",
       "l": "Gold",
       "d": 1,
-      "wr": 49.6,
-      "pr": 4.5,
-      "br": 0,
+      "wr": 53.2,
+      "pr": 3.2,
+      "br": 8.4,
       "sp": "Bounce AA + CC Immune",
       "c": [
         "Saber",
@@ -2945,6 +3017,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero601-portrait.png"
     },
     {
@@ -2954,9 +3027,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.8,
-      "pr": 4.5,
-      "br": 1,
+      "wr": 52.7,
+      "pr": 1.6,
+      "br": 56.5,
       "sp": "Boxing Combo",
       "c": [
         "Phoveus",
@@ -2984,6 +3057,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a9/Hero1031-portrait.png"
     },
     {
@@ -2993,9 +3067,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.2,
-      "pr": 4.3,
-      "br": 1,
+      "wr": 45.5,
+      "pr": 1,
+      "br": 0.5,
       "sp": "Sustain True DMG",
       "c": [
         "Anti-heal",
@@ -3022,6 +3096,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero281-portrait.png"
     },
     {
@@ -3031,9 +3106,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 1,
-      "wr": 50.2,
-      "pr": 5.1,
-      "br": 0,
+      "wr": 49.6,
+      "pr": 1.2,
+      "br": 1.9,
       "sp": "Spin Execute",
       "c": [
         "Kite heroes",
@@ -3060,6 +3135,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero021-portrait.png"
     },
     {
@@ -3070,8 +3146,8 @@
       "l": "EXP",
       "d": 2,
       "wr": 50.1,
-      "pr": 4.2,
-      "br": 1,
+      "pr": 0.7,
+      "br": 3.9,
       "sp": "Blood Drain Diver",
       "c": [
         "Anti-heal",
@@ -3099,6 +3175,7 @@
         "Tigreal",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero041-portrait.png"
     },
     {
@@ -3108,9 +3185,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 50.3,
-      "pr": 4.8,
-      "br": 1,
+      "wr": 53.9,
+      "pr": 1.7,
+      "br": 38.9,
       "sp": "Clone Split Push",
       "c": [
         "AoE damage",
@@ -3138,6 +3215,7 @@
         "Chip",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero271-portrait.png"
     },
     {
@@ -3147,9 +3225,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 50,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 58,
+      "pr": 0.1,
+      "br": 0.4,
       "sp": "3 HP Bar Push",
       "c": [
         "Burst damage",
@@ -3177,6 +3255,7 @@
         "Chip",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Hero881-portrait.png"
     },
     {
@@ -3186,9 +3265,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 49.7,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 52.3,
+      "pr": 0.5,
+      "br": 1.4,
       "sp": "Immortal Ult DPS",
       "c": [
         "Kite heroes",
@@ -3215,6 +3294,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero451-portrait.png"
     },
     {
@@ -3224,9 +3304,9 @@
       "t": "B",
       "l": "EXP",
       "d": 1,
-      "wr": 49.9,
-      "pr": 4.1,
-      "br": 1,
+      "wr": 51.6,
+      "pr": 0.5,
+      "br": 0.4,
       "sp": "Damage Reduction",
       "c": [
         "Ranged poke",
@@ -3253,6 +3333,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Hero821-portrait.png"
     },
     {
@@ -3262,9 +3343,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.9,
-      "br": 0,
+      "wr": 50.2,
+      "pr": 0.6,
+      "br": 2.8,
       "sp": "Fire Spray Area",
       "c": [
         "Ranged poke",
@@ -3291,6 +3372,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Hero831-portrait.png"
     },
     {
@@ -3300,9 +3382,9 @@
       "t": "B",
       "l": "Roam",
       "d": 2,
-      "wr": 50,
-      "pr": 4,
-      "br": 1,
+      "wr": 48.2,
+      "pr": 0.4,
+      "br": 0.3,
       "sp": "Throw Mechanic",
       "c": [
         "Grouped teams",
@@ -3328,6 +3410,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero541-portrait.png"
     },
     {
@@ -3337,9 +3420,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 50,
-      "pr": 3.7,
-      "br": 1,
+      "wr": 50.7,
+      "pr": 0.4,
+      "br": 0.2,
       "sp": "Magic MM",
       "c": [
         "Saber",
@@ -3367,6 +3450,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1071-portrait.png"
     },
     {
@@ -3376,9 +3460,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.1,
-      "pr": 4,
-      "br": 0,
+      "wr": 48.2,
+      "pr": 0.8,
+      "br": 0.5,
       "sp": "Long Beam Poke",
       "c": [
         "Lancelot",
@@ -3406,6 +3490,7 @@
         "Tigreal",
         "Khufra"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Hero611-portrait.png"
     },
     {
@@ -3415,9 +3500,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 47.4,
+      "pr": 0.2,
+      "br": 0.1,
       "sp": "Yin-Yang CC Teleport",
       "c": [
         "Purify",
@@ -3444,6 +3529,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero961-portrait.png"
     },
     {
@@ -3453,9 +3539,9 @@
       "t": "B",
       "l": "Roam",
       "d": 1,
-      "wr": 50.2,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 55.5,
+      "pr": 0.4,
+      "br": 1.3,
       "sp": "Speed + Heal + Stun",
       "c": [
         "Anti-heal",
@@ -3481,6 +3567,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero141-portrait.png"
     },
     {
@@ -3490,9 +3577,9 @@
       "t": "B",
       "l": "Roam",
       "d": 1,
-      "wr": 50.1,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 54.8,
+      "pr": 1.3,
+      "br": 15.8,
       "sp": "Global Heal + Item Share",
       "c": [
         "Burst",
@@ -3518,6 +3605,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/11/Hero1121-portrait.png"
     },
     {
@@ -3527,9 +3615,9 @@
       "t": "B",
       "l": "Roam",
       "d": 1,
-      "wr": 49.8,
-      "pr": 3.9,
-      "br": 1,
+      "wr": 52.6,
+      "pr": 1.1,
+      "br": 9.7,
       "sp": "Pinball Ult Push",
       "c": [
         "Purify",
@@ -3556,6 +3644,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Hero091-portrait.png"
     },
     {
@@ -3565,9 +3654,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49.2,
-      "pr": 5.5,
-      "br": 0,
+      "wr": 46.2,
+      "pr": 0.8,
+      "br": 0.6,
       "sp": "Chase & Flip",
       "c": [
         "CC",
@@ -3597,6 +3686,7 @@
         "Chip",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Hero161-portrait.png"
     },
     {
@@ -3606,9 +3696,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 1,
-      "wr": 49,
-      "pr": 5.8,
-      "br": 0,
+      "wr": 48.3,
+      "pr": 0.4,
+      "br": 0.4,
       "sp": "Lifesteal King",
       "c": [
         "Anti-heal",
@@ -3636,6 +3726,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/01/Hero071-portrait.png"
     },
     {
@@ -3645,9 +3736,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 48.8,
-      "pr": 4.2,
-      "br": 0,
+      "wr": 49.2,
+      "pr": 0.4,
+      "br": 0.4,
       "sp": "Infinite Stack Global",
       "c": [
         "Wind of Nature",
@@ -3674,6 +3765,7 @@
         "Chip",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero641-portrait.png"
     },
     {
@@ -3683,9 +3775,9 @@
       "t": "C",
       "l": "EXP",
       "d": 2,
-      "wr": 49.4,
-      "pr": 5.1,
-      "br": 38,
+      "wr": 46.4,
+      "pr": 0.5,
+      "br": 0.5,
       "sp": "CC Chain Execute",
       "c": [
         "Ranged poke",
@@ -3714,6 +3806,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero581-portrait.png"
     },
     {
@@ -3723,9 +3816,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 2,
-      "wr": 49.3,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 47.4,
+      "pr": 0.6,
+      "br": 0.2,
       "sp": "Ranged↔Melee Transform",
       "c": [
         "CC",
@@ -3752,6 +3845,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hero391-portrait.png"
     },
     {
@@ -3761,9 +3855,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49.1,
-      "pr": 3.2,
-      "br": 0,
+      "wr": 51.5,
+      "pr": 1.1,
+      "br": 1.8,
       "sp": "Imperial Prison",
       "c": [
         "Purify",
@@ -3790,6 +3884,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Hero901-portrait.png"
     },
     {
@@ -3799,9 +3894,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49,
-      "pr": 3,
-      "br": 0,
+      "wr": 51.2,
+      "pr": 0.2,
+      "br": 0.2,
       "sp": "Shark Push",
       "c": [
         "Burst",
@@ -3829,6 +3924,7 @@
         "Chip",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero111-portrait.png"
     },
     {
@@ -3838,9 +3934,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 2,
-      "wr": 49.2,
-      "pr": 3.4,
-      "br": 0,
+      "wr": 48,
+      "pr": 0.6,
+      "br": 3.5,
       "sp": "1v1 Dimension",
       "c": [
         "Wind of Nature",
@@ -3866,6 +3962,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bc/Hero1131-portrait.png"
     },
     {
@@ -3875,9 +3972,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 49,
-      "pr": 3.3,
-      "br": 0,
+      "wr": 46.3,
+      "pr": 1.3,
+      "br": 0.9,
       "sp": "Armor Shred",
       "c": [
         "Kite heroes",
@@ -3904,6 +4001,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero851-portrait.png"
     },
     {
@@ -3913,9 +4011,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 50.2,
-      "pr": 4,
-      "br": 1,
+      "wr": 51.3,
+      "pr": 0.8,
+      "br": 14.2,
       "sp": "Anti-Dash Ult Zone",
       "c": [
         "Ranged poke",
@@ -3942,6 +4040,7 @@
         "Tigreal",
         "Phoveus"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Hero741-portrait.png"
     },
     {
@@ -3951,9 +4050,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50.3,
-      "pr": 3.6,
-      "br": 0,
+      "wr": 48.2,
+      "pr": 0.6,
+      "br": 0.8,
       "sp": "Star Burst Poke",
       "c": [
         "Dive assassins",
@@ -3980,6 +4079,7 @@
         "Tigreal",
         "Khufra"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png"
     },
     {
@@ -3989,9 +4089,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.1,
-      "pr": 3.4,
-      "br": 0,
+      "wr": 55.9,
+      "pr": 1.6,
+      "br": 3.1,
       "sp": "Laser Beam",
       "c": [
         "Dive assassins",
@@ -4018,6 +4118,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Hero231-portrait.png"
     },
     {
@@ -4027,9 +4128,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50.2,
-      "pr": 3.5,
-      "br": 0,
+      "wr": 49.7,
+      "pr": 0.6,
+      "br": 0.3,
       "sp": "Wind CC/Burst Choice",
       "c": [
         "Dive assassins",
@@ -4056,6 +4157,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Hero661-portrait.png"
     },
     {
@@ -4065,9 +4167,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50.4,
-      "pr": 3.8,
-      "br": 0,
+      "wr": 46.6,
+      "pr": 1.5,
+      "br": 3.7,
       "sp": "Molina Transform",
       "c": [
         "Dive assassins",
@@ -4094,6 +4196,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero051-portrait.png"
     },
     {
@@ -4103,9 +4206,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.4,
-      "pr": 4.5,
-      "br": 1,
+      "wr": 46.1,
+      "pr": 0.5,
+      "br": 1.5,
       "sp": "Execute Resets",
       "c": [
         "CC chains",
@@ -4131,6 +4234,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero081-portrait.png"
     },
     {
@@ -4140,9 +4244,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50.2,
-      "pr": 3.8,
-      "br": 1,
+      "wr": 47.8,
+      "pr": 1.4,
+      "br": 44.9,
       "sp": "Burst Teleport",
       "c": [
         "Khufra",
@@ -4170,6 +4274,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/81/Hero421-portrait.png"
     },
     {
@@ -4179,9 +4284,9 @@
       "t": "B",
       "l": "Mid",
       "d": 2,
-      "wr": 50.1,
-      "pr": 3.2,
-      "br": 0,
+      "wr": 50.5,
+      "pr": 0.5,
+      "br": 0.5,
       "sp": "Spawn Turret",
       "c": [
         "Dive assassins",
@@ -4209,6 +4314,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fe/Hero501-portrait.png"
     },
     {
@@ -4218,9 +4324,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.9,
-      "pr": 3.1,
-      "br": 0,
+      "wr": 52.7,
+      "pr": 0.3,
+      "br": 0.3,
       "sp": "Pet + Traps",
       "c": [
         "Saber",
@@ -4249,6 +4355,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Hero941-portrait.png"
     },
     {
@@ -4258,9 +4365,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.7,
-      "pr": 4.8,
-      "br": 0,
+      "wr": 48.1,
+      "pr": 1.8,
+      "br": 7.1,
       "sp": "Sniper Crit",
       "c": [
         "Saber",
@@ -4289,6 +4396,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Hero531-portrait.png"
     },
     {
@@ -4298,9 +4406,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.4,
-      "br": 0,
+      "wr": 50.3,
+      "pr": 0.9,
+      "br": 0.3,
       "sp": "Penetrating AA",
       "c": [
         "Saber",
@@ -4329,6 +4437,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/60/Hero311-portrait.png"
     },
     {
@@ -4338,9 +4447,9 @@
       "t": "B",
       "l": "Jungle",
       "d": 2,
-      "wr": 50,
-      "pr": 4,
-      "br": 2,
+      "wr": 50.7,
+      "pr": 0.7,
+      "br": 4.6,
       "sp": "Stealth Burst Mage",
       "c": [
         "Detection",
@@ -4368,6 +4477,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Hero1091-portrait.png"
     },
     {
@@ -4377,9 +4487,9 @@
       "t": "B",
       "l": "EXP",
       "d": 3,
-      "wr": 49.8,
-      "pr": 3.5,
-      "br": 1,
+      "wr": 53.1,
+      "pr": 0.5,
+      "br": 0.7,
       "sp": "Dash Immune Fighter",
       "c": [
         "CC chains",
@@ -4406,6 +4516,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero971-portrait.png"
     },
     {
@@ -4415,9 +4526,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.5,
-      "pr": 4.2,
-      "br": 3,
+      "wr": 49.2,
+      "pr": 0.8,
+      "br": 1.2,
       "sp": "Long Range Poke MM",
       "c": [
         "Saber",
@@ -4445,6 +4556,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Hero1211-portrait.png"
     },
     {
@@ -4454,9 +4566,9 @@
       "t": "B",
       "l": "Mid",
       "d": 1,
-      "wr": 50,
-      "pr": 3.3,
-      "br": 0,
+      "wr": 49.8,
+      "pr": 0.6,
+      "br": 0.4,
       "sp": "Channeling AoE Ult",
       "c": [
         "CC interrupts",
@@ -4483,6 +4595,7 @@
         "Johnson",
         "Tigreal"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero461-portrait.png"
     },
     {
@@ -4492,9 +4605,9 @@
       "t": "C",
       "l": "Mid",
       "d": 1,
-      "wr": 49.3,
-      "pr": 2.8,
-      "br": 0,
+      "wr": 47.8,
+      "pr": 0.5,
+      "br": 0.3,
       "sp": "Freeze Burst",
       "c": [
         "Athena's Shield",
@@ -4521,6 +4634,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero361-portrait.png"
     },
     {
@@ -4530,9 +4644,9 @@
       "t": "C",
       "l": "Mid",
       "d": 1,
-      "wr": 49.2,
-      "pr": 2.5,
-      "br": 0,
+      "wr": 51.5,
+      "pr": 0.7,
+      "br": 0.3,
       "sp": "Rapid Fire Mage",
       "c": [
         "Dive assassins",
@@ -4559,6 +4673,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Hero331-portrait.png"
     },
     {
@@ -4568,9 +4683,9 @@
       "t": "C",
       "l": "Mid",
       "d": 2,
-      "wr": 49.1,
-      "pr": 2.3,
-      "br": 0,
+      "wr": 52.2,
+      "pr": 0.9,
+      "br": 5.6,
       "sp": "Ocean Burst Immune",
       "c": [
         "Poke",
@@ -4597,6 +4712,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e8/Hero751-portrait.png"
     },
     {
@@ -4606,9 +4722,9 @@
       "t": "C",
       "l": "Mid",
       "d": 1,
-      "wr": 49,
-      "pr": 2.1,
-      "br": 0,
+      "wr": 49.6,
+      "pr": 1.8,
+      "br": 1.2,
       "sp": "Summon + Burst",
       "c": [
         "Dive assassins"
@@ -4634,6 +4750,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero381-portrait.png"
     },
     {
@@ -4643,9 +4760,9 @@
       "t": "C",
       "l": "Jungle",
       "d": 2,
-      "wr": 48.8,
-      "pr": 2.5,
-      "br": 0,
+      "wr": 52,
+      "pr": 0.5,
+      "br": 5.2,
       "sp": "Soul Projection",
       "c": [
         "Body hunters",
@@ -4671,6 +4788,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Hero691-portrait.png"
     },
     {
@@ -4680,9 +4798,9 @@
       "t": "C",
       "l": "Roam",
       "d": 1,
-      "wr": 49,
-      "pr": 2.8,
-      "br": 0,
+      "wr": 55.2,
+      "pr": 0.5,
+      "br": 2,
       "sp": "Rage Heal + CC",
       "c": [
         "Karrie",
@@ -4708,6 +4826,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero191-portrait.png"
     },
     {
@@ -4717,9 +4836,9 @@
       "t": "C",
       "l": "Roam",
       "d": 2,
-      "wr": 48.5,
-      "pr": 2.2,
-      "br": 0,
+      "wr": 47.4,
+      "pr": 0.5,
+      "br": 1.4,
       "sp": "Wall Builder",
       "c": [
         "Karrie",
@@ -4745,6 +4864,7 @@
       "sy": [
         "Any team"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero441-portrait.png"
     },
     {
@@ -4754,9 +4874,9 @@
       "t": "C",
       "l": "Roam",
       "d": 2,
-      "wr": 49,
-      "pr": 2,
-      "br": 0,
+      "wr": 51.6,
+      "pr": 0.6,
+      "br": 0.7,
       "sp": "Chain Link CC",
       "c": [
         "Burst",
@@ -4783,6 +4903,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero921-portrait.png"
     },
     {
@@ -4792,9 +4913,9 @@
       "t": "C",
       "l": "Roam",
       "d": 2,
-      "wr": 49.1,
-      "pr": 2.2,
-      "br": 0,
+      "wr": 51.7,
+      "pr": 0.1,
+      "br": 0.3,
       "sp": "Resurrect Zone",
       "c": [
         "Burst",
@@ -4820,6 +4941,7 @@
       "sy": [
         "Any teamfight comp"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero761-portrait.png"
     },
     {
@@ -4829,9 +4951,9 @@
       "t": "A",
       "l": "Gold",
       "d": 2,
-      "wr": 50.8,
-      "pr": 4.8,
-      "br": 1,
+      "wr": 50.4,
+      "pr": 0.7,
+      "br": 0.6,
       "sp": "Enhanced AA Burst",
       "c": [
         "Saber",
@@ -4860,6 +4982,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Hero131-portrait.png"
     },
     {
@@ -4869,9 +4992,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.7,
-      "pr": 3.5,
-      "br": 1,
+      "wr": 52,
+      "pr": 0.4,
+      "br": 0.8,
       "sp": "Naruto Collab Fighter",
       "c": [
         "Phoveus",
@@ -4899,6 +5022,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1271-portrait.png"
     },
     {
@@ -4908,9 +5032,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.2,
-      "br": 1,
+      "wr": 50.3,
+      "pr": 1.4,
+      "br": 16.7,
       "sp": "Sasuke Collab",
       "c": [
         "Phoveus",
@@ -4937,6 +5061,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero1261-portrait.png"
     },
     {
@@ -4982,9 +5107,9 @@
       "t": "B",
       "l": "EXP",
       "d": 2,
-      "wr": 50,
-      "pr": 3,
-      "br": 1,
+      "wr": 49,
+      "pr": 0.1,
+      "br": 0.1,
       "sp": "Grow + Devour",
       "c": [
         "Karrie",
@@ -5012,6 +5137,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero991-portrait.png"
     },
     {
@@ -5021,9 +5147,9 @@
       "t": "A",
       "l": "Roam",
       "d": 2,
-      "wr": 51,
-      "pr": 4.5,
-      "br": 5,
+      "wr": 54.4,
+      "pr": 0.2,
+      "br": 2.6,
       "sp": "Suppress Grab",
       "c": [
         "Purify",
@@ -5049,6 +5175,7 @@
       "sy": [
         "Any burst carry"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/Hero621-portrait.png"
     },
     {
@@ -5058,9 +5185,9 @@
       "t": "C",
       "l": "EXP",
       "d": 1,
-      "wr": 48.9,
-      "pr": 3,
-      "br": 0,
+      "wr": 51.6,
+      "pr": 0.2,
+      "br": 0.8,
       "sp": "Stacking Axe",
       "c": [
         "Kite heroes",
@@ -5087,6 +5214,7 @@
         "Tigreal",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero1081-portrait.png"
     },
     {
@@ -5096,9 +5224,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.5,
-      "pr": 4,
-      "br": 3,
+      "wr": 49.2,
+      "pr": 0.6,
+      "br": 0.2,
       "sp": "Blood Stack Artillery",
       "c": [
         "Saber",
@@ -5129,6 +5257,7 @@
         "Tigreal",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero911-portrait.png"
     },
     {
@@ -5138,9 +5267,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.6,
-      "pr": 4.2,
-      "br": 3,
+      "wr": 52.3,
+      "pr": 1,
+      "br": 2,
       "sp": "Fire Zone Displacement",
       "c": [
         "Lancelot",
@@ -5170,6 +5299,7 @@
         "Khufra",
         "Atlas"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Hero571-portrait.png"
     },
     {
@@ -5179,9 +5309,9 @@
       "t": "B",
       "l": "Gold",
       "d": 2,
-      "wr": 49.8,
-      "pr": 3.5,
-      "br": 1,
+      "wr": 54,
+      "pr": 0.9,
+      "br": 1.5,
       "sp": "Move + Shoot MM",
       "c": [
         "Saber",
@@ -5211,6 +5341,7 @@
         "Angela",
         "Estes"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero431-portrait.png"
     },
     {
@@ -5220,9 +5351,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.2,
-      "pr": 3,
-      "br": 2,
+      "wr": 42.9,
+      "pr": 0.6,
+      "br": 23.8,
       "sp": "Charm Burst Mage",
       "c": [
         "Lancelot",
@@ -5252,6 +5383,7 @@
         "Atlas",
         "Angela"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/19/Hero1331-portrait.png"
     },
     {
@@ -5261,9 +5393,9 @@
       "t": "A",
       "l": "Mid",
       "d": 2,
-      "wr": 50.4,
-      "pr": 3.2,
-      "br": 3,
+      "wr": 51.3,
+      "pr": 1.9,
+      "br": 14.5,
       "sp": "Domain Control Mage",
       "c": [
         "Lancelot",
@@ -5293,6 +5425,7 @@
         "Atlas",
         "Khufra"
       ],
+      "pending": false,
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1291-portrait.png"
     }
   ],
