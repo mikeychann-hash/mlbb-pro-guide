@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T05:45:22.147Z",
+  "generatedAt": "2026-08-21T05:47:29.333Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -5296,7 +5296,7 @@
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1291-portrait.png"
     },
     {
-      "n": "Collie",
+      "n": "Dori",
       "r": "Fighter",
       "r2": "",
       "t": "?",
@@ -7140,7 +7140,7 @@
       "summary": "1 new hero(es), 6 rising, 5 falling.",
       "changes": [
         {
-          "hero": "Collie",
+          "hero": "Dori",
           "type": "new",
           "text": "Newly added to roster"
         },
