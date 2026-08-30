@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T11:39:46.117Z",
+  "generatedAt": "2026-08-30T10:28:46.063Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -5313,7 +5313,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": null,
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero000-portrait.png",
       "pending": true
     }
   ],
