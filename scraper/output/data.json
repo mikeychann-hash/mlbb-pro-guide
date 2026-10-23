@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T10:09:59.638Z",
+  "generatedAt": "2026-10-23T10:02:37.289Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -5315,6 +5315,27 @@
       "sy": [],
       "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero000-portrait.png",
       "pending": true
+    },
+    {
+      "n": "Ken",
+      "r": "Fighter",
+      "r2": "",
+      "t": "?",
+      "l": "—",
+      "d": 1,
+      "wr": 0,
+      "pr": 0,
+      "br": 0,
+      "sp": "Newly released — data pending",
+      "c": [],
+      "s": [],
+      "b": [],
+      "e": "—",
+      "sp2": [],
+      "tip": "Stats and build pending next data update.",
+      "sy": [],
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero000-portrait.png",
+      "pending": true
     }
   ],
   "items": {
@@ -7137,10 +7158,15 @@
     {
       "version": "2.1.61",
       "date": "Mar 11 2026",
-      "summary": "1 new hero(es), 6 rising, 5 falling.",
+      "summary": "2 new hero(es), 6 rising, 5 falling.",
       "changes": [
         {
           "hero": "Dori",
+          "type": "new",
+          "text": "Newly added to roster"
+        },
+        {
+          "hero": "Ken",
           "type": "new",
           "text": "Newly added to roster"
         },
@@ -7202,5 +7228,5 @@
       ]
     }
   ],
-  "rosterCount": 135
+  "rosterCount": 136
 }
