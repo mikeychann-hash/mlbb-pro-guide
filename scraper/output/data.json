@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T11:22:53.771Z",
+  "generatedAt": "2026-10-31T10:55:10.429Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -5313,7 +5313,7 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero000-portrait.png",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Dori.png",
       "pending": true
     },
     {
