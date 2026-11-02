@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T11:49:46.432Z",
+  "generatedAt": "2026-11-02T13:29:03.513Z",
   "source": "scraped",
   "patch": {
     "v": "2.1.61",
@@ -3215,7 +3215,7 @@
         "Angela",
         "Estes"
       ],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Argus_angel_form.jpg"
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero451-portrait.png"
     },
     {
       "n": "Terizla",
@@ -5313,11 +5313,11 @@
       "sp2": [],
       "tip": "Stats and build pending next data update.",
       "sy": [],
-      "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Dori.png",
+      "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1341-portrait.png",
       "pending": true
     },
     {
-      "n": "Ken",
+      "n": "Noctis",
       "r": "Fighter",
       "r2": "",
       "t": "?",
@@ -7166,7 +7166,7 @@
           "text": "Newly added to roster"
         },
         {
-          "hero": "Ken",
+          "hero": "Noctis",
           "type": "new",
           "text": "Newly added to roster"
         },
